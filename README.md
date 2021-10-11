@@ -1,6 +1,8 @@
 # SwiftUI-For-Designers-Code
 ![1](https://user-images.githubusercontent.com/3838258/136664857-7ca44cfd-ebe4-494f-bfaf-5c7dd1b5116e.png)
-这里是 SwiftUI For Designers 应用里按照章节里展示的代码。SwiftUI For Designers 是一款教你从 0 开始学习 Apple 全平台开发语言的应用，共计 56 个章节，从基础数据结构知识，到设计模式，到各个类似的组件的使用，包含了开发 iOS 和 Mac 应用的每一个环节，跟着整体的课程轻松学会 SwiftUI，每个人都可以开发 Apple 应用。
+这里是 SwiftUI For Designers 应用里按照章节里展示的代码。
+
+SwiftUI For Designers 是一款教你从 0 开始学习 Apple 全平台开发语言的应用，共计 156 个章节，从基础数据结构知识，到设计模式，到各个类似的组件的使用，包含了开发 iOS 和 Mac 应用的每一个环节，跟着整体的课程轻松学会 SwiftUI，每个人都可以开发 Apple 应用。
 
 [下载应用](超链接地址 "https://apps.apple.com/sc/app/swiftui-for-designers-%E8%AE%BE%E8%AE%A1%E5%B8%88%E7%9A%84%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/id1578873606")
 
@@ -9,17 +11,20 @@
 - Open with Github Desktop：使用 Github 桌面端 Clone 下载代码
 - Open with Xcode：使用 Xcode 自带的管理器 Clone 下载代码
 - Download ZIP：下载代码压缩吧
+
 如果后续这个库的代码更新之后，前面两种方式可以更新电脑上的代码，而最后一种则需要手动下载代码。建议直接使用第二种方法，按照引导进行设置即可。
 
 # 关于SwiftUI
 SwiftUI 是苹果最近几年新推出的 Apple 全平台 UI 开发框架，一套代码可以运行在 iPhone、iPad、Mac、Apple Watch 和 Apple TV 上，极大的节省了开发成本，同时也保持了应用的一致性。
+
 SwiftUI 是一种声明式语言，我们可以一点点给元素添加属性修改元素的样式，可以看到下面就是一个按钮的样式和实现代码。
+
 SwiftUI 去除了复杂的设计，所有看到的元素都是 View，一个页面，一个按钮，一个文字，一个输入框都是一个 View，极大的减少了对代码的理解成本，更加容易学习，真正可以做到一看就会。
 
 # 适合什么样的人？
 SwiftUI 适合所有对互联网产品有基础常识的人，只要你知道基础的应用控件，知道 NavigationView、Tabbar，就可以很简单的看懂 SwiftUI 的技术代码，之所以起名为 SwiftUI For Designers 是因为设计师对产品的设计比较了解，可以更好的开发出易用的产品。
 下面这个你看得懂吗？
-```
+```swift
 NavigationView {
      ScrollView {
            Text("如果你能看到这段代码就可以学会 SwiftUI！")
@@ -38,6 +43,7 @@ NavigationView {
 
 # 关于设计师学习技术
 这个应用目的在于教会设计师学习代码进行开发应用，无论是产品设计师、UI 和平面设计师，在整体产品设计上能力相对比较好，如果自己会一些代码就可以很好的满足自己一些小工具上的需求，有个良好的推广也会成为一款热门应用。
+
 国内著名的设计师开发应用当属于由 @Utom 开发的 Sketch 下的设计交付工具 Sketch Measure，作为 Sketch 下从设计到技术交付的著名第三方插件帮助了非常多的设计师。
 
 # 视频教程
