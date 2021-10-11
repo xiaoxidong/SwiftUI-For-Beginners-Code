@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CircleView: View {
     var body: some View {
-        Text("Hello, World!")
+        Circle()
     }
 }
 

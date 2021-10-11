@@ -1,20 +1,20 @@
 //
-//  TextFiledView.swift
+//  HomeCellView.swift
 //  SwiftUI For Designers Code
 //
-//  Created by XiaoDong Yuan on 2021/10/9.
+//  Created by XiaoDong Yuan on 2021/10/11.
 //
 
 import SwiftUI
 
-struct TextFiledView: View {
+struct HomeCellView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct TextFiledView_Previews: PreviewProvider {
+struct HomeCellView_Previews: PreviewProvider {
     static var previews: some View {
-        TextFiledView()
+        HomeCellView()
     }
 }
