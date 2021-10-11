@@ -4,6 +4,13 @@
 
 [下载应用](超链接地址 "https://apps.apple.com/sc/app/swiftui-for-designers-%E8%AE%BE%E8%AE%A1%E5%B8%88%E7%9A%84%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/id1578873606")
 
+# 如何使用
+可以点击右上角的绿色 Code 按钮，下拉里会有三个选项：
+- Open with Github Desktop：使用 Github 桌面端 Clone 下载代码
+- Open with Xcode：使用 Xcode 自带的管理器 Clone 下载代码
+- Download ZIP：下载代码压缩吧
+如果后续这个库的代码更新之后，前面两种方式可以更新电脑上的代码，而最后一种则需要手动下载代码。建议直接使用第二种方法，按照引导进行设置即可。
+
 # 关于SwiftUI
 SwiftUI 是苹果最近几年新推出的 Apple 全平台 UI 开发框架，一套代码可以运行在 iPhone、iPad、Mac、Apple Watch 和 Apple TV 上，极大的节省了开发成本，同时也保持了应用的一致性。
 SwiftUI 是一种声明式语言，我们可以一点点给元素添加属性修改元素的样式，可以看到下面就是一个按钮的样式和实现代码。
@@ -47,4 +54,4 @@ SwiftUI For Designers 除去这里都代码，我们还有在抖音都视频教�
 📮：834599524@qq.com
 
 # License
-SwiftUI For Deisgners Code 基于 MIT 开源协议。[查看详细信息]()
+SwiftUI For Deisgners Code 基于 MIT 开源协议。[查看详细信息](https://github.com/xiaoxidong/SwiftUI-For-Designers-Code/blob/main/LICENSE)
