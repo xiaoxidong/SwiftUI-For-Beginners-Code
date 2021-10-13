@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_For_Designers_CodeApp: App {
     var body: some Scene {
         WindowGroup {
-            ColorView()
+            FontView()
         }
     }
 }

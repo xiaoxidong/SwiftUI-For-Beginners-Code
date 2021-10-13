@@ -44,7 +44,7 @@ NavigationView {
 # 关于设计师学习技术
 这个应用目的在于教会设计师学习代码进行开发应用，无论是产品设计师、UI 和平面设计师，在整体产品设计上能力相对比较好，如果自己会一些代码就可以很好的满足自己一些小工具上的需求，有个良好的推广也会成为一款热门应用。
 
-国内著名的设计师开发应用当属于由 @Utom 开发的 Sketch 下的设计交付工具 Sketch Measure，作为 Sketch 下从设计到技术交付的著名第三方插件帮助了非常多的设计师。
+国内著名的设计师开发应用当属于由 [@Utom](https://twitter.com/utom) 开发的 Sketch 下的设计交付工具 [Sketch Measure](https://github.com/utom/sketch-measure)，作为 Sketch 下从设计到技术交付的著名第三方插件帮助了非常多的设计师。
 
 # 视频教程
 SwiftUI For Designers 除去这里都代码，我们还有在抖音都视频教程，你可以选择适合自己的学习方式。可以抖音搜索 SwiftUI For Designers 查看。
