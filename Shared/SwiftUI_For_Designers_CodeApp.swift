@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct SwiftUI_For_Designers_CodeApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            FontView()
+//            if #available(iOS 15.0, *) {
+//                BackView()
+//            } else {
+//                // 低于 15.0 版本的处理
+//            }
+            HomeView()
         }
     }
 }
