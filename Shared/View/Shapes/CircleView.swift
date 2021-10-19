@@ -2,7 +2,7 @@
 //  CircleView.swift
 //  SwiftUI For Designers Code
 //
-//  Created by XiaoDong Yuan on 2021/10/9.
+//  Created by XiaoDong Yuan on 2021/10/19.
 //
 
 import SwiftUI

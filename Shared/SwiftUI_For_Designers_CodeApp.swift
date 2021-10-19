@@ -17,7 +17,7 @@ struct SwiftUI_For_Designers_CodeApp: App {
 //            } else {
 //                // 低于 15.0 版本的处理
 //            }
-            HomeView()
+            PrintView()
         }
     }
 }
