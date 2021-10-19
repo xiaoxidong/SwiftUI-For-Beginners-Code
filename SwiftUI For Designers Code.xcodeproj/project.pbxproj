@@ -178,6 +178,16 @@
 		4EE4BAB3271EB8D30004DFEB /* TabViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4BAB1271EB8D30004DFEB /* TabViewStyleView.swift */; };
 		4EE4BACB271ED3870004DFEB /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4BACA271ED3870004DFEB /* CircleView.swift */; };
 		4EE4BACC271ED3870004DFEB /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4BACA271ED3870004DFEB /* CircleView.swift */; };
+		4EE4BADD271EF28D0004DFEB /* SwiftUIBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4BACE271EF28C0004DFEB /* SwiftUIBugApp.swift */; };
+		4EE4BADE271EF28D0004DFEB /* SwiftUIBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4BACE271EF28C0004DFEB /* SwiftUIBugApp.swift */; };
+		4EE4BADF271EF28D0004DFEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4BACF271EF28C0004DFEB /* ContentView.swift */; };
+		4EE4BAE0271EF28D0004DFEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4BACF271EF28C0004DFEB /* ContentView.swift */; };
+		4EE4BAE1271EF28D0004DFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4BAD0271EF28D0004DFEB /* Assets.xcassets */; };
+		4EE4BAE2271EF28D0004DFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4BAD0271EF28D0004DFEB /* Assets.xcassets */; };
+		4EE4BAE9271EF3BF0004DFEB /* 查看项目须知.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CDBD22711844D00EC4DBE /* 查看项目须知.md */; };
+		4EE4BAEA271EF3BF0004DFEB /* 查看项目须知.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CDBD22711844D00EC4DBE /* 查看项目须知.md */; };
+		4EE4BAEC271EF3DC0004DFEB /* 查看须知.md in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4BAEB271EF3DC0004DFEB /* 查看须知.md */; };
+		4EE4BAED271EF3DC0004DFEB /* 查看须知.md in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4BAEB271EF3DC0004DFEB /* 查看须知.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -271,6 +281,13 @@
 		4EE4BAAA271EA0480004DFEB /* PrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintView.swift; sourceTree = "<group>"; };
 		4EE4BAB1271EB8D30004DFEB /* TabViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewStyleView.swift; sourceTree = "<group>"; };
 		4EE4BACA271ED3870004DFEB /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		4EE4BACE271EF28C0004DFEB /* SwiftUIBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBugApp.swift; sourceTree = "<group>"; };
+		4EE4BACF271EF28C0004DFEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4EE4BAD0271EF28D0004DFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EE4BAD5271EF28D0004DFEB /* SwiftUIBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE4BADA271EF28D0004DFEB /* SwiftUIBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE4BADC271EF28D0004DFEB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4EE4BAEB271EF3DC0004DFEB /* 查看须知.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "查看须知.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +299,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4E67348C27100BA400713B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE4BAD2271EF28D0004DFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE4BAD7271EF28D0004DFEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -395,6 +426,8 @@
 			children = (
 				4E67348127100BA300713B1A /* Shared */,
 				4E67349027100BA400713B1A /* macOS */,
+				4EE4BACD271EF28C0004DFEB /* Shared */,
+				4EE4BADB271EF28D0004DFEB /* macOS */,
 				4E67348A27100BA400713B1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -422,6 +455,8 @@
 			children = (
 				4E67348927100BA400713B1A /* SwiftUI For Designers Code.app */,
 				4E67348F27100BA400713B1A /* SwiftUI For Designers Code.app */,
+				4EE4BAD5271EF28D0004DFEB /* SwiftUIBug.app */,
+				4EE4BADA271EF28D0004DFEB /* SwiftUIBug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -579,6 +614,25 @@
 			path = Xcode;
 			sourceTree = "<group>";
 		};
+		4EE4BACD271EF28C0004DFEB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4EE4BAEB271EF3DC0004DFEB /* 查看须知.md */,
+				4EE4BACE271EF28C0004DFEB /* SwiftUIBugApp.swift */,
+				4EE4BACF271EF28C0004DFEB /* ContentView.swift */,
+				4EE4BAD0271EF28D0004DFEB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4EE4BADB271EF28D0004DFEB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EE4BADC271EF28D0004DFEB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -616,6 +670,40 @@
 			productReference = 4E67348F27100BA400713B1A /* SwiftUI For Designers Code.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4EE4BAD4271EF28D0004DFEB /* SwiftUIBug (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE4BAE7271EF28D0004DFEB /* Build configuration list for PBXNativeTarget "SwiftUIBug (iOS)" */;
+			buildPhases = (
+				4EE4BAD1271EF28D0004DFEB /* Sources */,
+				4EE4BAD2271EF28D0004DFEB /* Frameworks */,
+				4EE4BAD3271EF28D0004DFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUIBug (iOS)";
+			productName = "SwiftUIBug (iOS)";
+			productReference = 4EE4BAD5271EF28D0004DFEB /* SwiftUIBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EE4BAD9271EF28D0004DFEB /* SwiftUIBug (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE4BAE8271EF28D0004DFEB /* Build configuration list for PBXNativeTarget "SwiftUIBug (macOS)" */;
+			buildPhases = (
+				4EE4BAD6271EF28D0004DFEB /* Sources */,
+				4EE4BAD7271EF28D0004DFEB /* Frameworks */,
+				4EE4BAD8271EF28D0004DFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUIBug (macOS)";
+			productName = "SwiftUIBug (macOS)";
+			productReference = 4EE4BADA271EF28D0004DFEB /* SwiftUIBug.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -630,6 +718,12 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					4E67348E27100BA400713B1A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					4EE4BAD4271EF28D0004DFEB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					4EE4BAD9271EF28D0004DFEB = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -649,6 +743,8 @@
 			targets = (
 				4E67348827100BA400713B1A /* SwiftUI For Designers Code (iOS) */,
 				4E67348E27100BA400713B1A /* SwiftUI For Designers Code (macOS) */,
+				4EE4BAD4271EF28D0004DFEB /* SwiftUIBug (iOS) */,
+				4EE4BAD9271EF28D0004DFEB /* SwiftUIBug (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -673,6 +769,7 @@
 				4E608EC027143966008C737B /* firstlevel@1x.png in Resources */,
 				4E8CDBCE271181FA00EC4DBE /* Localizable.strings in Resources */,
 				4E608EB227143966008C737B /* favicon.ico in Resources */,
+				4EE4BAE9271EF3BF0004DFEB /* 查看项目须知.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -693,7 +790,26 @@
 				4E608EB727143966008C737B /* figmacn-logo.svg in Resources */,
 				4E608EC127143966008C737B /* firstlevel@1x.png in Resources */,
 				4E8CDBCF271181FA00EC4DBE /* Localizable.strings in Resources */,
+				4EE4BAEA271EF3BF0004DFEB /* 查看项目须知.md in Resources */,
 				4E608EB327143966008C737B /* favicon.ico in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE4BAD3271EF28D0004DFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE4BAE1271EF28D0004DFEB /* Assets.xcassets in Resources */,
+				4EE4BAEC271EF3DC0004DFEB /* 查看须知.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE4BAD8271EF28D0004DFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE4BAE2271EF28D0004DFEB /* Assets.xcassets in Resources */,
+				4EE4BAED271EF3DC0004DFEB /* 查看须知.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,6 +969,24 @@
 				4E1F9C062716951C00645609 /* ClippedView.swift in Sources */,
 				4E8CDBD527118C5300EC4DBE /* LabelView.swift in Sources */,
 				4E1F9C3F2716B72600645609 /* UnderlineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE4BAD1271EF28D0004DFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE4BADF271EF28D0004DFEB /* ContentView.swift in Sources */,
+				4EE4BADD271EF28D0004DFEB /* SwiftUIBugApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE4BAD6271EF28D0004DFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE4BAE0271EF28D0004DFEB /* ContentView.swift in Sources */,
+				4EE4BADE271EF28D0004DFEB /* SwiftUIBugApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1102,6 +1236,117 @@
 			};
 			name = Release;
 		};
+		4EE4BAE3271EF28D0004DFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftUIForDesignersCode.SwiftUIBug;
+				PRODUCT_NAME = SwiftUIBug;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EE4BAE4271EF28D0004DFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftUIForDesignersCode.SwiftUIBug;
+				PRODUCT_NAME = SwiftUIBug;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EE4BAE5271EF28D0004DFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftUIForDesignersCode.SwiftUIBug;
+				PRODUCT_NAME = SwiftUIBug;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4EE4BAE6271EF28D0004DFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftUIForDesignersCode.SwiftUIBug;
+				PRODUCT_NAME = SwiftUIBug;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1128,6 +1373,24 @@
 			buildConfigurations = (
 				4E67349E27100BA400713B1A /* Debug */,
 				4E67349F27100BA400713B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE4BAE7271EF28D0004DFEB /* Build configuration list for PBXNativeTarget "SwiftUIBug (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE4BAE3271EF28D0004DFEB /* Debug */,
+				4EE4BAE4271EF28D0004DFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE4BAE8271EF28D0004DFEB /* Build configuration list for PBXNativeTarget "SwiftUIBug (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE4BAE5271EF28D0004DFEB /* Debug */,
+				4EE4BAE6271EF28D0004DFEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
