@@ -9,10 +9,10 @@ import SwiftUI
 
 struct PaddingView: View {
     var body: some View {
-        Color.red
+        Circle()
             .frame(width: 50, height: 50)
             .padding(.all, 16)
-//            .background(Color.yellow)
+            .background(Color.yellow)
     }
 }
 
