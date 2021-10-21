@@ -24,6 +24,7 @@ import SwiftUI
 
 struct NavigationViewStyleView: View {
     var body: some View {
+        #if os(iOS)
         if #available(iOS 15.0, *) {
             NavigationView {
                 VStack {
@@ -36,6 +37,9 @@ struct NavigationViewStyleView: View {
         } else {
             // Fallback on earlier versions
         }
+        #else
+        Text(".navigationViewStyle(.columns) 不能在 Mac 上使用。")
+        #endif
     }
 }
 

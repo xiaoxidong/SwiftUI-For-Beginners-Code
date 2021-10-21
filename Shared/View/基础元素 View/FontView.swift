@@ -48,7 +48,11 @@ struct FontView: View {
 struct FontView: View {
     var body: some View {
         VStack {
+            #if os(iOS)
             Text("Menlo").font(.init(UIFont(name: "Menlo", size: 16)!))
+            #else
+            Text("Menlo").font(.init(NSFont(name: "Menlo", size: 16)!))
+            #endif
             Text("Menlo").font(.custom("Menlo", size: 16))
         }
     }

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// 仅仅限于 iOS
 // 1. 以 Bool 值来确定是否显示页面
 struct FullScreenCoverView: View {
     @State var show = false

@@ -19,7 +19,6 @@ struct SystemVersionView: View {
                 }
                 Text("没有选择任何内容")
             }
-            .navigationViewStyle(.columns)
         } else {
             // 低版本的系统处理
         }

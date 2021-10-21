@@ -35,6 +35,7 @@ import SwiftUI
 struct TabViewView: View {
     var body: some View {
         TabView {
+            #if os(iOS)
             NavigationView {
                 Text("HomeView")
                     .navigationTitle("Home")
@@ -43,6 +44,16 @@ struct TabViewView: View {
                 Label("红色", systemImage: "book.circle.fill")
             }
             .tag(1)
+            #else
+            NavigationView {
+                Text("HomeView")
+                    .navigationTitle("Home")
+            }
+            .tabItem {
+                Label("红色", systemImage: "book.circle.fill")
+            }
+            .tag(1)
+            #endif
             
             Color.purple
                 .edgesIgnoringSafeArea(.top)

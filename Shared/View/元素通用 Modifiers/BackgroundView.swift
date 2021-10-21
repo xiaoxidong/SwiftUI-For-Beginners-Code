@@ -111,11 +111,15 @@ struct BackgroundView: View {
 
 struct BackgroundView_Previews: PreviewProvider {
     static var previews: some View {
+        #if os(macOS)
+        BackgroundView()
+        #else
         if #available(iOS 15.0, *) {
             BackgroundView()
                 .previewInterfaceOrientation(.landscapeLeft)
         } else {
             BackgroundView()
         }
+        #endif
     }
 }

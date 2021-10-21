@@ -10,6 +10,7 @@ import SwiftUI
 // PageTabViewStyle
 struct TabViewStyleView: View {
     var body: some View {
+        #if os(iOS)
         TabView {
             Color.designred
             Color.light
@@ -18,6 +19,9 @@ struct TabViewStyleView: View {
         }
         .foregroundColor(.white)
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
+        #else
+        Text("PageTabViewStyle(indexDisplayMode: .automatic) 无法在 Mac 上使用。")
+        #endif
     }
 }
 

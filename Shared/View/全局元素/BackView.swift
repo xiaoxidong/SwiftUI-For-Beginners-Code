@@ -11,10 +11,14 @@ import SwiftUI
 struct BackView: View {
     var body: some View {
         NavigationView {
+            #if os(iOS)
             NavigationLink("加载新页面") {
                 // 修改加载的页面查看不同
-                NewPageTwo()
+                NewPageOne()
             }.navigationTitle("Home")
+            #else
+            NavigationLink("加载新页面", destination: NewPageOne()).navigationTitle("Home")
+            #endif
         }
     }
     
@@ -29,20 +33,20 @@ struct BackView: View {
         }
     }
     
-    struct NewPageTwo: View {
-        @Environment(\.dismiss) var dismiss
-        @Environment(\.isPresented) var isPresented
-        var body: some View {
-            if isPresented {
-                Color.light
-                    .onTapGesture {
-                        dismiss()
-                    }
-            } else {
-                Color.light
-            }
-        }
-    }
+//    struct NewPageTwo: View {
+//        @Environment(\.dismiss) var dismiss
+//        @Environment(\.isPresented) var isPresented
+//        var body: some View {
+//            if isPresented {
+//                Color.light
+//                    .onTapGesture {
+//                        dismiss()
+//                    }
+//            } else {
+//                Color.light
+//            }
+//        }
+//    }
 }
 
 

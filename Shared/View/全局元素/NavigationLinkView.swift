@@ -11,6 +11,14 @@ import SwiftUI
 struct NavigationLinkView: View {
     var body: some View {
         NavigationView {
+            #if os(macOS)
+            NavigationLink(destination: Text("新的页面")) {
+                HStack {
+                    Image(systemName: "scribble")
+                    Text("打开新页面")
+                }.navigationTitle("Home")
+            }
+            #else
             NavigationLink {
                 Text("新的页面")
             } label: {
@@ -19,7 +27,7 @@ struct NavigationLinkView: View {
                     Text("打开新页面")
                 }.navigationTitle("Home")
             }
-
+            #endif
         }
     }
 }
