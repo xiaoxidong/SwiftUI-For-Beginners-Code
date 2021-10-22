@@ -57,6 +57,10 @@
 		4E354C3E271DA4680031E1AC /* SizeClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E354C3D271DA4680031E1AC /* SizeClassView.swift */; };
 		4E41F168271C267000050D76 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41F167271C267000050D76 /* StatusView.swift */; };
 		4E41F16D271C326C00050D76 /* SwiftUI-For-Designers-Code--iOS--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E41F16C271C326C00050D76 /* SwiftUI-For-Designers-Code--iOS--Info.plist */; };
+		4E546AEA27229D580084AC3F /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E546AE927229D580084AC3F /* StringView.swift */; };
+		4E546AEB27229D580084AC3F /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E546AE927229D580084AC3F /* StringView.swift */; };
+		4E546AF02722B1300084AC3F /* StringActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E546AEF2722B1300084AC3F /* StringActionView.swift */; };
+		4E546AF12722B1300084AC3F /* StringActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E546AEF2722B1300084AC3F /* StringActionView.swift */; };
 		4E608E482713CCF8008C737B /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E608E472713CCF8008C737B /* ForEachView.swift */; };
 		4E608E492713CCF8008C737B /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E608E472713CCF8008C737B /* ForEachView.swift */; };
 		4E608E4B2713E1BA008C737B /* ScrollViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E608E4A2713E1BA008C737B /* ScrollViewView.swift */; };
@@ -212,6 +216,8 @@
 		4E354C3D271DA4680031E1AC /* SizeClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassView.swift; sourceTree = "<group>"; };
 		4E41F167271C267000050D76 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 		4E41F16C271C326C00050D76 /* SwiftUI-For-Designers-Code--iOS--Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SwiftUI-For-Designers-Code--iOS--Info.plist"; sourceTree = "<group>"; };
+		4E546AE927229D580084AC3F /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
+		4E546AEF2722B1300084AC3F /* StringActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringActionView.swift; sourceTree = "<group>"; };
 		4E608E472713CCF8008C737B /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
 		4E608E4A2713E1BA008C737B /* ScrollViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewView.swift; sourceTree = "<group>"; };
 		4E608E4D271407E9008C737B /* EllipseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipseView.swift; sourceTree = "<group>"; };
@@ -474,6 +480,8 @@
 				4E608E9627141830008C737B /* 第一阶段完成 */,
 				4EE4BA9D271E5FB00004DFEB /* 系统和版本判断 */,
 				4E41F16A271C268400050D76 /* 全局元素 */,
+				4E546AE927229D580084AC3F /* StringView.swift */,
+				4E546AEF2722B1300084AC3F /* StringActionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -842,12 +850,14 @@
 				4E608E7E27141151008C737B /* DisappearView.swift in Sources */,
 				4EE4BA98271E5D850004DFEB /* DEBUGView.swift in Sources */,
 				4E608E782714104B008C737B /* TapGestureView.swift in Sources */,
+				4E546AEA27229D580084AC3F /* StringView.swift in Sources */,
 				4E1F9C382716B45D00645609 /* FontWeightView.swift in Sources */,
 				4EDC99ED271D64C800202710 /* TabBarColorModifier.swift in Sources */,
 				4E354C3E271DA4680031E1AC /* SizeClassView.swift in Sources */,
 				4E1F9C1D2716A78A00645609 /* FontView.swift in Sources */,
 				4E608E90271416A0008C737B /* HomeCellView.swift in Sources */,
 				4EE4BACB271ED3870004DFEB /* CircleView.swift in Sources */,
+				4E546AF02722B1300084AC3F /* StringActionView.swift in Sources */,
 				4E608E84271411C6008C737B /* StrokeView.swift in Sources */,
 				4E1F9C2F2716B31E00645609 /* LineSpacingView.swift in Sources */,
 				4E608E5D27140BC8008C737B /* Color+Extension.swift in Sources */,
@@ -918,6 +928,7 @@
 				4E608E7F27141151008C737B /* DisappearView.swift in Sources */,
 				4EE4BA99271E5D850004DFEB /* DEBUGView.swift in Sources */,
 				4E608E792714104B008C737B /* TapGestureView.swift in Sources */,
+				4E546AF12722B1300084AC3F /* StringActionView.swift in Sources */,
 				4E1F9C392716B45D00645609 /* FontWeightView.swift in Sources */,
 				4E1F9C1E2716A78A00645609 /* FontView.swift in Sources */,
 				4E608E91271416A0008C737B /* HomeCellView.swift in Sources */,
@@ -937,6 +948,7 @@
 				4E608E5B271409CB008C737B /* ColorView.swift in Sources */,
 				4E608E5527140842008C737B /* RoundedRectangleView.swift in Sources */,
 				4EE4BAAC271EA0480004DFEB /* PrintView.swift in Sources */,
+				4E546AEB27229D580084AC3F /* StringView.swift in Sources */,
 				4E608E6127140C0E008C737B /* FrameView.swift in Sources */,
 				4E608E952714182B008C737B /* FirstPeriodView.swift in Sources */,
 				4E608E4F271407E9008C737B /* EllipseView.swift in Sources */,

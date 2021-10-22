@@ -18,7 +18,7 @@ struct SwiftUI_For_Designers_CodeApp: App {
 //                // 低于 15.0 版本的处理
 //            }
             #if os(iOS)
-            PrintView()
+            StringActionView()
             #else
             PrintView()
                 .frame(minWidth: 800, idealWidth: 1000, maxWidth: .infinity, minHeight: 600, idealHeight: 800, maxHeight: .infinity, alignment: .center)
