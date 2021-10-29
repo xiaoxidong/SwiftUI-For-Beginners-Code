@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E008236272B844D0065A17B /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E008235272B844D0065A17B /* StateView.swift */; };
+		4E008237272B844D0065A17B /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E008235272B844D0065A17B /* StateView.swift */; };
+		4E00823A272B8F030065A17B /* StateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E008239272B8F030065A17B /* StateObjectView.swift */; };
+		4E00823B272B8F030065A17B /* StateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E008239272B8F030065A17B /* StateObjectView.swift */; };
+		4E00823D272B945D0065A17B /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00823C272B945D0065A17B /* BindingView.swift */; };
+		4E00823E272B945D0065A17B /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00823C272B945D0065A17B /* BindingView.swift */; };
+		4E008259272BA31E0065A17B /* ObservedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E008258272BA31E0065A17B /* ObservedObjectView.swift */; };
+		4E00825A272BA31E0065A17B /* ObservedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E008258272BA31E0065A17B /* ObservedObjectView.swift */; };
+		4E00825C272BB44B0065A17B /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00825B272BB44B0065A17B /* EnvironmentObjectView.swift */; };
+		4E00825D272BB44B0065A17B /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00825B272BB44B0065A17B /* EnvironmentObjectView.swift */; };
+		4E00825F272BBEED0065A17B /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00825E272BBEED0065A17B /* AppStorageView.swift */; };
+		4E008260272BBEED0065A17B /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E00825E272BBEED0065A17B /* AppStorageView.swift */; };
+		4E008262272BC3CC0065A17B /* SceneStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E008261272BC3CC0065A17B /* SceneStorageView.swift */; };
+		4E008263272BC3CC0065A17B /* SceneStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E008261272BC3CC0065A17B /* SceneStorageView.swift */; };
+		4E008265272BC6770065A17B /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E008264272BC6770065A17B /* EnvironmentView.swift */; };
+		4E008266272BC6770065A17B /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E008264272BC6770065A17B /* EnvironmentView.swift */; };
 		4E174794271D01C000DE82D1 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E174793271D01C000DE82D1 /* Status.swift */; };
 		4E174797271D0E3000DE82D1 /* NavigationViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E174796271D0E3000DE82D1 /* NavigationViewView.swift */; };
 		4E174798271D0E3000DE82D1 /* NavigationViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E174796271D0E3000DE82D1 /* NavigationViewView.swift */; };
@@ -210,6 +226,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E008235272B844D0065A17B /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		4E008239272B8F030065A17B /* StateObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectView.swift; sourceTree = "<group>"; };
+		4E00823C272B945D0065A17B /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		4E008258272BA31E0065A17B /* ObservedObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectView.swift; sourceTree = "<group>"; };
+		4E00825B272BB44B0065A17B /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
+		4E00825E272BBEED0065A17B /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
+		4E008261272BC3CC0065A17B /* SceneStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageView.swift; sourceTree = "<group>"; };
+		4E008264272BC6770065A17B /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
 		4E174793271D01C000DE82D1 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		4E174796271D0E3000DE82D1 /* NavigationViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewView.swift; sourceTree = "<group>"; };
 		4E1747A5271D14D500DE82D1 /* NavigationBarTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarTitleView.swift; sourceTree = "<group>"; };
@@ -354,6 +378,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E008238272B84600065A17B /* 常用 Property Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				4E008235272B844D0065A17B /* StateView.swift */,
+				4E00823C272B945D0065A17B /* BindingView.swift */,
+				4E008258272BA31E0065A17B /* ObservedObjectView.swift */,
+				4E008239272B8F030065A17B /* StateObjectView.swift */,
+				4E00825B272BB44B0065A17B /* EnvironmentObjectView.swift */,
+				4E00825E272BBEED0065A17B /* AppStorageView.swift */,
+				4E008261272BC3CC0065A17B /* SceneStorageView.swift */,
+				4E008264272BC6770065A17B /* EnvironmentView.swift */,
+			);
+			path = "常用 Property Wrappers";
+			sourceTree = "<group>";
+		};
 		4E41F16A271C268400050D76 /* 全局元素 */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +581,7 @@
 				4E41F16A271C268400050D76 /* 全局元素 */,
 				4E6F06732727A3010038EBD2 /* 基础数据 */,
 				4E6F06772727A3220038EBD2 /* 数据结构 */,
+				4E008238272B84600065A17B /* 常用 Property Wrappers */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -895,21 +935,28 @@
 				4E6F06752727A3190038EBD2 /* ClassView.swift in Sources */,
 				4E1F9C412716BBA600645609 /* BaselineOffsetView.swift in Sources */,
 				4E608E81271411A4008C737B /* FillView.swift in Sources */,
+				4E00825C272BB44B0065A17B /* EnvironmentObjectView.swift in Sources */,
 				4E608E87271412DE008C737B /* TrimView.swift in Sources */,
+				4E00823A272B8F030065A17B /* StateObjectView.swift in Sources */,
 				4E608E512714081A008C737B /* RectangleView.swift in Sources */,
 				4E45F61527264605005F935B /* BoolView.swift in Sources */,
+				4E008236272B844D0065A17B /* StateView.swift in Sources */,
 				4E174797271D0E3000DE82D1 /* NavigationViewView.swift in Sources */,
 				4E3DC6922727F6A100D19B4F /* ProtocolView.swift in Sources */,
 				4E8CDBD7271192C100EC4DBE /* StackView.swift in Sources */,
 				4E608E9827142AC8008C737B /* Destination.swift in Sources */,
+				4E008262272BC3CC0065A17B /* SceneStorageView.swift in Sources */,
 				4E3DC6982727FF4B00D19B4F /* SystemProtocolView.swift in Sources */,
 				4E608E7527140FCD008C737B /* ModifiersOrderView.swift in Sources */,
 				4E354C1F271D84AB0031E1AC /* FullScreenCoverView.swift in Sources */,
 				4E608E6327140CA9008C737B /* AlignmentView.swift in Sources */,
 				4E67349427100BA400713B1A /* HomeView.swift in Sources */,
 				4E1F9C352716B40F00645609 /* ItalicView.swift in Sources */,
+				4E00825F272BBEED0065A17B /* AppStorageView.swift in Sources */,
+				4E008265272BC6770065A17B /* EnvironmentView.swift in Sources */,
 				4E608E8D27141528008C737B /* TextView.swift in Sources */,
 				4E354C35271D943E0031E1AC /* OSView.swift in Sources */,
+				4E008259272BA31E0065A17B /* ObservedObjectView.swift in Sources */,
 				4E8CDBC927117ADD00EC4DBE /* ButtonView.swift in Sources */,
 				4E8CDBDA27119D1200EC4DBE /* SpacerView.swift in Sources */,
 				4E608E7227140E96008C737B /* ContentShapeView.swift in Sources */,
@@ -944,6 +991,7 @@
 				4EE4BAAB271EA0480004DFEB /* PrintView.swift in Sources */,
 				4E608E6027140C0E008C737B /* FrameView.swift in Sources */,
 				4E608E942714182B008C737B /* FirstPeriodView.swift in Sources */,
+				4E00823D272B945D0065A17B /* BindingView.swift in Sources */,
 				4E608E4E271407E9008C737B /* EllipseView.swift in Sources */,
 				4EE4BAA2271E69AC0004DFEB /* GroupView.swift in Sources */,
 				4E1F9BFF271683BA00645609 /* ResizableView.swift in Sources */,
@@ -972,7 +1020,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E00823B272B8F030065A17B /* StateObjectView.swift in Sources */,
 				4E1F9C2D2716AFDE00645609 /* LineLimitView.swift in Sources */,
+				4E00823E272B945D0065A17B /* BindingView.swift in Sources */,
+				4E008263272BC3CC0065A17B /* SceneStorageView.swift in Sources */,
 				4E608E8B27141328008C737B /* ImageView.swift in Sources */,
 				4E354C39271D97340031E1AC /* SystemVersionView.swift in Sources */,
 				4E354C1D271D76D20031E1AC /* SheetView.swift in Sources */,
@@ -995,7 +1046,9 @@
 				4E608E8E27141528008C737B /* TextView.swift in Sources */,
 				4E45F61627264605005F935B /* BoolView.swift in Sources */,
 				4E354C36271D943E0031E1AC /* OSView.swift in Sources */,
+				4E00825A272BA31E0065A17B /* ObservedObjectView.swift in Sources */,
 				4E45F61C27266EBE005F935B /* ArrayView.swift in Sources */,
+				4E00825D272BB44B0065A17B /* EnvironmentObjectView.swift in Sources */,
 				4E8CDBCA27117ADD00EC4DBE /* ButtonView.swift in Sources */,
 				4E8CDBDB27119D1200EC4DBE /* SpacerView.swift in Sources */,
 				4E45F61927264CE0005F935B /* DateView.swift in Sources */,
@@ -1005,6 +1058,7 @@
 				4E608E792714104B008C737B /* TapGestureView.swift in Sources */,
 				4E546AF12722B1300084AC3F /* StringActionView.swift in Sources */,
 				4E45F62227268BB1005F935B /* SetView.swift in Sources */,
+				4E008266272BC6770065A17B /* EnvironmentView.swift in Sources */,
 				4E3DC68D2727E23A00D19B4F /* StructView.swift in Sources */,
 				4E1F9C392716B45D00645609 /* FontWeightView.swift in Sources */,
 				4E1F9C1E2716A78A00645609 /* FontView.swift in Sources */,
@@ -1027,6 +1081,7 @@
 				4E608E5B271409CB008C737B /* ColorView.swift in Sources */,
 				4E608E5527140842008C737B /* RoundedRectangleView.swift in Sources */,
 				4EE4BAAC271EA0480004DFEB /* PrintView.swift in Sources */,
+				4E008260272BBEED0065A17B /* AppStorageView.swift in Sources */,
 				4E3DC6932727F6A100D19B4F /* ProtocolView.swift in Sources */,
 				4E546AEB27229D580084AC3F /* StringView.swift in Sources */,
 				4E608E6127140C0E008C737B /* FrameView.swift in Sources */,
@@ -1044,6 +1099,7 @@
 				4E45F61327263F0D005F935B /* NumberView.swift in Sources */,
 				4E1F9C032716895100645609 /* AspectRatioView.swift in Sources */,
 				4EDC99E4271D4AA900202710 /* NavigationViewStyleView.swift in Sources */,
+				4E008237272B844D0065A17B /* StateView.swift in Sources */,
 				4E608E9F27142BF8008C737B /* Travel.swift in Sources */,
 				4E608E5827140944008C737B /* CapsuleView.swift in Sources */,
 				4E1F9C062716951C00645609 /* ClippedView.swift in Sources */,
