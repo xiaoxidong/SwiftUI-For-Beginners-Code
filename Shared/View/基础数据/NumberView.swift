@@ -35,6 +35,8 @@ struct NumberView: View {
         formactString.maximumFractionDigits = 2
         
         print("\(formactString.string(from: NSNumber(value: number)))")
+        
+        let random = Int.random(in: 1...100)
     }
 }
 
