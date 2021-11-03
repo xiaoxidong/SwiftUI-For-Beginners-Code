@@ -179,6 +179,14 @@
 		4E608EC727143966008C737B /* 2-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E608EB027143966008C737B /* 2-2.png */; };
 		4E608EC827143966008C737B /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4E608EB127143966008C737B /* logo.svg */; };
 		4E608EC927143966008C737B /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4E608EB127143966008C737B /* logo.svg */; };
+		4E644BA527323CBE001EBB34 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E644BA327323CBE001EBB34 /* ActionSheetView.swift */; };
+		4E644BA627323CBE001EBB34 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E644BA327323CBE001EBB34 /* ActionSheetView.swift */; };
+		4E644BA727323CBE001EBB34 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E644BA427323CBE001EBB34 /* AlertView.swift */; };
+		4E644BA827323CBE001EBB34 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E644BA427323CBE001EBB34 /* AlertView.swift */; };
+		4E644BB327328560001EBB34 /* TextFieldStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E644BB22732855F001EBB34 /* TextFieldStyleView.swift */; };
+		4E644BB427328560001EBB34 /* TextFieldStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E644BB22732855F001EBB34 /* TextFieldStyleView.swift */; };
+		4E644BBC27328787001EBB34 /* SecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E644BBB27328787001EBB34 /* SecureFieldView.swift */; };
+		4E644BBD27328787001EBB34 /* SecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E644BBB27328787001EBB34 /* SecureFieldView.swift */; };
 		4E67349227100BA400713B1A /* SwiftUI_For_Designers_CodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E67348227100BA300713B1A /* SwiftUI_For_Designers_CodeApp.swift */; };
 		4E67349327100BA400713B1A /* SwiftUI_For_Designers_CodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E67348227100BA300713B1A /* SwiftUI_For_Designers_CodeApp.swift */; };
 		4E67349427100BA400713B1A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E67348327100BA300713B1A /* HomeView.swift */; };
@@ -383,6 +391,10 @@
 		4E608EAF27143966008C737B /* firstlevel_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstlevel_@3x.png"; sourceTree = "<group>"; };
 		4E608EB027143966008C737B /* 2-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-2.png"; sourceTree = "<group>"; };
 		4E608EB127143966008C737B /* logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logo.svg; sourceTree = "<group>"; };
+		4E644BA327323CBE001EBB34 /* ActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		4E644BA427323CBE001EBB34 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		4E644BB22732855F001EBB34 /* TextFieldStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyleView.swift; sourceTree = "<group>"; };
+		4E644BBB27328787001EBB34 /* SecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldView.swift; sourceTree = "<group>"; };
 		4E67348227100BA300713B1A /* SwiftUI_For_Designers_CodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_For_Designers_CodeApp.swift; sourceTree = "<group>"; };
 		4E67348327100BA300713B1A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4E67348427100BA400713B1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -866,9 +878,14 @@
 		4EE8BE092731244E0019DDB0 /* 其他常用元素 */ = {
 			isa = PBXGroup;
 			children = (
+				4EE8BE1C2731244E0019DDB0 /* TextFiledView.swift */,
+				4E644BB22732855F001EBB34 /* TextFieldStyleView.swift */,
+				4E644BBB27328787001EBB34 /* SecureFieldView.swift */,
+				4EE8BE1A2731244E0019DDB0 /* TextEditorView.swift */,
 				4EE8BE0A2731244E0019DDB0 /* LazyStackView.swift */,
 				4EE8BE0B2731244E0019DDB0 /* DividerView.swift */,
 				4EE8BE0C2731244E0019DDB0 /* AnyViewView.swift */,
+				4EE8BE192731244E0019DDB0 /* GeometryReaderView.swift */,
 				4EE8BE0D2731244E0019DDB0 /* StepperView.swift */,
 				4EE8BE0E2731244E0019DDB0 /* ProgressViewView.swift */,
 				4EE8BE0F2731244E0019DDB0 /* LazyGridView.swift */,
@@ -881,10 +898,9 @@
 				4EE8BE162731244E0019DDB0 /* SiderBarView.swift */,
 				4EE8BE172731244E0019DDB0 /* FormView.swift */,
 				4EE8BE182731244E0019DDB0 /* SliderView.swift */,
-				4EE8BE192731244E0019DDB0 /* GeometryReaderView.swift */,
-				4EE8BE1A2731244E0019DDB0 /* TextEditorView.swift */,
+				4E644BA327323CBE001EBB34 /* ActionSheetView.swift */,
+				4E644BA427323CBE001EBB34 /* AlertView.swift */,
 				4EE8BE1B2731244E0019DDB0 /* ContextMenuView.swift */,
-				4EE8BE1C2731244E0019DDB0 /* TextFiledView.swift */,
 				4EE8BE1D2731244E0019DDB0 /* LinkView.swift */,
 				4EE8BE1E2731244E0019DDB0 /* EmptyViewView.swift */,
 				4EE8BE1F2731244E0019DDB0 /* GroupBoxView.swift */,
@@ -1123,10 +1139,12 @@
 				4E354C1F271D84AB0031E1AC /* FullScreenCoverView.swift in Sources */,
 				4E608E6327140CA9008C737B /* AlignmentView.swift in Sources */,
 				4E67349427100BA400713B1A /* HomeView.swift in Sources */,
+				4E644BB327328560001EBB34 /* TextFieldStyleView.swift in Sources */,
 				4E1F9C352716B40F00645609 /* ItalicView.swift in Sources */,
 				4EE8BD6927310D3A0019DDB0 /* GuardLetView.swift in Sources */,
 				4E00825F272BBEED0065A17B /* AppStorageView.swift in Sources */,
 				4EE8BE302731244F0019DDB0 /* ListView.swift in Sources */,
+				4E644BBC27328787001EBB34 /* SecureFieldView.swift in Sources */,
 				4E008265272BC6770065A17B /* EnvironmentView.swift in Sources */,
 				4E608E8D27141528008C737B /* TextView.swift in Sources */,
 				4E354C35271D943E0031E1AC /* OSView.swift in Sources */,
@@ -1155,10 +1173,12 @@
 				4E608E90271416A0008C737B /* HomeCellView.swift in Sources */,
 				4EE4BACB271ED3870004DFEB /* CircleView.swift in Sources */,
 				4E546AF02722B1300084AC3F /* StringActionView.swift in Sources */,
+				4E644BA727323CBE001EBB34 /* AlertView.swift in Sources */,
 				4EE8BE3E2731244F0019DDB0 /* SliderView.swift in Sources */,
 				4E608E84271411C6008C737B /* StrokeView.swift in Sources */,
 				4E1F9C2F2716B31E00645609 /* LineSpacingView.swift in Sources */,
 				4E608E5D27140BC8008C737B /* Color+Extension.swift in Sources */,
+				4E644BA527323CBE001EBB34 /* ActionSheetView.swift in Sources */,
 				4E354C19271D70D90031E1AC /* ShowView.swift in Sources */,
 				4E1747A6271D14D500DE82D1 /* NavigationBarTitleView.swift in Sources */,
 				4EE8BE402731244F0019DDB0 /* GeometryReaderView.swift in Sources */,
@@ -1220,6 +1240,7 @@
 				4E1F9C2D2716AFDE00645609 /* LineLimitView.swift in Sources */,
 				4EE8BD572730E9710019DDB0 /* FunctionView.swift in Sources */,
 				4EE8BE2F2731244E0019DDB0 /* VideoPlayerView.swift in Sources */,
+				4E644BA827323CBE001EBB34 /* AlertView.swift in Sources */,
 				4EE8BD73273118B60019DDB0 /* BreakAndContinueView.swift in Sources */,
 				4E00823E272B945D0065A17B /* BindingView.swift in Sources */,
 				4EE8BE392731244F0019DDB0 /* DisclosureGroupView.swift in Sources */,
@@ -1248,6 +1269,7 @@
 				4E608E88271412DE008C737B /* TrimView.swift in Sources */,
 				4E608E522714081A008C737B /* RectangleView.swift in Sources */,
 				4E174798271D0E3000DE82D1 /* NavigationViewView.swift in Sources */,
+				4E644BBD27328787001EBB34 /* SecureFieldView.swift in Sources */,
 				4E8CDBD8271192C100EC4DBE /* StackView.swift in Sources */,
 				4E608E9927142AC8008C737B /* Destination.swift in Sources */,
 				4E608E7627140FCD008C737B /* ModifiersOrderView.swift in Sources */,
@@ -1278,6 +1300,7 @@
 				4EE8BE232731244E0019DDB0 /* LazyStackView.swift in Sources */,
 				4E3DC68D2727E23A00D19B4F /* StructView.swift in Sources */,
 				4EE8BE252731244E0019DDB0 /* DividerView.swift in Sources */,
+				4E644BB427328560001EBB34 /* TextFieldStyleView.swift in Sources */,
 				4E1F9C392716B45D00645609 /* FontWeightView.swift in Sources */,
 				4E1F9C1E2716A78A00645609 /* FontView.swift in Sources */,
 				4EE8BE3F2731244F0019DDB0 /* SliderView.swift in Sources */,
@@ -1305,6 +1328,7 @@
 				4E608E6D27140DD3008C737B /* IgnoresSafeAreaView.swift in Sources */,
 				4E608E5B271409CB008C737B /* ColorView.swift in Sources */,
 				4E608E5527140842008C737B /* RoundedRectangleView.swift in Sources */,
+				4E644BA627323CBE001EBB34 /* ActionSheetView.swift in Sources */,
 				4EE4BAAC271EA0480004DFEB /* PrintView.swift in Sources */,
 				4EE8BD5E2730FA070019DDB0 /* IfView.swift in Sources */,
 				4E008260272BBEED0065A17B /* AppStorageView.swift in Sources */,

@@ -1,20 +1,20 @@
 //
-//  PickerView.swift
+//  AlertView.swift
 //  SwiftUI For Designers
 //
-//  Created by XiaoDong Yuan on 2021/11/2.
+//  Created by XiaoDong Yuan on 2021/11/3.
 //
 
 import SwiftUI
 
-struct PickerPreviewView: View {
+struct AlertView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct PickerPreviewView_Previews: PreviewProvider {
+struct AlertView_Previews: PreviewProvider {
     static var previews: some View {
-        PickerPreviewView()
+        AlertView()
     }
 }

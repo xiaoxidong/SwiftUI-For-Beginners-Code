@@ -17,12 +17,16 @@ struct SwiftUI_For_Designers_CodeApp: App {
 //            } else {
 //                // 低于 15.0 版本的处理
 //            }
-            #if os(iOS)
-            _View()
-            #else
-            SceneStorageView()
-                .frame(minWidth: 800, idealWidth: 1000, maxWidth: .infinity, minHeight: 600, idealHeight: 800, maxHeight: .infinity, alignment: .center)
-            #endif
+            if #available(iOS 15.0, *) {
+#if os(iOS)
+                TextFiledView()
+#else
+                SceneStorageView()
+                    .frame(minWidth: 800, idealWidth: 1000, maxWidth: .infinity, minHeight: 600, idealHeight: 800, maxHeight: .infinity, alignment: .center)
+#endif
+            } else {
+                // Fallback on earlier versions
+            }
         }
     }
 }
