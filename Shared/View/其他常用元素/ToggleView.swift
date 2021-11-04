@@ -7,11 +7,30 @@
 
 import SwiftUI
 
+// 1. 使用文本和 Binding 初始化
 struct ToggleView: View {
+    @State var on: Bool = true
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Toggle("Save", isOn: $on)
+            .labelsHidden()
+            .onChange(of: on) { newValue in
+                print(newValue)
+            }
     }
 }
+
+// 3. 使用一个 View 作为标题
+/*
+struct ToggleView: View {
+    @State var on: Bool = true
+    var body: some View {
+        Toggle(isOn: $on) {
+            Capsule()
+                .frame(width: 40, height: 26)
+        }
+    }
+}
+*/
 
 struct ToggleView_Previews: PreviewProvider {
     static var previews: some View {

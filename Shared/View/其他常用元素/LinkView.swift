@@ -7,9 +7,23 @@
 
 import SwiftUI
 
+// 1. 使用文字和链接初始化
+//struct LinkView: View {
+//    var body: some View {
+//        Link("打开百度", destination: URL(string: "https://www.baidu.com/")!)
+//    }
+//}
+
+// 3. 使用 View 和链接初始化
 struct LinkView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Link(destination: URL(string: "https://www.baidu.com/")!) {
+            HStack {
+                Circle()
+                    .frame(width: 26, height: 26)
+                Text("打开百度")
+            }.foregroundColor(Color.designred)
+        }
     }
 }
 
