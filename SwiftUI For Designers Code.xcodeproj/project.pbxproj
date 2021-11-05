@@ -195,6 +195,10 @@
 		4E67349527100BA400713B1A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E67348327100BA300713B1A /* HomeView.swift */; };
 		4E67349627100BA400713B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E67348427100BA400713B1A /* Assets.xcassets */; };
 		4E67349727100BA400713B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E67348427100BA400713B1A /* Assets.xcassets */; };
+		4E6DAF232734C9F400319B63 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DAF222734C9F400319B63 /* DatePickerView.swift */; };
+		4E6DAF242734C9F400319B63 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DAF222734C9F400319B63 /* DatePickerView.swift */; };
+		4E6DAF2C2734F52A00319B63 /* ProgressViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DAF2B2734F52A00319B63 /* ProgressViewStyleView.swift */; };
+		4E6DAF2D2734F52A00319B63 /* ProgressViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DAF2B2734F52A00319B63 /* ProgressViewStyleView.swift */; };
 		4E6F06752727A3190038EBD2 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6F06742727A3190038EBD2 /* ClassView.swift */; };
 		4E6F06762727A3190038EBD2 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6F06742727A3190038EBD2 /* ClassView.swift */; };
 		4E8CDBC927117ADD00EC4DBE /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDBC827117ADD00EC4DBE /* ButtonView.swift */; };
@@ -404,6 +408,8 @@
 		4E67348927100BA400713B1A /* SwiftUI For Designers Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI For Designers Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E67348F27100BA400713B1A /* SwiftUI For Designers Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI For Designers Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E67349127100BA400713B1A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4E6DAF222734C9F400319B63 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		4E6DAF2B2734F52A00319B63 /* ProgressViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewStyleView.swift; sourceTree = "<group>"; };
 		4E6F06742727A3190038EBD2 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
 		4E8CDBC827117ADD00EC4DBE /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		4E8CDBD0271181FA00EC4DBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -887,16 +893,18 @@
 				4EE8BE1A2731244E0019DDB0 /* TextEditorView.swift */,
 				4EE8BE0B2731244E0019DDB0 /* DividerView.swift */,
 				4EE8BE0A2731244E0019DDB0 /* LazyStackView.swift */,
+				4EE8BE0F2731244E0019DDB0 /* LazyGridView.swift */,
 				4EE8BE192731244E0019DDB0 /* GeometryReaderView.swift */,
 				4EE8BE132731244E0019DDB0 /* ToggleView.swift */,
 				4EE8BE1D2731244E0019DDB0 /* LinkView.swift */,
 				4EE8BE162731244E0019DDB0 /* SiderBarView.swift */,
 				4EE8BE212731244E0019DDB0 /* PickerPreviewView.swift */,
 				4E57764E2733BCD20029B5DF /* PickerStyleView.swift */,
-				4EE8BE0C2731244E0019DDB0 /* AnyViewView.swift */,
+				4E6DAF222734C9F400319B63 /* DatePickerView.swift */,
 				4EE8BE0D2731244E0019DDB0 /* StepperView.swift */,
 				4EE8BE0E2731244E0019DDB0 /* ProgressViewView.swift */,
-				4EE8BE0F2731244E0019DDB0 /* LazyGridView.swift */,
+				4E6DAF2B2734F52A00319B63 /* ProgressViewStyleView.swift */,
+				4EE8BE0C2731244E0019DDB0 /* AnyViewView.swift */,
 				4EE8BE102731244E0019DDB0 /* VideoPlayerView.swift */,
 				4EE8BE112731244E0019DDB0 /* ListView.swift */,
 				4EE8BE122731244E0019DDB0 /* SplitViewView.swift */,
@@ -1145,6 +1153,7 @@
 				4E67349427100BA400713B1A /* HomeView.swift in Sources */,
 				4E644BB327328560001EBB34 /* TextFieldStyleView.swift in Sources */,
 				4E1F9C352716B40F00645609 /* ItalicView.swift in Sources */,
+				4E6DAF2C2734F52A00319B63 /* ProgressViewStyleView.swift in Sources */,
 				4EE8BD6927310D3A0019DDB0 /* GuardLetView.swift in Sources */,
 				4E00825F272BBEED0065A17B /* AppStorageView.swift in Sources */,
 				4EE8BE302731244F0019DDB0 /* ListView.swift in Sources */,
@@ -1178,6 +1187,7 @@
 				4EE4BACB271ED3870004DFEB /* CircleView.swift in Sources */,
 				4E546AF02722B1300084AC3F /* StringActionView.swift in Sources */,
 				4E644BA727323CBE001EBB34 /* AlertView.swift in Sources */,
+				4E6DAF232734C9F400319B63 /* DatePickerView.swift in Sources */,
 				4EE8BE3E2731244F0019DDB0 /* SliderView.swift in Sources */,
 				4E608E84271411C6008C737B /* StrokeView.swift in Sources */,
 				4E1F9C2F2716B31E00645609 /* LineSpacingView.swift in Sources */,
@@ -1274,6 +1284,7 @@
 				4E608E88271412DE008C737B /* TrimView.swift in Sources */,
 				4E608E522714081A008C737B /* RectangleView.swift in Sources */,
 				4E174798271D0E3000DE82D1 /* NavigationViewView.swift in Sources */,
+				4E6DAF242734C9F400319B63 /* DatePickerView.swift in Sources */,
 				4E644BBD27328787001EBB34 /* SecureFieldView.swift in Sources */,
 				4E8CDBD8271192C100EC4DBE /* StackView.swift in Sources */,
 				4E608E9927142AC8008C737B /* Destination.swift in Sources */,
@@ -1294,6 +1305,7 @@
 				4E45F61927264CE0005F935B /* DateView.swift in Sources */,
 				4EE8BD61273103820019DDB0 /* IfletView.swift in Sources */,
 				4E608E7327140E96008C737B /* ContentShapeView.swift in Sources */,
+				4E6DAF2D2734F52A00319B63 /* ProgressViewStyleView.swift in Sources */,
 				4E608E7F27141151008C737B /* DisappearView.swift in Sources */,
 				4EE4BA99271E5D850004DFEB /* DEBUGView.swift in Sources */,
 				4EE8BE4B2731244F0019DDB0 /* EmptyViewView.swift in Sources */,

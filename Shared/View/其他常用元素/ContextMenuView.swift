@@ -9,7 +9,32 @@ import SwiftUI
 
 struct ContextMenuView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Group {
+            #if os(macOS)
+            Text("点击右键")
+            #else
+            Text("长按文字")
+            #endif
+        }
+        .padding()
+        .foregroundColor(.white)
+        .background(Color.red)
+        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+        .contextMenu {
+            Button("Save") {
+                print("Save")
+            }
+            Button {
+                print("Setting")
+            } label: {
+                Label("Setting", systemImage: "gear")
+            }
+            Button {
+                print("Circle")
+            } label: {
+                Circle()
+            }
+        }
     }
 }
 
