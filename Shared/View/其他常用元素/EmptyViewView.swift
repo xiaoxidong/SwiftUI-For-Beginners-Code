@@ -9,7 +9,19 @@ import SwiftUI
 
 struct EmptyViewView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            EmptyView()
+                .frame(width: 100, height: 50, alignment: .center)
+                .border(Color.blue, width: 3.0)
+            Spacer()
+            Text("A")
+            Spacer()
+            Color.clear
+                .frame(width: 100, height: 50, alignment: .center)
+                .border(Color.red, width: 2.0)
+        }
+        .padding(.vertical)
+        .border(Color.purple, width: 2.0)
     }
 }
 

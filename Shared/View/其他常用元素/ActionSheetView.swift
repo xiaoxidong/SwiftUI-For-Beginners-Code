@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct ActionSheetView: View {
+    @State var show = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Show") {
+            show.toggle()
+        }.actionSheet(isPresented: $show) {
+            ActionSheet(title: Text("选择操作"), message: Text("选择一个操作！"), buttons: [
+                ActionSheet.Button.default(Text("合并")) { print("合并") },
+                ActionSheet.Button.destructive(Text("删除")) { print("删除") },
+                ActionSheet.Button.cancel(Text("取消")) { print("取消") }
+            ])
+        }
     }
 }
 

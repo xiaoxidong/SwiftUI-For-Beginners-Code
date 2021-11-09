@@ -199,6 +199,8 @@
 		4E6DAF242734C9F400319B63 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DAF222734C9F400319B63 /* DatePickerView.swift */; };
 		4E6DAF2C2734F52A00319B63 /* ProgressViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DAF2B2734F52A00319B63 /* ProgressViewStyleView.swift */; };
 		4E6DAF2D2734F52A00319B63 /* ProgressViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DAF2B2734F52A00319B63 /* ProgressViewStyleView.swift */; };
+		4E6DAF35273A68AB00319B63 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DAF34273A68AB00319B63 /* MenuButtonView.swift */; };
+		4E6DAF36273A68AB00319B63 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DAF34273A68AB00319B63 /* MenuButtonView.swift */; };
 		4E6F06752727A3190038EBD2 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6F06742727A3190038EBD2 /* ClassView.swift */; };
 		4E6F06762727A3190038EBD2 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6F06742727A3190038EBD2 /* ClassView.swift */; };
 		4E8CDBC927117ADD00EC4DBE /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDBC827117ADD00EC4DBE /* ButtonView.swift */; };
@@ -273,7 +275,6 @@
 		4EE8BE2F2731244E0019DDB0 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE102731244E0019DDB0 /* VideoPlayerView.swift */; };
 		4EE8BE302731244F0019DDB0 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE112731244E0019DDB0 /* ListView.swift */; };
 		4EE8BE312731244F0019DDB0 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE112731244E0019DDB0 /* ListView.swift */; };
-		4EE8BE322731244F0019DDB0 /* SplitViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE122731244E0019DDB0 /* SplitViewView.swift */; };
 		4EE8BE332731244F0019DDB0 /* SplitViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE122731244E0019DDB0 /* SplitViewView.swift */; };
 		4EE8BE342731244F0019DDB0 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE132731244E0019DDB0 /* ToggleView.swift */; };
 		4EE8BE352731244F0019DDB0 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE132731244E0019DDB0 /* ToggleView.swift */; };
@@ -281,8 +282,6 @@
 		4EE8BE372731244F0019DDB0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE142731244E0019DDB0 /* MapView.swift */; };
 		4EE8BE382731244F0019DDB0 /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE152731244E0019DDB0 /* DisclosureGroupView.swift */; };
 		4EE8BE392731244F0019DDB0 /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE152731244E0019DDB0 /* DisclosureGroupView.swift */; };
-		4EE8BE3A2731244F0019DDB0 /* SiderBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE162731244E0019DDB0 /* SiderBarView.swift */; };
-		4EE8BE3B2731244F0019DDB0 /* SiderBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE162731244E0019DDB0 /* SiderBarView.swift */; };
 		4EE8BE3C2731244F0019DDB0 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE172731244E0019DDB0 /* FormView.swift */; };
 		4EE8BE3D2731244F0019DDB0 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE172731244E0019DDB0 /* FormView.swift */; };
 		4EE8BE3E2731244F0019DDB0 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE182731244E0019DDB0 /* SliderView.swift */; };
@@ -410,6 +409,7 @@
 		4E67349127100BA400713B1A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		4E6DAF222734C9F400319B63 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		4E6DAF2B2734F52A00319B63 /* ProgressViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewStyleView.swift; sourceTree = "<group>"; };
+		4E6DAF34273A68AB00319B63 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
 		4E6F06742727A3190038EBD2 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
 		4E8CDBC827117ADD00EC4DBE /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		4E8CDBD0271181FA00EC4DBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -455,7 +455,6 @@
 		4EE8BE132731244E0019DDB0 /* ToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		4EE8BE142731244E0019DDB0 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		4EE8BE152731244E0019DDB0 /* DisclosureGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclosureGroupView.swift; sourceTree = "<group>"; };
-		4EE8BE162731244E0019DDB0 /* SiderBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiderBarView.swift; sourceTree = "<group>"; };
 		4EE8BE172731244E0019DDB0 /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		4EE8BE182731244E0019DDB0 /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		4EE8BE192731244E0019DDB0 /* GeometryReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
@@ -892,32 +891,32 @@
 				4E644BBB27328787001EBB34 /* SecureFieldView.swift */,
 				4EE8BE1A2731244E0019DDB0 /* TextEditorView.swift */,
 				4EE8BE0B2731244E0019DDB0 /* DividerView.swift */,
+				4EE8BE112731244E0019DDB0 /* ListView.swift */,
+				4EE8BE172731244E0019DDB0 /* FormView.swift */,
 				4EE8BE0A2731244E0019DDB0 /* LazyStackView.swift */,
 				4EE8BE0F2731244E0019DDB0 /* LazyGridView.swift */,
 				4EE8BE192731244E0019DDB0 /* GeometryReaderView.swift */,
+				4E644BA427323CBE001EBB34 /* AlertView.swift */,
+				4E644BA327323CBE001EBB34 /* ActionSheetView.swift */,
 				4EE8BE132731244E0019DDB0 /* ToggleView.swift */,
 				4EE8BE1D2731244E0019DDB0 /* LinkView.swift */,
-				4EE8BE162731244E0019DDB0 /* SiderBarView.swift */,
+				4EE8BE182731244E0019DDB0 /* SliderView.swift */,
 				4EE8BE212731244E0019DDB0 /* PickerPreviewView.swift */,
 				4E57764E2733BCD20029B5DF /* PickerStyleView.swift */,
 				4E6DAF222734C9F400319B63 /* DatePickerView.swift */,
+				4EE8BE202731244E0019DDB0 /* MenuView.swift */,
+				4E6DAF34273A68AB00319B63 /* MenuButtonView.swift */,
+				4EE8BE122731244E0019DDB0 /* SplitViewView.swift */,
+				4EE8BE1B2731244E0019DDB0 /* ContextMenuView.swift */,
 				4EE8BE0D2731244E0019DDB0 /* StepperView.swift */,
 				4EE8BE0E2731244E0019DDB0 /* ProgressViewView.swift */,
 				4E6DAF2B2734F52A00319B63 /* ProgressViewStyleView.swift */,
 				4EE8BE0C2731244E0019DDB0 /* AnyViewView.swift */,
-				4EE8BE102731244E0019DDB0 /* VideoPlayerView.swift */,
-				4EE8BE112731244E0019DDB0 /* ListView.swift */,
-				4EE8BE122731244E0019DDB0 /* SplitViewView.swift */,
-				4EE8BE142731244E0019DDB0 /* MapView.swift */,
-				4EE8BE152731244E0019DDB0 /* DisclosureGroupView.swift */,
-				4EE8BE172731244E0019DDB0 /* FormView.swift */,
-				4EE8BE182731244E0019DDB0 /* SliderView.swift */,
-				4E644BA327323CBE001EBB34 /* ActionSheetView.swift */,
-				4E644BA427323CBE001EBB34 /* AlertView.swift */,
-				4EE8BE1B2731244E0019DDB0 /* ContextMenuView.swift */,
-				4EE8BE1E2731244E0019DDB0 /* EmptyViewView.swift */,
 				4EE8BE1F2731244E0019DDB0 /* GroupBoxView.swift */,
-				4EE8BE202731244E0019DDB0 /* MenuView.swift */,
+				4EE8BE152731244E0019DDB0 /* DisclosureGroupView.swift */,
+				4EE8BE1E2731244E0019DDB0 /* EmptyViewView.swift */,
+				4EE8BE102731244E0019DDB0 /* VideoPlayerView.swift */,
+				4EE8BE142731244E0019DDB0 /* MapView.swift */,
 			);
 			path = "其他常用元素";
 			sourceTree = "<group>";
@@ -1123,7 +1122,6 @@
 				4E1747AC271D207D00DE82D1 /* NavigationLinkView.swift in Sources */,
 				4E1F9C322716B3B000645609 /* BoldView.swift in Sources */,
 				4E6F06752727A3190038EBD2 /* ClassView.swift in Sources */,
-				4EE8BE3A2731244F0019DDB0 /* SiderBarView.swift in Sources */,
 				4EE8BD6F273114E00019DDB0 /* WhileView.swift in Sources */,
 				4E1F9C412716BBA600645609 /* BaselineOffsetView.swift in Sources */,
 				4E608E81271411A4008C737B /* FillView.swift in Sources */,
@@ -1210,9 +1208,9 @@
 				4E174794271D01C000DE82D1 /* Status.swift in Sources */,
 				4E608E5A271409CB008C737B /* ColorView.swift in Sources */,
 				4EE8BE262731244E0019DDB0 /* AnyViewView.swift in Sources */,
+				4E6DAF35273A68AB00319B63 /* MenuButtonView.swift in Sources */,
 				4E608E5427140842008C737B /* RoundedRectangleView.swift in Sources */,
 				4EE4BAAB271EA0480004DFEB /* PrintView.swift in Sources */,
-				4EE8BE322731244F0019DDB0 /* SplitViewView.swift in Sources */,
 				4E608E6027140C0E008C737B /* FrameView.swift in Sources */,
 				4E608E942714182B008C737B /* FirstPeriodView.swift in Sources */,
 				4E00823D272B945D0065A17B /* BindingView.swift in Sources */,
@@ -1276,7 +1274,6 @@
 				4E6F06762727A3190038EBD2 /* ClassView.swift in Sources */,
 				4EE8BE492731244F0019DDB0 /* LinkView.swift in Sources */,
 				4EE8BE2D2731244E0019DDB0 /* LazyGridView.swift in Sources */,
-				4EE8BE3B2731244F0019DDB0 /* SiderBarView.swift in Sources */,
 				4EE8BE432731244F0019DDB0 /* TextEditorView.swift in Sources */,
 				4EE8BE312731244F0019DDB0 /* ListView.swift in Sources */,
 				4EE8BE3D2731244F0019DDB0 /* FormView.swift in Sources */,
@@ -1295,6 +1292,7 @@
 				4E608E8E27141528008C737B /* TextView.swift in Sources */,
 				4E45F61627264605005F935B /* BoolView.swift in Sources */,
 				4E354C36271D943E0031E1AC /* OSView.swift in Sources */,
+				4E6DAF36273A68AB00319B63 /* MenuButtonView.swift in Sources */,
 				4E00825A272BA31E0065A17B /* ObservedObjectView.swift in Sources */,
 				4EE8BE332731244F0019DDB0 /* SplitViewView.swift in Sources */,
 				4E45F61C27266EBE005F935B /* ArrayView.swift in Sources */,

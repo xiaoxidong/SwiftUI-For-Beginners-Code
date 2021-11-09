@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct AnyViewView: View {
+    @State var show = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            show ? AnyView(Text("Show")) : AnyView(erasing: Circle().frame(width: 26, height: 26))
+            Button("切换显示内容") {
+                show.toggle()
+            }
+        }
     }
 }
 
