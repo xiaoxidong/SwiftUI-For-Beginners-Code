@@ -19,7 +19,7 @@ struct SwiftUI_For_Designers_CodeApp: App {
 //            }
             if #available(iOS 15.0, *) {
 #if os(iOS)
-                VideoPlayerView()
+                GeometryReaderView()
 #else
                 SceneStorageView()
                     .frame(minWidth: 800, idealWidth: 1000, maxWidth: .infinity, minHeight: 600, idealHeight: 800, maxHeight: .infinity, alignment: .center)
