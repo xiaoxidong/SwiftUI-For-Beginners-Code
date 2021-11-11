@@ -9,16 +9,23 @@ import SwiftUI
 
 // size
 struct GeometryReaderView: View {
+    @State var show = false
+
     var body: some View {
-        HStack {
-            Color.purple
-            GeometryReader { geo in
-                Button {
-                    print(geo.size.width, geo.size.height)
-                } label: {
-                    Color.pink.overlay( Text("点击").foregroundColor(.white).bold() )
-                }.buttonStyle(PlainButtonStyle())
+        if #available(iOS 15.0, *) {
+            Button("Open") {
+                show = true
             }
+            .confirmationDialog(String("Are you sure?"), isPresented: $show, titleVisibility: .visible) {
+                Button("Yes") { }
+                Button("Yes") { }
+                Button("No", role: .cancel) { }
+                
+            } message: {
+                Text("This action cannot be undone. Would you like to proceed?")
+            }
+        } else {
+            // Fallback on earlier versions
         }
     }
 }
