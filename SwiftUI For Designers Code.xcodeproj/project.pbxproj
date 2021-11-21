@@ -304,6 +304,25 @@
 		4EE8BE4F2731244F0019DDB0 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE202731244E0019DDB0 /* MenuView.swift */; };
 		4EE8BE502731244F0019DDB0 /* PickerPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE212731244E0019DDB0 /* PickerPreviewView.swift */; };
 		4EE8BE512731244F0019DDB0 /* PickerPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8BE212731244E0019DDB0 /* PickerPreviewView.swift */; };
+		4EEEA450274A18A400EC75F2 /* PreviewContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA44F274A18A400EC75F2 /* PreviewContextView.swift */; };
+		4EEEA451274A18A400EC75F2 /* PreviewContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA44F274A18A400EC75F2 /* PreviewContextView.swift */; };
+		4EEEA473274A1A4300EC75F2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEEA472274A1A4300EC75F2 /* WidgetKit.framework */; platformFilter = maccatalyst; };
+		4EEEA475274A1A4300EC75F2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEEA474274A1A4300EC75F2 /* SwiftUI.framework */; platformFilter = maccatalyst; };
+		4EEEA478274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA477274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget.swift */; };
+		4EEEA47B274A1A4500EC75F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEEA47A274A1A4500EC75F2 /* Assets.xcassets */; };
+		4EEEA47D274A1A4500EC75F2 /* SwiftUIForDesignersIOSWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA479274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget.intentdefinition */; };
+		4EEEA47E274A1A4500EC75F2 /* SwiftUIForDesignersIOSWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA479274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget.intentdefinition */; };
+		4EEEA481274A1A4500EC75F2 /* SwiftUIForDesignersIOSWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4EEEA470274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4EEEA488274A1AAC00EC75F2 /* PreviewContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA487274A1AAC00EC75F2 /* PreviewContextView.swift */; };
+		4EEEA48A274A1FEC00EC75F2 /* PreviewDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA489274A1FEC00EC75F2 /* PreviewDeviceView.swift */; };
+		4EEEA48B274A1FEC00EC75F2 /* PreviewDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA489274A1FEC00EC75F2 /* PreviewDeviceView.swift */; };
+		4EEEA48D274A36D300EC75F2 /* PrintChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA48C274A36D300EC75F2 /* PrintChangesView.swift */; };
+		4EEEA48E274A36D300EC75F2 /* PrintChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA48C274A36D300EC75F2 /* PrintChangesView.swift */; };
+		4EEEA490274A3A1600EC75F2 /* TextInputAutocapitalizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA48F274A3A1600EC75F2 /* TextInputAutocapitalizationView.swift */; };
+		4EEEA493274A45F400EC75F2 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA492274A45F400EC75F2 /* AsyncImageView.swift */; };
+		4EEEA494274A45F400EC75F2 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA492274A45F400EC75F2 /* AsyncImageView.swift */; };
+		4EEEA496274A814E00EC75F2 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA495274A814E00EC75F2 /* SectionView.swift */; };
+		4EEEA497274A814E00EC75F2 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEA495274A814E00EC75F2 /* SectionView.swift */; };
 		4EFD97A62744C0D000E2503F /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD97A52744C0D000E2503F /* OverlayView.swift */; };
 		4EFD97A72744C0D000E2503F /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD97A52744C0D000E2503F /* OverlayView.swift */; };
 		4EFD97AB2744C2C300E2503F /* CornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD97AA2744C2C300E2503F /* CornerRadiusView.swift */; };
@@ -363,6 +382,30 @@
 		4EFD97FC2744C45E00E2503F /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD97FB2744C45E00E2503F /* BadgeView.swift */; };
 		4EFD97FD2744C45E00E2503F /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD97FB2744C45E00E2503F /* BadgeView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EEEA47F274A1A4500EC75F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E67347D27100BA300713B1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EEEA46F274A1A4300EC75F2;
+			remoteInfo = SwiftUIForDesignersIOSWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4EEEA485274A1A4600EC75F2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4EEEA481274A1A4500EC75F2 /* SwiftUIForDesignersIOSWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4E008235272B844D0065A17B /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
@@ -524,6 +567,20 @@
 		4EE8BE1F2731244E0019DDB0 /* GroupBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupBoxView.swift; sourceTree = "<group>"; };
 		4EE8BE202731244E0019DDB0 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		4EE8BE212731244E0019DDB0 /* PickerPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerPreviewView.swift; sourceTree = "<group>"; };
+		4EEEA44F274A18A400EC75F2 /* PreviewContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContextView.swift; sourceTree = "<group>"; };
+		4EEEA470274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwiftUIForDesignersIOSWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEEA472274A1A4300EC75F2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4EEEA474274A1A4300EC75F2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4EEEA477274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIForDesignersIOSWidget.swift; sourceTree = "<group>"; };
+		4EEEA479274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SwiftUIForDesignersIOSWidget.intentdefinition; sourceTree = "<group>"; };
+		4EEEA47A274A1A4500EC75F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EEEA47C274A1A4500EC75F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEEA487274A1AAC00EC75F2 /* PreviewContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContextView.swift; sourceTree = "<group>"; };
+		4EEEA489274A1FEC00EC75F2 /* PreviewDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDeviceView.swift; sourceTree = "<group>"; };
+		4EEEA48C274A36D300EC75F2 /* PrintChangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintChangesView.swift; sourceTree = "<group>"; };
+		4EEEA48F274A3A1600EC75F2 /* TextInputAutocapitalizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputAutocapitalizationView.swift; sourceTree = "<group>"; };
+		4EEEA492274A45F400EC75F2 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		4EEEA495274A814E00EC75F2 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		4EFD97A52744C0D000E2503F /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		4EFD97AA2744C2C300E2503F /* CornerRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusView.swift; sourceTree = "<group>"; };
 		4EFD97AD2744C2D600E2503F /* ZIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIndexView.swift; sourceTree = "<group>"; };
@@ -581,6 +638,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEEA46D274A1A4300EC75F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEEA475274A1A4300EC75F2 /* SwiftUI.framework in Frameworks */,
+				4EEEA473274A1A4300EC75F2 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +774,8 @@
 				4E67349027100BA400713B1A /* macOS */,
 				4EE4BACD271EF28C0004DFEB /* Shared */,
 				4EE4BADB271EF28D0004DFEB /* macOS */,
+				4EEEA476274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget */,
+				4EEEA471274A1A4300EC75F2 /* Frameworks */,
 				4E67348A27100BA400713B1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -737,6 +805,7 @@
 				4E67348F27100BA400713B1A /* SwiftUI For Designers Code.app */,
 				4EE4BAD5271EF28D0004DFEB /* SwiftUIBug.app */,
 				4EE4BADA271EF28D0004DFEB /* SwiftUIBug.app */,
+				4EEEA470274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -791,6 +860,7 @@
 				4E6F06732727A3010038EBD2 /* 基础数据 */,
 				4E6F06772727A3220038EBD2 /* 数据结构 */,
 				4E008238272B84600065A17B /* 常用 Property Wrappers */,
+				4EEEA452274A18B300EC75F2 /* 预览常用设置 */,
 				4EA705DF272E69BA0098F25F /* 第二阶段完成 */,
 				4EE8BD582730E9770019DDB0 /* 函数语法 */,
 				4EE8BE092731244E0019DDB0 /* 其他常用元素 */,
@@ -924,6 +994,7 @@
 				4E354C37271D97340031E1AC /* SystemVersionView.swift */,
 				4E354C3D271DA4680031E1AC /* SizeClassView.swift */,
 				4EE4BA97271E5D850004DFEB /* DEBUGView.swift */,
+				4EEEA48C274A36D300EC75F2 /* PrintChangesView.swift */,
 			);
 			path = "系统和版本判断";
 			sourceTree = "<group>";
@@ -976,9 +1047,12 @@
 			children = (
 				4EE8BE1C2731244E0019DDB0 /* TextFiledView.swift */,
 				4E644BB22732855F001EBB34 /* TextFieldStyleView.swift */,
+				4EEEA48F274A3A1600EC75F2 /* TextInputAutocapitalizationView.swift */,
 				4E644BBB27328787001EBB34 /* SecureFieldView.swift */,
 				4EE8BE1A2731244E0019DDB0 /* TextEditorView.swift */,
+				4EEEA492274A45F400EC75F2 /* AsyncImageView.swift */,
 				4EE8BE0B2731244E0019DDB0 /* DividerView.swift */,
+				4EEEA495274A814E00EC75F2 /* SectionView.swift */,
 				4EE8BE112731244E0019DDB0 /* ListView.swift */,
 				4EE8BE172731244E0019DDB0 /* FormView.swift */,
 				4EE8BE0A2731244E0019DDB0 /* LazyStackView.swift */,
@@ -1007,6 +1081,36 @@
 				4EE8BE142731244E0019DDB0 /* MapView.swift */,
 			);
 			path = "其他常用元素";
+			sourceTree = "<group>";
+		};
+		4EEEA452274A18B300EC75F2 /* 预览常用设置 */ = {
+			isa = PBXGroup;
+			children = (
+				4EEEA44F274A18A400EC75F2 /* PreviewContextView.swift */,
+				4EEEA489274A1FEC00EC75F2 /* PreviewDeviceView.swift */,
+			);
+			path = "预览常用设置";
+			sourceTree = "<group>";
+		};
+		4EEEA471274A1A4300EC75F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EEEA472274A1A4300EC75F2 /* WidgetKit.framework */,
+				4EEEA474274A1A4300EC75F2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EEEA476274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4EEEA477274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget.swift */,
+				4EEEA487274A1AAC00EC75F2 /* PreviewContextView.swift */,
+				4EEEA479274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget.intentdefinition */,
+				4EEEA47A274A1A4500EC75F2 /* Assets.xcassets */,
+				4EEEA47C274A1A4500EC75F2 /* Info.plist */,
+			);
+			path = SwiftUIForDesignersIOSWidget;
 			sourceTree = "<group>";
 		};
 		4EFD97A92744C0E400E2503F /* 更多常用 Modifier */ = {
@@ -1055,10 +1159,12 @@
 				4E67348527100BA400713B1A /* Sources */,
 				4E67348627100BA400713B1A /* Frameworks */,
 				4E67348727100BA400713B1A /* Resources */,
+				4EEEA485274A1A4600EC75F2 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4EEEA480274A1A4500EC75F2 /* PBXTargetDependency */,
 			);
 			name = "SwiftUI For Designers Code (iOS)";
 			productName = "SwiftUI For Designers Code (iOS)";
@@ -1116,6 +1222,23 @@
 			productReference = 4EE4BADA271EF28D0004DFEB /* SwiftUIBug.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4EEEA46F274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEEA482274A1A4600EC75F2 /* Build configuration list for PBXNativeTarget "SwiftUIForDesignersIOSWidgetExtension" */;
+			buildPhases = (
+				4EEEA46C274A1A4300EC75F2 /* Sources */,
+				4EEEA46D274A1A4300EC75F2 /* Frameworks */,
+				4EEEA46E274A1A4300EC75F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIForDesignersIOSWidgetExtension;
+			productName = SwiftUIForDesignersIOSWidgetExtension;
+			productReference = 4EEEA470274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1123,7 +1246,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					4E67348827100BA400713B1A = {
@@ -1137,6 +1260,9 @@
 					};
 					4EE4BAD9271EF28D0004DFEB = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					4EEEA46F274A1A4300EC75F2 = {
+						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
@@ -1157,6 +1283,7 @@
 				4E67348E27100BA400713B1A /* SwiftUI For Designers Code (macOS) */,
 				4EE4BAD4271EF28D0004DFEB /* SwiftUIBug (iOS) */,
 				4EE4BAD9271EF28D0004DFEB /* SwiftUIBug (macOS) */,
+				4EEEA46F274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -1227,6 +1354,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EEEA46E274A1A4300EC75F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEEA47B274A1A4500EC75F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1242,6 +1377,7 @@
 				4E354C38271D97340031E1AC /* SystemVersionView.swift in Sources */,
 				4E354C1C271D76D20031E1AC /* SheetView.swift in Sources */,
 				4E608E482713CCF8008C737B /* ForEachView.swift in Sources */,
+				4EEEA48A274A1FEC00EC75F2 /* PreviewDeviceView.swift in Sources */,
 				4E608E7B271410C1008C737B /* AppearView.swift in Sources */,
 				4EDC99E9271D5BE900202710 /* NavigationBarColorModifier.swift in Sources */,
 				4E1747AC271D207D00DE82D1 /* NavigationLinkView.swift in Sources */,
@@ -1253,6 +1389,7 @@
 				4E608E81271411A4008C737B /* FillView.swift in Sources */,
 				4E00825C272BB44B0065A17B /* EnvironmentObjectView.swift in Sources */,
 				4EE8BE3C2731244F0019DDB0 /* FormView.swift in Sources */,
+				4EEEA490274A3A1600EC75F2 /* TextInputAutocapitalizationView.swift in Sources */,
 				4E608E87271412DE008C737B /* TrimView.swift in Sources */,
 				4E00823A272B8F030065A17B /* StateObjectView.swift in Sources */,
 				4E608E512714081A008C737B /* RectangleView.swift in Sources */,
@@ -1287,10 +1424,12 @@
 				4E6DAF2C2734F52A00319B63 /* ProgressViewStyleView.swift in Sources */,
 				4EE8BD6927310D3A0019DDB0 /* GuardLetView.swift in Sources */,
 				4E00825F272BBEED0065A17B /* AppStorageView.swift in Sources */,
+				4EEEA48D274A36D300EC75F2 /* PrintChangesView.swift in Sources */,
 				4EE8BE302731244F0019DDB0 /* ListView.swift in Sources */,
 				4E644BBC27328787001EBB34 /* SecureFieldView.swift in Sources */,
 				4E008265272BC6770065A17B /* EnvironmentView.swift in Sources */,
 				4EFD97FC2744C45E00E2503F /* BadgeView.swift in Sources */,
+				4EEEA496274A814E00EC75F2 /* SectionView.swift in Sources */,
 				4E608E8D27141528008C737B /* TextView.swift in Sources */,
 				4E354C35271D943E0031E1AC /* OSView.swift in Sources */,
 				4EFD97B12744C2E500E2503F /* OnChangedView.swift in Sources */,
@@ -1322,6 +1461,7 @@
 				4E608E90271416A0008C737B /* HomeCellView.swift in Sources */,
 				4EE4BACB271ED3870004DFEB /* CircleView.swift in Sources */,
 				4E546AF02722B1300084AC3F /* StringActionView.swift in Sources */,
+				4EEEA450274A18A400EC75F2 /* PreviewContextView.swift in Sources */,
 				4E644BA727323CBE001EBB34 /* AlertView.swift in Sources */,
 				4E6DAF232734C9F400319B63 /* DatePickerView.swift in Sources */,
 				4EE8BE3E2731244F0019DDB0 /* SliderView.swift in Sources */,
@@ -1332,6 +1472,7 @@
 				4EFD97A62744C0D000E2503F /* OverlayView.swift in Sources */,
 				4EFD97EA2744C40800E2503F /* LayoutPriorityView.swift in Sources */,
 				4EFD97D82744C3AF00E2503F /* SearchableView.swift in Sources */,
+				4EEEA47E274A1A4500EC75F2 /* SwiftUIForDesignersIOSWidget.intentdefinition in Sources */,
 				4E354C19271D70D90031E1AC /* ShowView.swift in Sources */,
 				4E1747A6271D14D500DE82D1 /* NavigationBarTitleView.swift in Sources */,
 				4EE8BE402731244F0019DDB0 /* GeometryReaderView.swift in Sources */,
@@ -1372,6 +1513,7 @@
 				4E608E4B2713E1BA008C737B /* ScrollViewView.swift in Sources */,
 				4E608E9B27142B81008C737B /* Guide.swift in Sources */,
 				4EFD97B72744C30300E2503F /* HoverEffectView.swift in Sources */,
+				4EEEA493274A45F400EC75F2 /* AsyncImageView.swift in Sources */,
 				4E1F9C0827169B6E00645609 /* ClipShapeView.swift in Sources */,
 				4EE8BE2A2731244E0019DDB0 /* ProgressViewView.swift in Sources */,
 				4E354C25271D88D40031E1AC /* BackView.swift in Sources */,
@@ -1436,9 +1578,11 @@
 				4E608E82271411A4008C737B /* FillView.swift in Sources */,
 				4E608E88271412DE008C737B /* TrimView.swift in Sources */,
 				4E608E522714081A008C737B /* RectangleView.swift in Sources */,
+				4EEEA48B274A1FEC00EC75F2 /* PreviewDeviceView.swift in Sources */,
 				4EFD97F12744C42400E2503F /* RedactedView.swift in Sources */,
 				4E174798271D0E3000DE82D1 /* NavigationViewView.swift in Sources */,
 				4E6DAF242734C9F400319B63 /* DatePickerView.swift in Sources */,
+				4EEEA451274A18A400EC75F2 /* PreviewContextView.swift in Sources */,
 				4E644BBD27328787001EBB34 /* SecureFieldView.swift in Sources */,
 				4EFD97CA2744C36800E2503F /* ShadowView.swift in Sources */,
 				4EFD97CD2744C37600E2503F /* MaskView.swift in Sources */,
@@ -1478,6 +1622,7 @@
 				4EE8BE472731244F0019DDB0 /* TextFiledView.swift in Sources */,
 				4E546AF12722B1300084AC3F /* StringActionView.swift in Sources */,
 				4E45F62227268BB1005F935B /* SetView.swift in Sources */,
+				4EEEA494274A45F400EC75F2 /* AsyncImageView.swift in Sources */,
 				4E008266272BC6770065A17B /* EnvironmentView.swift in Sources */,
 				4EE8BE232731244E0019DDB0 /* LazyStackView.swift in Sources */,
 				4E3DC68D2727E23A00D19B4F /* StructView.swift in Sources */,
@@ -1523,11 +1668,13 @@
 				4EE8BD5E2730FA070019DDB0 /* IfView.swift in Sources */,
 				4E008260272BBEED0065A17B /* AppStorageView.swift in Sources */,
 				4E3DC6932727F6A100D19B4F /* ProtocolView.swift in Sources */,
+				4EEEA497274A814E00EC75F2 /* SectionView.swift in Sources */,
 				4E546AEB27229D580084AC3F /* StringView.swift in Sources */,
 				4E5776502733BCD20029B5DF /* PickerStyleView.swift in Sources */,
 				4E608E6127140C0E008C737B /* FrameView.swift in Sources */,
 				4E608E952714182B008C737B /* FirstPeriodView.swift in Sources */,
 				4E608E4F271407E9008C737B /* EllipseView.swift in Sources */,
+				4EEEA48E274A36D300EC75F2 /* PrintChangesView.swift in Sources */,
 				4E3DC6902727E8BE00D19B4F /* EnumView.swift in Sources */,
 				4EFD97BE2744C31E00E2503F /* TaskView.swift in Sources */,
 				4EFD97E52744C3EC00E2503F /* TintView.swift in Sources */,
@@ -1576,7 +1723,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EEEA46C274A1A4300EC75F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEEA478274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget.swift in Sources */,
+				4EEEA488274A1AAC00EC75F2 /* PreviewContextView.swift in Sources */,
+				4EEEA47D274A1A4500EC75F2 /* SwiftUIForDesignersIOSWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EEEA480274A1A4500EC75F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EEEA46F274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidgetExtension */;
+			targetProxy = 4EEEA47F274A1A4500EC75F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4E8CDBD1271181FA00EC4DBE /* Localizable.strings */ = {
@@ -1708,6 +1873,7 @@
 		4E67349B27100BA400713B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -1741,6 +1907,7 @@
 		4E67349C27100BA400713B1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -1941,6 +2108,63 @@
 			};
 			name = Release;
 		};
+		4EEEA483274A1A4600EC75F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H62DJYY3BW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIForDesignersIOSWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIForDesignersIOSWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftUIForDesignersCode.SwiftUI-For-Designers-Code.SwiftUIForDesignersIOSWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EEEA484274A1A4600EC75F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H62DJYY3BW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIForDesignersIOSWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftUIForDesignersIOSWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftUIForDesignersCode.SwiftUI-For-Designers-Code.SwiftUIForDesignersIOSWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1985,6 +2209,15 @@
 			buildConfigurations = (
 				4EE4BAE5271EF28D0004DFEB /* Debug */,
 				4EE4BAE6271EF28D0004DFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EEEA482274A1A4600EC75F2 /* Build configuration list for PBXNativeTarget "SwiftUIForDesignersIOSWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEEA483274A1A4600EC75F2 /* Debug */,
+				4EEEA484274A1A4600EC75F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
