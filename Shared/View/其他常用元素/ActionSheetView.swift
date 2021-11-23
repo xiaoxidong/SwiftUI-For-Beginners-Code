@@ -10,6 +10,7 @@ import SwiftUI
 struct ActionSheetView: View {
     @State var show = false
     var body: some View {
+        #if os(iOS)
         Button("Show") {
             show.toggle()
         }.actionSheet(isPresented: $show) {
@@ -19,6 +20,9 @@ struct ActionSheetView: View {
                 ActionSheet.Button.cancel(Text("取消")) { print("取消") }
             ])
         }
+        #else
+        Text("actionSheet 不能在 macOS 上使用。")
+        #endif
     }
 }
 

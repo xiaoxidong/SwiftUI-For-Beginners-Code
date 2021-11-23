@@ -8,20 +8,20 @@
 import SwiftUI
 
 // 1. 使用 View 作为行内容
-//struct ListView: View {
-//    var body: some View {
-//        List {
-//            Text("第一行内容")
-//            Image("beijing")
-//                .resizable()
-//                .aspectRatio(contentMode: .fit)
-//            Text("第三行内容")
-//            Button("Save") {
-//
-//            }
-//        }
-//    }
-//}
+struct ListView: View {
+    var body: some View {
+        List {
+            Text("第一行内容")
+            Image("beijing")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            Text("第三行内容")
+            Button("Save") {
+
+            }
+        }
+    }
+}
 
 // 2. 可以单独选中的行内容
 /*
@@ -144,6 +144,7 @@ struct ListView: View {
 */
 
 // 7. 使用 Integer Range 区间来创建行
+/*
 struct ListView: View {
     var body: some View {
         List(0..<20) { index in
@@ -154,7 +155,7 @@ struct ListView: View {
         }
     }
 }
-
+*/
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {

@@ -18,7 +18,7 @@ struct SwiftUI_For_Designers_CodeApp: App {
             // 如果你遇到报错，说某些特性 is only available in iOS 15.0, macOS 12 or newer 之类的错误提示，请注释掉上面的入口，使用下面的判断入口。
             if #available(iOS 15.0, macOS 12.0, *) {
                 #if os(iOS)
-                AsyncImageView()
+                ConfirmationDialogView()
                 #else
                 SceneStorageView()
                     .frame(minWidth: 800, idealWidth: 1000, maxWidth: .infinity, minHeight: 600, idealHeight: 800, maxHeight: .infinity, alignment: .center)

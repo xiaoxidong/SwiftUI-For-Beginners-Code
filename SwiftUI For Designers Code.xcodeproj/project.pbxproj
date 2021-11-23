@@ -97,6 +97,40 @@
 		4E546AEB27229D580084AC3F /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E546AE927229D580084AC3F /* StringView.swift */; };
 		4E546AF02722B1300084AC3F /* StringActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E546AEF2722B1300084AC3F /* StringActionView.swift */; };
 		4E546AF12722B1300084AC3F /* StringActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E546AEF2722B1300084AC3F /* StringActionView.swift */; };
+		4E54F3AE274B261500177482 /* ListStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3AD274B261500177482 /* ListStyleView.swift */; };
+		4E54F3AF274B261500177482 /* ListStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3AD274B261500177482 /* ListStyleView.swift */; };
+		4E54F3B1274B387300177482 /* ListSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3B0274B387300177482 /* ListSettingView.swift */; };
+		4E54F3B2274B387300177482 /* ListSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3B0274B387300177482 /* ListSettingView.swift */; };
+		4E54F3B4274B4FD600177482 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3B3274B4FD600177482 /* SwipeActionsView.swift */; };
+		4E54F3B5274B4FD600177482 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3B3274B4FD600177482 /* SwipeActionsView.swift */; };
+		4E54F3B7274B70B100177482 /* EditButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3B6274B70B100177482 /* EditButtonView.swift */; };
+		4E54F3B8274B70B100177482 /* EditButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3B6274B70B100177482 /* EditButtonView.swift */; };
+		4E54F3BA274B74E000177482 /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3B9274B74E000177482 /* ScrollViewReaderView.swift */; };
+		4E54F3BB274B74E000177482 /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3B9274B74E000177482 /* ScrollViewReaderView.swift */; };
+		4E54F3BD274B7BC800177482 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3BC274B7BC800177482 /* ColorPickerView.swift */; };
+		4E54F3BE274B7BC800177482 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3BC274B7BC800177482 /* ColorPickerView.swift */; };
+		4E54F3C0274B86DA00177482 /* LinearGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3BF274B86DA00177482 /* LinearGradientView.swift */; };
+		4E54F3C1274B86DA00177482 /* LinearGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3BF274B86DA00177482 /* LinearGradientView.swift */; };
+		4E54F3C3274B907700177482 /* AngularGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3C2274B907700177482 /* AngularGradientView.swift */; };
+		4E54F3C4274B907700177482 /* AngularGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3C2274B907700177482 /* AngularGradientView.swift */; };
+		4E54F3C9274B9E1400177482 /* EllipticalGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3C8274B9E1400177482 /* EllipticalGradientView.swift */; };
+		4E54F3CA274B9E1400177482 /* EllipticalGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3C8274B9E1400177482 /* EllipticalGradientView.swift */; };
+		4E54F3CC274CCB5000177482 /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3CB274CCB5000177482 /* RadialGradientView.swift */; };
+		4E54F3CD274CCB5000177482 /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3CB274CCB5000177482 /* RadialGradientView.swift */; };
+		4E54F3CF274CCFBE00177482 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3CE274CCFBE00177482 /* PopoverView.swift */; };
+		4E54F3D0274CCFBE00177482 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3CE274CCFBE00177482 /* PopoverView.swift */; };
+		4E54F3D2274CD55100177482 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3D1274CD55100177482 /* ConfirmationDialogView.swift */; };
+		4E54F3D3274CD55100177482 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3D1274CD55100177482 /* ConfirmationDialogView.swift */; };
+		4E54F3D5274CDF6B00177482 /* TextCaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3D4274CDF6B00177482 /* TextCaseView.swift */; };
+		4E54F3D6274CDF6B00177482 /* TextCaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3D4274CDF6B00177482 /* TextCaseView.swift */; };
+		4E54F3D8274CE31500177482 /* TruncationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3D7274CE31500177482 /* TruncationModeView.swift */; };
+		4E54F3D9274CE31500177482 /* TruncationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3D7274CE31500177482 /* TruncationModeView.swift */; };
+		4E54F3DB274CEF1E00177482 /* MultilineTextAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3DA274CEF1E00177482 /* MultilineTextAlignmentView.swift */; };
+		4E54F3DC274CEF1E00177482 /* MultilineTextAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3DA274CEF1E00177482 /* MultilineTextAlignmentView.swift */; };
+		4E54F3DE274CF56700177482 /* MinimumScaleFactorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3DD274CF56700177482 /* MinimumScaleFactorView.swift */; };
+		4E54F3DF274CF56700177482 /* MinimumScaleFactorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3DD274CF56700177482 /* MinimumScaleFactorView.swift */; };
+		4E54F3E1274CF80000177482 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3E0274CF80000177482 /* ButtonStyleView.swift */; };
+		4E54F3E2274CF80000177482 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3E0274CF80000177482 /* ButtonStyleView.swift */; };
 		4E57764F2733BCD20029B5DF /* PickerStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57764E2733BCD20029B5DF /* PickerStyleView.swift */; };
 		4E5776502733BCD20029B5DF /* PickerStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57764E2733BCD20029B5DF /* PickerStyleView.swift */; };
 		4E608E482713CCF8008C737B /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E608E472713CCF8008C737B /* ForEachView.swift */; };
@@ -456,6 +490,23 @@
 		4E45F62027268BB1005F935B /* SetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetView.swift; sourceTree = "<group>"; };
 		4E546AE927229D580084AC3F /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
 		4E546AEF2722B1300084AC3F /* StringActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringActionView.swift; sourceTree = "<group>"; };
+		4E54F3AD274B261500177482 /* ListStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStyleView.swift; sourceTree = "<group>"; };
+		4E54F3B0274B387300177482 /* ListSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSettingView.swift; sourceTree = "<group>"; };
+		4E54F3B3274B4FD600177482 /* SwipeActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
+		4E54F3B6274B70B100177482 /* EditButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonView.swift; sourceTree = "<group>"; };
+		4E54F3B9274B74E000177482 /* ScrollViewReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderView.swift; sourceTree = "<group>"; };
+		4E54F3BC274B7BC800177482 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		4E54F3BF274B86DA00177482 /* LinearGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientView.swift; sourceTree = "<group>"; };
+		4E54F3C2274B907700177482 /* AngularGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientView.swift; sourceTree = "<group>"; };
+		4E54F3C8274B9E1400177482 /* EllipticalGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradientView.swift; sourceTree = "<group>"; };
+		4E54F3CB274CCB5000177482 /* RadialGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientView.swift; sourceTree = "<group>"; };
+		4E54F3CE274CCFBE00177482 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		4E54F3D1274CD55100177482 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
+		4E54F3D4274CDF6B00177482 /* TextCaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCaseView.swift; sourceTree = "<group>"; };
+		4E54F3D7274CE31500177482 /* TruncationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruncationModeView.swift; sourceTree = "<group>"; };
+		4E54F3DA274CEF1E00177482 /* MultilineTextAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextAlignmentView.swift; sourceTree = "<group>"; };
+		4E54F3DD274CF56700177482 /* MinimumScaleFactorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumScaleFactorView.swift; sourceTree = "<group>"; };
+		4E54F3E0274CF80000177482 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
 		4E57764E2733BCD20029B5DF /* PickerStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStyleView.swift; sourceTree = "<group>"; };
 		4E608E472713CCF8008C737B /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
 		4E608E4A2713E1BA008C737B /* ScrollViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewView.swift; sourceTree = "<group>"; };
@@ -959,7 +1010,12 @@
 				4E1F9C3D2716B72600645609 /* UnderlineView.swift */,
 				4E1F9C402716BBA600645609 /* BaselineOffsetView.swift */,
 				4E1F9C432716BC1000645609 /* KerningView.swift */,
+				4E54F3D4274CDF6B00177482 /* TextCaseView.swift */,
+				4E54F3D7274CE31500177482 /* TruncationModeView.swift */,
+				4E54F3DA274CEF1E00177482 /* MultilineTextAlignmentView.swift */,
+				4E54F3DD274CF56700177482 /* MinimumScaleFactorView.swift */,
 				4E8CDBC827117ADD00EC4DBE /* ButtonView.swift */,
+				4E54F3E0274CF80000177482 /* ButtonStyleView.swift */,
 				4E8CDBD327118C5300EC4DBE /* LabelView.swift */,
 				4E8CDBD6271192C100EC4DBE /* StackView.swift */,
 				4E8CDBD927119D1200EC4DBE /* SpacerView.swift */,
@@ -1054,12 +1110,24 @@
 				4EE8BE0B2731244E0019DDB0 /* DividerView.swift */,
 				4EEEA495274A814E00EC75F2 /* SectionView.swift */,
 				4EE8BE112731244E0019DDB0 /* ListView.swift */,
+				4E54F3AD274B261500177482 /* ListStyleView.swift */,
+				4E54F3B0274B387300177482 /* ListSettingView.swift */,
+				4E54F3B3274B4FD600177482 /* SwipeActionsView.swift */,
+				4E54F3B6274B70B100177482 /* EditButtonView.swift */,
 				4EE8BE172731244E0019DDB0 /* FormView.swift */,
 				4EE8BE0A2731244E0019DDB0 /* LazyStackView.swift */,
 				4EE8BE0F2731244E0019DDB0 /* LazyGridView.swift */,
 				4EE8BE192731244E0019DDB0 /* GeometryReaderView.swift */,
+				4E54F3B9274B74E000177482 /* ScrollViewReaderView.swift */,
+				4E54F3BC274B7BC800177482 /* ColorPickerView.swift */,
+				4E54F3BF274B86DA00177482 /* LinearGradientView.swift */,
+				4E54F3C2274B907700177482 /* AngularGradientView.swift */,
+				4E54F3C8274B9E1400177482 /* EllipticalGradientView.swift */,
+				4E54F3CB274CCB5000177482 /* RadialGradientView.swift */,
+				4E54F3CE274CCFBE00177482 /* PopoverView.swift */,
 				4E644BA427323CBE001EBB34 /* AlertView.swift */,
 				4E644BA327323CBE001EBB34 /* ActionSheetView.swift */,
+				4E54F3D1274CD55100177482 /* ConfirmationDialogView.swift */,
 				4EE8BE132731244E0019DDB0 /* ToggleView.swift */,
 				4EE8BE1D2731244E0019DDB0 /* LinkView.swift */,
 				4EE8BE182731244E0019DDB0 /* SliderView.swift */,
@@ -1374,6 +1442,7 @@
 				4E608E8A27141328008C737B /* ImageView.swift in Sources */,
 				4E45F62127268BB1005F935B /* SetView.swift in Sources */,
 				4EFD97E72744C3FA00E2503F /* TextSelectionView.swift in Sources */,
+				4E54F3C3274B907700177482 /* AngularGradientView.swift in Sources */,
 				4E354C38271D97340031E1AC /* SystemVersionView.swift in Sources */,
 				4E354C1C271D76D20031E1AC /* SheetView.swift in Sources */,
 				4E608E482713CCF8008C737B /* ForEachView.swift in Sources */,
@@ -1387,8 +1456,10 @@
 				4EE8BD6F273114E00019DDB0 /* WhileView.swift in Sources */,
 				4E1F9C412716BBA600645609 /* BaselineOffsetView.swift in Sources */,
 				4E608E81271411A4008C737B /* FillView.swift in Sources */,
+				4E54F3B7274B70B100177482 /* EditButtonView.swift in Sources */,
 				4E00825C272BB44B0065A17B /* EnvironmentObjectView.swift in Sources */,
 				4EE8BE3C2731244F0019DDB0 /* FormView.swift in Sources */,
+				4E54F3DB274CEF1E00177482 /* MultilineTextAlignmentView.swift in Sources */,
 				4EEEA490274A3A1600EC75F2 /* TextInputAutocapitalizationView.swift in Sources */,
 				4E608E87271412DE008C737B /* TrimView.swift in Sources */,
 				4E00823A272B8F030065A17B /* StateObjectView.swift in Sources */,
@@ -1402,10 +1473,12 @@
 				4EE8BE2E2731244E0019DDB0 /* VideoPlayerView.swift in Sources */,
 				4EE8BE242731244E0019DDB0 /* DividerView.swift in Sources */,
 				4E174797271D0E3000DE82D1 /* NavigationViewView.swift in Sources */,
+				4E54F3DE274CF56700177482 /* MinimumScaleFactorView.swift in Sources */,
 				4E3DC6922727F6A100D19B4F /* ProtocolView.swift in Sources */,
 				4E8CDBD7271192C100EC4DBE /* StackView.swift in Sources */,
 				4EFD97C32744C33700E2503F /* PositionView.swift in Sources */,
 				4E608E9827142AC8008C737B /* Destination.swift in Sources */,
+				4E54F3B1274B387300177482 /* ListSettingView.swift in Sources */,
 				4E008262272BC3CC0065A17B /* SceneStorageView.swift in Sources */,
 				4E3DC6982727FF4B00D19B4F /* SystemProtocolView.swift in Sources */,
 				4EE8BE502731244F0019DDB0 /* PickerPreviewView.swift in Sources */,
@@ -1432,6 +1505,8 @@
 				4EEEA496274A814E00EC75F2 /* SectionView.swift in Sources */,
 				4E608E8D27141528008C737B /* TextView.swift in Sources */,
 				4E354C35271D943E0031E1AC /* OSView.swift in Sources */,
+				4E54F3BA274B74E000177482 /* ScrollViewReaderView.swift in Sources */,
+				4E54F3C9274B9E1400177482 /* EllipticalGradientView.swift in Sources */,
 				4EFD97B12744C2E500E2503F /* OnChangedView.swift in Sources */,
 				4EFD97C62744C34800E2503F /* BlurView.swift in Sources */,
 				4E008259272BA31E0065A17B /* ObservedObjectView.swift in Sources */,
@@ -1449,6 +1524,8 @@
 				4EE8BE422731244F0019DDB0 /* TextEditorView.swift in Sources */,
 				4EE4BA98271E5D850004DFEB /* DEBUGView.swift in Sources */,
 				4EE8BE382731244F0019DDB0 /* DisclosureGroupView.swift in Sources */,
+				4E54F3CC274CCB5000177482 /* RadialGradientView.swift in Sources */,
+				4E54F3E1274CF80000177482 /* ButtonStyleView.swift in Sources */,
 				4E608E782714104B008C737B /* TapGestureView.swift in Sources */,
 				4E45F61227263F0D005F935B /* NumberView.swift in Sources */,
 				4E546AEA27229D580084AC3F /* StringView.swift in Sources */,
@@ -1489,18 +1566,21 @@
 				4E608E6627140CE7008C737B /* ForegroundColorView.swift in Sources */,
 				4E608E6C27140DD3008C737B /* IgnoresSafeAreaView.swift in Sources */,
 				4EFD97E42744C3EC00E2503F /* TintView.swift in Sources */,
+				4E54F3CF274CCFBE00177482 /* PopoverView.swift in Sources */,
 				4EE8BD562730E9710019DDB0 /* FunctionView.swift in Sources */,
 				4EFD97AB2744C2C300E2503F /* CornerRadiusView.swift in Sources */,
 				4EFD97C02744C32A00E2503F /* OffsetView.swift in Sources */,
 				4E174794271D01C000DE82D1 /* Status.swift in Sources */,
 				4E608E5A271409CB008C737B /* ColorView.swift in Sources */,
 				4EFD97F92744C45000E2503F /* KeyboardShortcutView.swift in Sources */,
+				4E54F3D5274CDF6B00177482 /* TextCaseView.swift in Sources */,
 				4EE8BE262731244E0019DDB0 /* AnyViewView.swift in Sources */,
 				4E6DAF35273A68AB00319B63 /* MenuButtonView.swift in Sources */,
 				4E608E5427140842008C737B /* RoundedRectangleView.swift in Sources */,
 				4EFD97B42744C2F400E2503F /* OnHoverView.swift in Sources */,
 				4EFD97D22744C39200E2503F /* RotationView.swift in Sources */,
 				4EE4BAAB271EA0480004DFEB /* PrintView.swift in Sources */,
+				4E54F3BD274B7BC800177482 /* ColorPickerView.swift in Sources */,
 				4E608E6027140C0E008C737B /* FrameView.swift in Sources */,
 				4E608E942714182B008C737B /* FirstPeriodView.swift in Sources */,
 				4EFD97D52744C3A100E2503F /* ImageScaleView.swift in Sources */,
@@ -1514,11 +1594,15 @@
 				4E608E9B27142B81008C737B /* Guide.swift in Sources */,
 				4EFD97B72744C30300E2503F /* HoverEffectView.swift in Sources */,
 				4EEEA493274A45F400EC75F2 /* AsyncImageView.swift in Sources */,
+				4E54F3C0274B86DA00177482 /* LinearGradientView.swift in Sources */,
 				4E1F9C0827169B6E00645609 /* ClipShapeView.swift in Sources */,
+				4E54F3D8274CE31500177482 /* TruncationModeView.swift in Sources */,
 				4EE8BE2A2731244E0019DDB0 /* ProgressViewView.swift in Sources */,
 				4E354C25271D88D40031E1AC /* BackView.swift in Sources */,
 				4E3DC68C2727E23A00D19B4F /* StructView.swift in Sources */,
+				4E54F3D2274CD55100177482 /* ConfirmationDialogView.swift in Sources */,
 				4E1F9C442716BC1000645609 /* KerningView.swift in Sources */,
+				4E54F3AE274B261500177482 /* ListStyleView.swift in Sources */,
 				4EFD97CC2744C37600E2503F /* MaskView.swift in Sources */,
 				4EFD97F32744C43200E2503F /* SafeAreaInsetView.swift in Sources */,
 				4EDC99E6271D531300202710 /* TabViewView.swift in Sources */,
@@ -1534,6 +1618,7 @@
 				4E1F9C052716951C00645609 /* ClippedView.swift in Sources */,
 				4E8CDBD427118C5300EC4DBE /* LabelView.swift in Sources */,
 				4E3DC68F2727E8BE00D19B4F /* EnumView.swift in Sources */,
+				4E54F3B4274B4FD600177482 /* SwipeActionsView.swift in Sources */,
 				4E45F61827264CE0005F935B /* DateView.swift in Sources */,
 				4E1F9C3E2716B72600645609 /* UnderlineView.swift in Sources */,
 			);
@@ -1574,6 +1659,8 @@
 				4EFD97C12744C32A00E2503F /* OffsetView.swift in Sources */,
 				4EE8BE432731244F0019DDB0 /* TextEditorView.swift in Sources */,
 				4EE8BE312731244F0019DDB0 /* ListView.swift in Sources */,
+				4E54F3C1274B86DA00177482 /* LinearGradientView.swift in Sources */,
+				4E54F3D3274CD55100177482 /* ConfirmationDialogView.swift in Sources */,
 				4EE8BE3D2731244F0019DDB0 /* FormView.swift in Sources */,
 				4E608E82271411A4008C737B /* FillView.swift in Sources */,
 				4E608E88271412DE008C737B /* TrimView.swift in Sources */,
@@ -1584,6 +1671,8 @@
 				4E6DAF242734C9F400319B63 /* DatePickerView.swift in Sources */,
 				4EEEA451274A18A400EC75F2 /* PreviewContextView.swift in Sources */,
 				4E644BBD27328787001EBB34 /* SecureFieldView.swift in Sources */,
+				4E54F3B2274B387300177482 /* ListSettingView.swift in Sources */,
+				4E54F3DC274CEF1E00177482 /* MultilineTextAlignmentView.swift in Sources */,
 				4EFD97CA2744C36800E2503F /* ShadowView.swift in Sources */,
 				4EFD97CD2744C37600E2503F /* MaskView.swift in Sources */,
 				4E8CDBD8271192C100EC4DBE /* StackView.swift in Sources */,
@@ -1594,9 +1683,12 @@
 				4E608E6427140CA9008C737B /* AlignmentView.swift in Sources */,
 				4E67349527100BA400713B1A /* HomeView.swift in Sources */,
 				4EFD97E82744C3FA00E2503F /* TextSelectionView.swift in Sources */,
+				4E54F3B8274B70B100177482 /* EditButtonView.swift in Sources */,
 				4E1F9C362716B40F00645609 /* ItalicView.swift in Sources */,
 				4E608E8E27141528008C737B /* TextView.swift in Sources */,
+				4E54F3CD274CCB5000177482 /* RadialGradientView.swift in Sources */,
 				4E45F61627264605005F935B /* BoolView.swift in Sources */,
+				4E54F3DF274CF56700177482 /* MinimumScaleFactorView.swift in Sources */,
 				4EFD97BB2744C31000E2503F /* OnReceiveView.swift in Sources */,
 				4EFD97FA2744C45000E2503F /* KeyboardShortcutView.swift in Sources */,
 				4E354C36271D943E0031E1AC /* OSView.swift in Sources */,
@@ -1619,10 +1711,12 @@
 				4EFD97D32744C39200E2503F /* RotationView.swift in Sources */,
 				4EE8BE4B2731244F0019DDB0 /* EmptyViewView.swift in Sources */,
 				4E608E792714104B008C737B /* TapGestureView.swift in Sources */,
+				4E54F3D9274CE31500177482 /* TruncationModeView.swift in Sources */,
 				4EE8BE472731244F0019DDB0 /* TextFiledView.swift in Sources */,
 				4E546AF12722B1300084AC3F /* StringActionView.swift in Sources */,
 				4E45F62227268BB1005F935B /* SetView.swift in Sources */,
 				4EEEA494274A45F400EC75F2 /* AsyncImageView.swift in Sources */,
+				4E54F3E2274CF80000177482 /* ButtonStyleView.swift in Sources */,
 				4E008266272BC6770065A17B /* EnvironmentView.swift in Sources */,
 				4EE8BE232731244E0019DDB0 /* LazyStackView.swift in Sources */,
 				4E3DC68D2727E23A00D19B4F /* StructView.swift in Sources */,
@@ -1633,6 +1727,7 @@
 				4E1F9C1E2716A78A00645609 /* FontView.swift in Sources */,
 				4EE8BE3F2731244F0019DDB0 /* SliderView.swift in Sources */,
 				4E608E91271416A0008C737B /* HomeCellView.swift in Sources */,
+				4E54F3BE274B7BC800177482 /* ColorPickerView.swift in Sources */,
 				4EE4BACC271ED3870004DFEB /* CircleView.swift in Sources */,
 				4E608E85271411C6008C737B /* StrokeView.swift in Sources */,
 				4EFD97B82744C30300E2503F /* HoverEffectView.swift in Sources */,
@@ -1656,6 +1751,7 @@
 				4EFD97AF2744C2D600E2503F /* ZIndexView.swift in Sources */,
 				4E67349327100BA400713B1A /* SwiftUI_For_Designers_CodeApp.swift in Sources */,
 				4EFD97AC2744C2C300E2503F /* CornerRadiusView.swift in Sources */,
+				4E54F3D0274CCFBE00177482 /* PopoverView.swift in Sources */,
 				4E608E7027140E5A008C737B /* PaddingView.swift in Sources */,
 				4E3DC6992727FF4B00D19B4F /* SystemProtocolView.swift in Sources */,
 				4E608E6727140CE7008C737B /* ForegroundColorView.swift in Sources */,
@@ -1670,6 +1766,7 @@
 				4E3DC6932727F6A100D19B4F /* ProtocolView.swift in Sources */,
 				4EEEA497274A814E00EC75F2 /* SectionView.swift in Sources */,
 				4E546AEB27229D580084AC3F /* StringView.swift in Sources */,
+				4E54F3CA274B9E1400177482 /* EllipticalGradientView.swift in Sources */,
 				4E5776502733BCD20029B5DF /* PickerStyleView.swift in Sources */,
 				4E608E6127140C0E008C737B /* FrameView.swift in Sources */,
 				4E608E952714182B008C737B /* FirstPeriodView.swift in Sources */,
@@ -1677,6 +1774,7 @@
 				4EEEA48E274A36D300EC75F2 /* PrintChangesView.swift in Sources */,
 				4E3DC6902727E8BE00D19B4F /* EnumView.swift in Sources */,
 				4EFD97BE2744C31E00E2503F /* TaskView.swift in Sources */,
+				4E54F3B5274B4FD600177482 /* SwipeActionsView.swift in Sources */,
 				4EFD97E52744C3EC00E2503F /* TintView.swift in Sources */,
 				4EE4BAA3271E69AC0004DFEB /* GroupView.swift in Sources */,
 				4E1F9C00271683BA00645609 /* ResizableView.swift in Sources */,
@@ -1693,13 +1791,17 @@
 				4EFD97C42744C33700E2503F /* PositionView.swift in Sources */,
 				4EDC99E4271D4AA900202710 /* NavigationViewStyleView.swift in Sources */,
 				4E008237272B844D0065A17B /* StateView.swift in Sources */,
+				4E54F3AF274B261500177482 /* ListStyleView.swift in Sources */,
 				4EE8BD6A27310D3A0019DDB0 /* GuardLetView.swift in Sources */,
 				4E608E9F27142BF8008C737B /* Travel.swift in Sources */,
 				4E608E5827140944008C737B /* CapsuleView.swift in Sources */,
 				4E1F9C062716951C00645609 /* ClippedView.swift in Sources */,
 				4EFD97F42744C43200E2503F /* SafeAreaInsetView.swift in Sources */,
+				4E54F3D6274CDF6B00177482 /* TextCaseView.swift in Sources */,
 				4EE8BE272731244E0019DDB0 /* AnyViewView.swift in Sources */,
+				4E54F3C4274B907700177482 /* AngularGradientView.swift in Sources */,
 				4E8CDBD527118C5300EC4DBE /* LabelView.swift in Sources */,
+				4E54F3BB274B74E000177482 /* ScrollViewReaderView.swift in Sources */,
 				4E1F9C3F2716B72600645609 /* UnderlineView.swift in Sources */,
 				4EFD97D02744C38400E2503F /* RefreshableView.swift in Sources */,
 			);

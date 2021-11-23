@@ -12,7 +12,7 @@ struct GeometryReaderView: View {
     @State var show = false
 
     var body: some View {
-        if #available(iOS 15.0, *) {
+        if #available(iOS 15.0, macOS 12.0, *) {
             Button("Open") {
                 show = true
             }
