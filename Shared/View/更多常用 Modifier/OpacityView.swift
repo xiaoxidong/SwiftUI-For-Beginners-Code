@@ -9,7 +9,13 @@ import SwiftUI
 
 struct OpacityView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("beijing")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            Text("北京故宫")
+                .font(.caption)
+        }.opacity(0.5)
     }
 }
 

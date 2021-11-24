@@ -9,7 +9,18 @@ import SwiftUI
 
 struct BlurView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("beijing")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            HStack {
+                Circle()
+                    .frame(width: 36, height: 36)
+                    .foregroundColor(.yellow)
+                Text("北京故宫")
+                    .font(.title3)
+            }
+        }.blur(radius: 10, opaque: false)
     }
 }
 

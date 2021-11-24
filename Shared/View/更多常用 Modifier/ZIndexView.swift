@@ -9,7 +9,17 @@ import SwiftUI
 
 struct ZIndexView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: -50) {
+            Rectangle()
+                .frame(width: 100, height: 100)
+                .foregroundColor(Color.pink)
+                .zIndex(1)
+            Rectangle()
+                .frame(width: 100, height: 100)
+                .padding(.leading, 50)
+                .foregroundColor(Color.purple)
+                .zIndex(0)
+        }
     }
 }
 

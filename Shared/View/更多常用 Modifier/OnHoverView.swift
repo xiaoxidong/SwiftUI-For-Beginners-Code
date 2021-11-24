@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct OnHoverView: View {
+    @State var isHover = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Rectangle()
+            .frame(width: 100, height: 100)
+            .foregroundColor(isHover ? Color.purple : Color.pink)
+            .onHover { hover in
+                self.isHover = hover
+            }
     }
 }
 

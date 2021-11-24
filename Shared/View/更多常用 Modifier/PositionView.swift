@@ -9,7 +9,13 @@ import SwiftUI
 
 struct PositionView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Text("SwiftUI For Designers")
+                .position(x: 0, y: 0)
+                .background(Color.yellow)
+            Rectangle()
+                .frame(height: 30)
+        }
     }
 }
 

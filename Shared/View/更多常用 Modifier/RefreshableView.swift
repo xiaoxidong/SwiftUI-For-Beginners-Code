@@ -7,12 +7,18 @@
 
 import SwiftUI
 
+@available(iOS 15.0, macOS 12.0, *)
 struct RefreshableView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(0..<20) { index in
+            Text("第 \(index) 行")
+        }.refreshable {
+            print("刷新内容！")
+        }
     }
 }
 
+@available(iOS 15.0, macOS 12.0, *)
 struct RefreshableView_Previews: PreviewProvider {
     static var previews: some View {
         RefreshableView()

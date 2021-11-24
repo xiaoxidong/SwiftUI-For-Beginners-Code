@@ -9,7 +9,10 @@ import SwiftUI
 
 struct ShadowView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        RoundedRectangle(cornerRadius: 12, style: .continuous)
+            .fill(Color.white)
+            .frame(width: 200, height: 100)
+            .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 4)
     }
 }
 

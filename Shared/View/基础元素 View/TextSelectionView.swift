@@ -6,13 +6,19 @@
 //
 
 import SwiftUI
-
+@available(iOS 15.0, macOS 12.0, *)
 struct TextSelectionView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 16) {
+            Text("SwiftUI For Designers 可选择")
+                .textSelection(.enabled)
+            Text("SwiftUI For Designers 不可选择")
+                .textSelection(.disabled)
+        }
     }
 }
 
+@available(iOS 15.0, macOS 12.0, *)
 struct TextSelectionView_Previews: PreviewProvider {
     static var previews: some View {
         TextSelectionView()
