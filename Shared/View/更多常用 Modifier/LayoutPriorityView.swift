@@ -9,7 +9,14 @@ import SwiftUI
 
 struct LayoutPriorityView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(spacing: 0) {
+            Color.red
+                .frame(minWidth: 30)
+                .layoutPriority(0)
+            Color.yellow
+                .frame(minWidth: 60)
+                .layoutPriority(1)
+        }
     }
 }
 

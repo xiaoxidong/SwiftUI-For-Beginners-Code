@@ -4,7 +4,7 @@
 
 SwiftUI For Designers 是一款教你从 0 开始学习 Apple 全平台开发语言的应用，共计 156 个章节，从基础数据结构知识，到设计模式，到各个类似的组件的使用，包含了开发 iOS 和 Mac 应用的每一个环节，跟着整体的课程轻松学会 SwiftUI，每个人都可以开发 Apple 应用。
 
-[下载应用](超链接地址 "https://apps.apple.com/sc/app/swiftui-for-designers-%E8%AE%BE%E8%AE%A1%E5%B8%88%E7%9A%84%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/id1578873606")
+[下载应用](https://apps.apple.com/sc/app/swiftui-for-designers-%E8%AE%BE%E8%AE%A1%E5%B8%88%E7%9A%84%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/id1578873606)
 
 # 如何使用
 可以点击右上角的绿色 Code 按钮，下拉里会有三个选项：

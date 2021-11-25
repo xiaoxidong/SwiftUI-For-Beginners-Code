@@ -9,7 +9,12 @@ import SwiftUI
 
 struct FixedSizeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(spacing: 0) {
+            Text("SwiftUI For Designers 是一款教你做 Apple 全平台开发的应用。")
+                .fixedSize(horizontal: false, vertical: true)
+            Color.yellow
+                .frame(minWidth: 200)
+        }
     }
 }
 

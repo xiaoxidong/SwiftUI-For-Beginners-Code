@@ -7,12 +7,20 @@
 
 import SwiftUI
 
+@available(iOS 15.0, macOS 12.0, *)
 struct TintView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            Text("SwiftUI For Designers")
+            Toggle("保存内容", isOn: .constant(true))
+            Button(action: { }) {
+                Label("静音播放", systemImage: "speaker.slash.circle.fill")
+            }
+        }.tint(Color.red)
     }
 }
 
+@available(iOS 15.0, macOS 12.0, *)
 struct TintView_Previews: PreviewProvider {
     static var previews: some View {
         TintView()

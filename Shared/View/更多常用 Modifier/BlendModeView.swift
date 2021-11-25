@@ -9,7 +9,14 @@ import SwiftUI
 
 struct BlendModeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image("beijing")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+            Image("people")
+                .blendMode(.lighten)
+        }.frame(width: 300, height: 300)
+            .clipped()
     }
 }
 

@@ -7,11 +7,30 @@
 
 import SwiftUI
 
+// hidden
+//struct DisabledView: View {
+//    var body: some View {
+//        VStack(spacing: 16) {
+//            Text("SwiftUI For Designers")
+//            Label("开始学习", systemImage: "eyes.inverse")
+//                .hidden()
+//            Divider()
+//        }
+//    }
+//}
+
+// disabled
 struct DisabledView: View {
+    @State var start = true
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            start.toggle()
+        } label: {
+            Label(start ? "播放" : "暂停", systemImage: start ? "play.fill" : "pause.fill")
+        }.disabled(false)
     }
 }
+
 
 struct DisabledView_Previews: PreviewProvider {
     static var previews: some View {

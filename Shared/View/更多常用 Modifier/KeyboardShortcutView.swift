@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct KeyboardShortcutView: View {
+    @State var pressed1 = false
+    @State var pressed2 = false
+    @State var pressed3 = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button(pressed1 ? "SwiftUI For Designers" : "快捷键 Command + p") {
+                pressed1.toggle()
+            }.keyboardShortcut(KeyEquivalent("p"))
+            Button(pressed2 ? "SwiftUI For Designers" : "快捷键 p") {
+                pressed2.toggle()
+            }.keyboardShortcut(KeyEquivalent("p"), modifiers: [])
+            Button(pressed3 ? "SwiftUI For Designers" : "快捷键 Command + Shift + p") {
+                pressed3.toggle()
+            }.keyboardShortcut(KeyEquivalent("p"), modifiers: [.command, .shift])
+        }
     }
 }
 

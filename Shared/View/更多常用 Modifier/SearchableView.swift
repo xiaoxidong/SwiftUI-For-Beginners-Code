@@ -7,12 +7,55 @@
 
 import SwiftUI
 
+// 1. 使用搜索文字，位置和搜索提示文字初始化
+//@available(macOS 12.0, iOS 15.0, *)
+//struct SearchableView: View {
+//    @State var searchContent = ""
+//
+//    var body: some View {
+//        NavigationView {
+//            // iPad 上查看效果可以取消下面的注释
+////            Text("搜索内容 \(searchContent)")
+//            Text("搜索内容 \(searchContent)")
+//                .searchable(text: $searchContent, placement: .sidebar, prompt: "搜索内容")
+//                .navigationTitle("SwiftUI For Designers")
+//        }
+//    }
+//}
+
+// 2. 使用搜索提示初始化
+@available(macOS 12.0, iOS 15.0, *)
 struct SearchableView: View {
+    @State var names: [String] = ["Twitter", "Facebook", "Instagram", "SwiftUI For Designers"]
+    @State var searchContent = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(searchResults, id: \.self) { name in
+                    Text(name)
+                }
+            }
+            .searchable(text: $searchContent)  {
+                ForEach(names, id: \.self) { text in
+                    Text("搜索 \(text) ？")
+                        .searchCompletion(text)
+                }
+            }
+            .navigationTitle("SwiftUI For Designers")
+        }
+    }
+    
+    var searchResults: [String] {
+        if searchContent.isEmpty {
+            return names
+        } else {
+            return names.filter { $0.contains(searchContent) }
+        }
     }
 }
 
+
+@available(macOS 12.0, iOS 15.0, *)
 struct SearchableView_Previews: PreviewProvider {
     static var previews: some View {
         SearchableView()
