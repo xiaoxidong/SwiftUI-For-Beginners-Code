@@ -32,6 +32,7 @@ struct BadgeView: View {
                 .tabItem {
                     Label("Yellow", systemImage: "info.circle.fill")
                 }
+                .badge(8)
             Color.purple
                 .tabItem {
                     Label("Purple", systemImage: "questionmark.circle.fill")
