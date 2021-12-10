@@ -79,6 +79,12 @@
 		4E3DC6932727F6A100D19B4F /* ProtocolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DC6912727F6A100D19B4F /* ProtocolView.swift */; };
 		4E3DC6982727FF4B00D19B4F /* SystemProtocolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DC6972727FF4B00D19B4F /* SystemProtocolView.swift */; };
 		4E3DC6992727FF4B00D19B4F /* SystemProtocolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DC6972727FF4B00D19B4F /* SystemProtocolView.swift */; };
+		4E409D4A27630D0A00A0AB33 /* CustomModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E409D4927630D0A00A0AB33 /* CustomModifierView.swift */; };
+		4E409D4B27630D0A00A0AB33 /* CustomModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E409D4927630D0A00A0AB33 /* CustomModifierView.swift */; };
+		4E409D502763100500A0AB33 /* CustomStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E409D4F2763100500A0AB33 /* CustomStyleView.swift */; };
+		4E409D512763100500A0AB33 /* CustomStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E409D4F2763100500A0AB33 /* CustomStyleView.swift */; };
+		4E409D5627631F9A00A0AB33 /* CustomButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E409D5527631F9A00A0AB33 /* CustomButtonStyleView.swift */; };
+		4E409D5727631F9A00A0AB33 /* CustomButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E409D5527631F9A00A0AB33 /* CustomButtonStyleView.swift */; };
 		4E41F168271C267000050D76 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41F167271C267000050D76 /* StatusView.swift */; };
 		4E41F16D271C326C00050D76 /* SwiftUI-For-Designers-Code--iOS--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E41F16C271C326C00050D76 /* SwiftUI-For-Designers-Code--iOS--Info.plist */; };
 		4E45F61227263F0D005F935B /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E45F61127263F0D005F935B /* NumberView.swift */; };
@@ -237,6 +243,18 @@
 		4E6DAF36273A68AB00319B63 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6DAF34273A68AB00319B63 /* MenuButtonView.swift */; };
 		4E6F06752727A3190038EBD2 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6F06742727A3190038EBD2 /* ClassView.swift */; };
 		4E6F06762727A3190038EBD2 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6F06742727A3190038EBD2 /* ClassView.swift */; };
+		4E787CF32763367800283058 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787CF22763367800283058 /* AnimationView.swift */; };
+		4E787CF42763367800283058 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787CF22763367800283058 /* AnimationView.swift */; };
+		4E787CF9276336A500283058 /* WithAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787CF8276336A500283058 /* WithAnimationView.swift */; };
+		4E787CFA276336A500283058 /* WithAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787CF8276336A500283058 /* WithAnimationView.swift */; };
+		4E787CFF276336C800283058 /* MatchedGeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787CFE276336C800283058 /* MatchedGeometryEffectView.swift */; };
+		4E787D00276336C800283058 /* MatchedGeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787CFE276336C800283058 /* MatchedGeometryEffectView.swift */; };
+		4E787D05276336E900283058 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787D04276336E900283058 /* TransitionView.swift */; };
+		4E787D06276336E900283058 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787D04276336E900283058 /* TransitionView.swift */; };
+		4E787D0D2763429D00283058 /* AnimationTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787D0C2763429D00283058 /* AnimationTypeView.swift */; };
+		4E787D0E2763429D00283058 /* AnimationTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787D0C2763429D00283058 /* AnimationTypeView.swift */; };
+		4E787D1927635A8B00283058 /* AnimationParameterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787D1827635A8B00283058 /* AnimationParameterView.swift */; };
+		4E787D1A27635A8B00283058 /* AnimationParameterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E787D1827635A8B00283058 /* AnimationParameterView.swift */; };
 		4E8CDBC927117ADD00EC4DBE /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDBC827117ADD00EC4DBE /* ButtonView.swift */; };
 		4E8CDBCA27117ADD00EC4DBE /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDBC827117ADD00EC4DBE /* ButtonView.swift */; };
 		4E8CDBCE271181FA00EC4DBE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CDBD1271181FA00EC4DBE /* Localizable.strings */; };
@@ -247,6 +265,10 @@
 		4E8CDBD8271192C100EC4DBE /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDBD6271192C100EC4DBE /* StackView.swift */; };
 		4E8CDBDA27119D1200EC4DBE /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDBD927119D1200EC4DBE /* SpacerView.swift */; };
 		4E8CDBDB27119D1200EC4DBE /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDBD927119D1200EC4DBE /* SpacerView.swift */; };
+		4E91B0C02762E638007ACB0C /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91B0BF2762E638007ACB0C /* ModifierView.swift */; };
+		4E91B0C12762E638007ACB0C /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91B0BF2762E638007ACB0C /* ModifierView.swift */; };
+		4ECD8C2C27632D1900C8889D /* CustomLabelStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD8C2B27632D1900C8889D /* CustomLabelStyleView.swift */; };
+		4ECD8C2D27632D1900C8889D /* CustomLabelStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD8C2B27632D1900C8889D /* CustomLabelStyleView.swift */; };
 		4EDC99E3271D4AA900202710 /* NavigationViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC99E2271D4AA900202710 /* NavigationViewStyleView.swift */; };
 		4EDC99E4271D4AA900202710 /* NavigationViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC99E2271D4AA900202710 /* NavigationViewStyleView.swift */; };
 		4EDC99E6271D531300202710 /* TabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC99E5271D531300202710 /* TabViewView.swift */; };
@@ -480,6 +502,9 @@
 		4E3DC68E2727E8BE00D19B4F /* EnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumView.swift; sourceTree = "<group>"; };
 		4E3DC6912727F6A100D19B4F /* ProtocolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolView.swift; sourceTree = "<group>"; };
 		4E3DC6972727FF4B00D19B4F /* SystemProtocolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemProtocolView.swift; sourceTree = "<group>"; };
+		4E409D4927630D0A00A0AB33 /* CustomModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierView.swift; sourceTree = "<group>"; };
+		4E409D4F2763100500A0AB33 /* CustomStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyleView.swift; sourceTree = "<group>"; };
+		4E409D5527631F9A00A0AB33 /* CustomButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleView.swift; sourceTree = "<group>"; };
 		4E41F167271C267000050D76 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 		4E41F16C271C326C00050D76 /* SwiftUI-For-Designers-Code--iOS--Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SwiftUI-For-Designers-Code--iOS--Info.plist"; sourceTree = "<group>"; };
 		4E45F61127263F0D005F935B /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
@@ -563,12 +588,20 @@
 		4E6DAF2B2734F52A00319B63 /* ProgressViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewStyleView.swift; sourceTree = "<group>"; };
 		4E6DAF34273A68AB00319B63 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
 		4E6F06742727A3190038EBD2 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
+		4E787CF22763367800283058 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		4E787CF8276336A500283058 /* WithAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithAnimationView.swift; sourceTree = "<group>"; };
+		4E787CFE276336C800283058 /* MatchedGeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectView.swift; sourceTree = "<group>"; };
+		4E787D04276336E900283058 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		4E787D0C2763429D00283058 /* AnimationTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTypeView.swift; sourceTree = "<group>"; };
+		4E787D1827635A8B00283058 /* AnimationParameterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationParameterView.swift; sourceTree = "<group>"; };
 		4E8CDBC827117ADD00EC4DBE /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		4E8CDBD0271181FA00EC4DBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4E8CDBD22711844D00EC4DBE /* 查看项目须知.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "查看项目须知.md"; sourceTree = "<group>"; };
 		4E8CDBD327118C5300EC4DBE /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		4E8CDBD6271192C100EC4DBE /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		4E8CDBD927119D1200EC4DBE /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		4E91B0BF2762E638007ACB0C /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
+		4ECD8C2B27632D1900C8889D /* CustomLabelStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelStyleView.swift; sourceTree = "<group>"; };
 		4EDC99E2271D4AA900202710 /* NavigationViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewStyleView.swift; sourceTree = "<group>"; };
 		4EDC99E5271D531300202710 /* TabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewView.swift; sourceTree = "<group>"; };
 		4EDC99E8271D5BE900202710 /* NavigationBarColorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColorModifier.swift; sourceTree = "<group>"; };
@@ -896,6 +929,19 @@
 			path = "数据结构";
 			sourceTree = "<group>";
 		};
+		4E787D07276336EF00283058 /* 动画（Animation） */ = {
+			isa = PBXGroup;
+			children = (
+				4E787CF22763367800283058 /* AnimationView.swift */,
+				4E787D0C2763429D00283058 /* AnimationTypeView.swift */,
+				4E787D1827635A8B00283058 /* AnimationParameterView.swift */,
+				4E787CF8276336A500283058 /* WithAnimationView.swift */,
+				4E787CFE276336C800283058 /* MatchedGeometryEffectView.swift */,
+				4E787D04276336E900283058 /* TransitionView.swift */,
+			);
+			path = "动画（Animation）";
+			sourceTree = "<group>";
+		};
 		4E8CDBB92711781700EC4DBE /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -916,6 +962,8 @@
 				4EE8BD582730E9770019DDB0 /* 函数语法 */,
 				4EE8BE092731244E0019DDB0 /* 其他常用元素 */,
 				4EFD97A92744C0E400E2503F /* 更多常用 Modifier */,
+				4E91B0C62762EB62007ACB0C /* 自定义通用内容 */,
+				4E787D07276336EF00283058 /* 动画（Animation） */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1025,6 +1073,18 @@
 				4EE4BAA1271E69AC0004DFEB /* GroupView.swift */,
 			);
 			path = "基础元素 View";
+			sourceTree = "<group>";
+		};
+		4E91B0C62762EB62007ACB0C /* 自定义通用内容 */ = {
+			isa = PBXGroup;
+			children = (
+				4E91B0BF2762E638007ACB0C /* ModifierView.swift */,
+				4E409D4927630D0A00A0AB33 /* CustomModifierView.swift */,
+				4E409D4F2763100500A0AB33 /* CustomStyleView.swift */,
+				4E409D5527631F9A00A0AB33 /* CustomButtonStyleView.swift */,
+				4ECD8C2B27632D1900C8889D /* CustomLabelStyleView.swift */,
+			);
+			path = "自定义通用内容";
 			sourceTree = "<group>";
 		};
 		4EA705DF272E69BA0098F25F /* 第二阶段完成 */ = {
@@ -1444,6 +1504,7 @@
 				4EFD97E72744C3FA00E2503F /* TextSelectionView.swift in Sources */,
 				4E54F3C3274B907700177482 /* AngularGradientView.swift in Sources */,
 				4E354C38271D97340031E1AC /* SystemVersionView.swift in Sources */,
+				4E787D1927635A8B00283058 /* AnimationParameterView.swift in Sources */,
 				4E354C1C271D76D20031E1AC /* SheetView.swift in Sources */,
 				4E608E482713CCF8008C737B /* ForEachView.swift in Sources */,
 				4EEEA48A274A1FEC00EC75F2 /* PreviewDeviceView.swift in Sources */,
@@ -1459,6 +1520,7 @@
 				4E54F3B7274B70B100177482 /* EditButtonView.swift in Sources */,
 				4E00825C272BB44B0065A17B /* EnvironmentObjectView.swift in Sources */,
 				4EE8BE3C2731244F0019DDB0 /* FormView.swift in Sources */,
+				4E409D4A27630D0A00A0AB33 /* CustomModifierView.swift in Sources */,
 				4E54F3DB274CEF1E00177482 /* MultilineTextAlignmentView.swift in Sources */,
 				4EEEA490274A3A1600EC75F2 /* TextInputAutocapitalizationView.swift in Sources */,
 				4E608E87271412DE008C737B /* TrimView.swift in Sources */,
@@ -1478,6 +1540,7 @@
 				4E8CDBD7271192C100EC4DBE /* StackView.swift in Sources */,
 				4EFD97C32744C33700E2503F /* PositionView.swift in Sources */,
 				4E608E9827142AC8008C737B /* Destination.swift in Sources */,
+				4ECD8C2C27632D1900C8889D /* CustomLabelStyleView.swift in Sources */,
 				4E54F3B1274B387300177482 /* ListSettingView.swift in Sources */,
 				4E008262272BC3CC0065A17B /* SceneStorageView.swift in Sources */,
 				4E3DC6982727FF4B00D19B4F /* SystemProtocolView.swift in Sources */,
@@ -1500,6 +1563,7 @@
 				4EEEA48D274A36D300EC75F2 /* PrintChangesView.swift in Sources */,
 				4EE8BE302731244F0019DDB0 /* ListView.swift in Sources */,
 				4E644BBC27328787001EBB34 /* SecureFieldView.swift in Sources */,
+				4E409D5627631F9A00A0AB33 /* CustomButtonStyleView.swift in Sources */,
 				4E008265272BC6770065A17B /* EnvironmentView.swift in Sources */,
 				4EFD97FC2744C45E00E2503F /* BadgeView.swift in Sources */,
 				4EEEA496274A814E00EC75F2 /* SectionView.swift in Sources */,
@@ -1512,9 +1576,11 @@
 				4E008259272BA31E0065A17B /* ObservedObjectView.swift in Sources */,
 				4E8CDBC927117ADD00EC4DBE /* ButtonView.swift in Sources */,
 				4EE8BD66273108B80019DDB0 /* ReturnView.swift in Sources */,
+				4E409D502763100500A0AB33 /* CustomStyleView.swift in Sources */,
 				4EFD97DB2744C3BD00E2503F /* OpacityView.swift in Sources */,
 				4E8CDBDA27119D1200EC4DBE /* SpacerView.swift in Sources */,
 				4E608E7227140E96008C737B /* ContentShapeView.swift in Sources */,
+				4E787CF9276336A500283058 /* WithAnimationView.swift in Sources */,
 				4EFD97BD2744C31E00E2503F /* TaskView.swift in Sources */,
 				4EE8BE4C2731244F0019DDB0 /* GroupBoxView.swift in Sources */,
 				4E608E7E27141151008C737B /* DisappearView.swift in Sources */,
@@ -1532,6 +1598,7 @@
 				4E1F9C382716B45D00645609 /* FontWeightView.swift in Sources */,
 				4EDC99ED271D64C800202710 /* TabBarColorModifier.swift in Sources */,
 				4EE8BE342731244F0019DDB0 /* ToggleView.swift in Sources */,
+				4E787CFF276336C800283058 /* MatchedGeometryEffectView.swift in Sources */,
 				4E354C3E271DA4680031E1AC /* SizeClassView.swift in Sources */,
 				4EE8BE442731244F0019DDB0 /* ContextMenuView.swift in Sources */,
 				4E1F9C1D2716A78A00645609 /* FontView.swift in Sources */,
@@ -1554,6 +1621,7 @@
 				4E1747A6271D14D500DE82D1 /* NavigationBarTitleView.swift in Sources */,
 				4EE8BE402731244F0019DDB0 /* GeometryReaderView.swift in Sources */,
 				4EE8BE482731244F0019DDB0 /* LinkView.swift in Sources */,
+				4E787D05276336E900283058 /* TransitionView.swift in Sources */,
 				4EFD97AE2744C2D600E2503F /* ZIndexView.swift in Sources */,
 				4E1F9C3B2716B56C00645609 /* StrikethroughView.swift in Sources */,
 				4EE8BD7527311AF10019DDB0 /* ?View.swift in Sources */,
@@ -1588,11 +1656,13 @@
 				4E608E4E271407E9008C737B /* EllipseView.swift in Sources */,
 				4E57764F2733BCD20029B5DF /* PickerStyleView.swift in Sources */,
 				4EE8BD60273103820019DDB0 /* IfletView.swift in Sources */,
+				4E91B0C02762E638007ACB0C /* ModifierView.swift in Sources */,
 				4EE4BAA2271E69AC0004DFEB /* GroupView.swift in Sources */,
 				4E1F9BFF271683BA00645609 /* ResizableView.swift in Sources */,
 				4E608E4B2713E1BA008C737B /* ScrollViewView.swift in Sources */,
 				4E608E9B27142B81008C737B /* Guide.swift in Sources */,
 				4EFD97B72744C30300E2503F /* HoverEffectView.swift in Sources */,
+				4E787CF32763367800283058 /* AnimationView.swift in Sources */,
 				4EEEA493274A45F400EC75F2 /* AsyncImageView.swift in Sources */,
 				4E54F3C0274B86DA00177482 /* LinearGradientView.swift in Sources */,
 				4E1F9C0827169B6E00645609 /* ClipShapeView.swift in Sources */,
@@ -1605,6 +1675,7 @@
 				4E54F3AE274B261500177482 /* ListStyleView.swift in Sources */,
 				4EFD97CC2744C37600E2503F /* MaskView.swift in Sources */,
 				4EFD97F32744C43200E2503F /* SafeAreaInsetView.swift in Sources */,
+				4E787D0D2763429D00283058 /* AnimationTypeView.swift in Sources */,
 				4EDC99E6271D531300202710 /* TabViewView.swift in Sources */,
 				4E1F9C022716895100645609 /* AspectRatioView.swift in Sources */,
 				4EDC99E3271D4AA900202710 /* NavigationViewStyleView.swift in Sources */,
@@ -1664,6 +1735,7 @@
 				4EE8BE3D2731244F0019DDB0 /* FormView.swift in Sources */,
 				4E608E82271411A4008C737B /* FillView.swift in Sources */,
 				4E608E88271412DE008C737B /* TrimView.swift in Sources */,
+				4E409D4B27630D0A00A0AB33 /* CustomModifierView.swift in Sources */,
 				4E608E522714081A008C737B /* RectangleView.swift in Sources */,
 				4EEEA48B274A1FEC00EC75F2 /* PreviewDeviceView.swift in Sources */,
 				4EFD97F12744C42400E2503F /* RedactedView.swift in Sources */,
@@ -1688,6 +1760,8 @@
 				4E608E8E27141528008C737B /* TextView.swift in Sources */,
 				4E54F3CD274CCB5000177482 /* RadialGradientView.swift in Sources */,
 				4E45F61627264605005F935B /* BoolView.swift in Sources */,
+				4E91B0C12762E638007ACB0C /* ModifierView.swift in Sources */,
+				4E787D06276336E900283058 /* TransitionView.swift in Sources */,
 				4E54F3DF274CF56700177482 /* MinimumScaleFactorView.swift in Sources */,
 				4EFD97BB2744C31000E2503F /* OnReceiveView.swift in Sources */,
 				4EFD97FA2744C45000E2503F /* KeyboardShortcutView.swift in Sources */,
@@ -1699,6 +1773,7 @@
 				4EE8BE332731244F0019DDB0 /* SplitViewView.swift in Sources */,
 				4E45F61C27266EBE005F935B /* ArrayView.swift in Sources */,
 				4E00825D272BB44B0065A17B /* EnvironmentObjectView.swift in Sources */,
+				4E787D1A27635A8B00283058 /* AnimationParameterView.swift in Sources */,
 				4E8CDBCA27117ADD00EC4DBE /* ButtonView.swift in Sources */,
 				4EE8BE512731244F0019DDB0 /* PickerPreviewView.swift in Sources */,
 				4E8CDBDB27119D1200EC4DBE /* SpacerView.swift in Sources */,
@@ -1714,12 +1789,15 @@
 				4E54F3D9274CE31500177482 /* TruncationModeView.swift in Sources */,
 				4EE8BE472731244F0019DDB0 /* TextFiledView.swift in Sources */,
 				4E546AF12722B1300084AC3F /* StringActionView.swift in Sources */,
+				4ECD8C2D27632D1900C8889D /* CustomLabelStyleView.swift in Sources */,
 				4E45F62227268BB1005F935B /* SetView.swift in Sources */,
 				4EEEA494274A45F400EC75F2 /* AsyncImageView.swift in Sources */,
 				4E54F3E2274CF80000177482 /* ButtonStyleView.swift in Sources */,
 				4E008266272BC6770065A17B /* EnvironmentView.swift in Sources */,
 				4EE8BE232731244E0019DDB0 /* LazyStackView.swift in Sources */,
+				4E787CFA276336A500283058 /* WithAnimationView.swift in Sources */,
 				4E3DC68D2727E23A00D19B4F /* StructView.swift in Sources */,
+				4E787CF42763367800283058 /* AnimationView.swift in Sources */,
 				4EE8BE252731244E0019DDB0 /* DividerView.swift in Sources */,
 				4EFD97EE2744C41500E2503F /* FixedSizeView.swift in Sources */,
 				4E644BB427328560001EBB34 /* TextFieldStyleView.swift in Sources */,
@@ -1734,6 +1812,7 @@
 				4E1F9C302716B31E00645609 /* LineSpacingView.swift in Sources */,
 				4EFD97B22744C2E500E2503F /* OnChangeView.swift in Sources */,
 				4E608E5E27140BC8008C737B /* Color+Extension.swift in Sources */,
+				4E409D5727631F9A00A0AB33 /* CustomButtonStyleView.swift in Sources */,
 				4E354C1A271D70D90031E1AC /* ShowView.swift in Sources */,
 				4E1747A7271D14D500DE82D1 /* NavigationBarTitleView.swift in Sources */,
 				4EE8BD7627311AF10019DDB0 /* ?View.swift in Sources */,
@@ -1754,6 +1833,7 @@
 				4E54F3D0274CCFBE00177482 /* PopoverView.swift in Sources */,
 				4E608E7027140E5A008C737B /* PaddingView.swift in Sources */,
 				4E3DC6992727FF4B00D19B4F /* SystemProtocolView.swift in Sources */,
+				4E787D00276336C800283058 /* MatchedGeometryEffectView.swift in Sources */,
 				4E608E6727140CE7008C737B /* ForegroundColorView.swift in Sources */,
 				4EE8BE4F2731244F0019DDB0 /* MenuView.swift in Sources */,
 				4E608E6D27140DD3008C737B /* IgnoresSafeAreaView.swift in Sources */,
@@ -1775,6 +1855,7 @@
 				4E3DC6902727E8BE00D19B4F /* EnumView.swift in Sources */,
 				4EFD97BE2744C31E00E2503F /* TaskView.swift in Sources */,
 				4E54F3B5274B4FD600177482 /* SwipeActionsView.swift in Sources */,
+				4E787D0E2763429D00283058 /* AnimationTypeView.swift in Sources */,
 				4EFD97E52744C3EC00E2503F /* TintView.swift in Sources */,
 				4EE4BAA3271E69AC0004DFEB /* GroupView.swift in Sources */,
 				4E1F9C00271683BA00645609 /* ResizableView.swift in Sources */,
@@ -1793,6 +1874,7 @@
 				4E008237272B844D0065A17B /* StateView.swift in Sources */,
 				4E54F3AF274B261500177482 /* ListStyleView.swift in Sources */,
 				4EE8BD6A27310D3A0019DDB0 /* GuardLetView.swift in Sources */,
+				4E409D512763100500A0AB33 /* CustomStyleView.swift in Sources */,
 				4E608E9F27142BF8008C737B /* Travel.swift in Sources */,
 				4E608E5827140944008C737B /* CapsuleView.swift in Sources */,
 				4E1F9C062716951C00645609 /* ClippedView.swift in Sources */,
