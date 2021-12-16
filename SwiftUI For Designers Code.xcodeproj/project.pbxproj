@@ -996,6 +996,31 @@
 			path = "动画（Animation）";
 			sourceTree = "<group>";
 		};
+		4E7EB9C92769C3A70025A72F /* 手势 */ = {
+			isa = PBXGroup;
+			children = (
+				4E0901DF2769AF4300692AF6 /* SingleTapGestureView.swift */,
+				4E0901E62769AFD600692AF6 /* DoubleTapGestureView.swift */,
+				4E0901EC2769B03000692AF6 /* LongPressGestureView.swift */,
+				4E0901F22769B06400692AF6 /* DragGestureView.swift */,
+				4E483BA72769B28C00721110 /* MagnificationGestureView.swift */,
+				4E591E8D2769B3430050BBBA /* RotationGestureView.swift */,
+				4E4DC5D32769B4B500798DC7 /* MultiGestureView.swift */,
+				4E7EB9AB2769C2680025A72F /* HighPriorityGestureView.swift */,
+				4E7EB9AE2769C2760025A72F /* SimultaneousGestureView.swift */,
+				4E7EB9B12769C2830025A72F /* ExclusivelyView.swift */,
+				4E7EB9B42769C28F0025A72F /* SimultaneouslyView.swift */,
+				4E7EB9B72769C29D0025A72F /* SequencedView.swift */,
+				4E05B5B22769B566008D06C2 /* DragAndDropView.swift */,
+				4E7EB9BA2769C2AB0025A72F /* GestureStateView.swift */,
+				4E7EB9BD2769C2B70025A72F /* GestureModifiersView.swift */,
+				4E7EB9C02769C2C30025A72F /* OnChangedonEndedView.swift */,
+				4E7EB9C32769C2D10025A72F /* MapModifierView.swift */,
+				4E7EB9C62769C2DD0025A72F /* ModifiersView.swift */,
+			);
+			path = "手势";
+			sourceTree = "<group>";
+		};
 		4E8CDBB92711781700EC4DBE /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -1018,24 +1043,7 @@
 				4EFD97A92744C0E400E2503F /* 更多常用 Modifier */,
 				4E91B0C62762EB62007ACB0C /* 自定义通用内容 */,
 				4E787D07276336EF00283058 /* 动画（Animation） */,
-				4E0901DF2769AF4300692AF6 /* SingleTapGestureView.swift */,
-				4E0901E62769AFD600692AF6 /* DoubleTapGestureView.swift */,
-				4E0901EC2769B03000692AF6 /* LongPressGestureView.swift */,
-				4E0901F22769B06400692AF6 /* DragGestureView.swift */,
-				4E483BA72769B28C00721110 /* MagnificationGestureView.swift */,
-				4E591E8D2769B3430050BBBA /* RotationGestureView.swift */,
-				4E4DC5D32769B4B500798DC7 /* MultiGestureView.swift */,
-				4E7EB9AB2769C2680025A72F /* HighPriorityGestureView.swift */,
-				4E7EB9AE2769C2760025A72F /* SimultaneousGestureView.swift */,
-				4E7EB9B12769C2830025A72F /* ExclusivelyView.swift */,
-				4E7EB9B42769C28F0025A72F /* SimultaneouslyView.swift */,
-				4E7EB9B72769C29D0025A72F /* SequencedView.swift */,
-				4E05B5B22769B566008D06C2 /* DragAndDropView.swift */,
-				4E7EB9BA2769C2AB0025A72F /* GestureStateView.swift */,
-				4E7EB9BD2769C2B70025A72F /* GestureModifiersView.swift */,
-				4E7EB9C02769C2C30025A72F /* OnChangedonEndedView.swift */,
-				4E7EB9C32769C2D10025A72F /* MapModifierView.swift */,
-				4E7EB9C62769C2DD0025A72F /* ModifiersView.swift */,
+				4E7EB9C92769C3A70025A72F /* 手势 */,
 			);
 			path = View;
 			sourceTree = "<group>";
