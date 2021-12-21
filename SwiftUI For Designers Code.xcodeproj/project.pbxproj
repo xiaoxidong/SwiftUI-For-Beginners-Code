@@ -151,6 +151,8 @@
 		4E54F3DF274CF56700177482 /* MinimumScaleFactorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3DD274CF56700177482 /* MinimumScaleFactorView.swift */; };
 		4E54F3E1274CF80000177482 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3E0274CF80000177482 /* ButtonStyleView.swift */; };
 		4E54F3E2274CF80000177482 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E54F3E0274CF80000177482 /* ButtonStyleView.swift */; };
+		4E5732152771A28C009CDEA7 /* GestureMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5732142771A28C009CDEA7 /* GestureMaskView.swift */; };
+		4E5732162771A28C009CDEA7 /* GestureMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5732142771A28C009CDEA7 /* GestureMaskView.swift */; };
 		4E57764F2733BCD20029B5DF /* PickerStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57764E2733BCD20029B5DF /* PickerStyleView.swift */; };
 		4E5776502733BCD20029B5DF /* PickerStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57764E2733BCD20029B5DF /* PickerStyleView.swift */; };
 		4E591E8E2769B3430050BBBA /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E591E8D2769B3430050BBBA /* RotationGestureView.swift */; };
@@ -575,6 +577,7 @@
 		4E54F3DA274CEF1E00177482 /* MultilineTextAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextAlignmentView.swift; sourceTree = "<group>"; };
 		4E54F3DD274CF56700177482 /* MinimumScaleFactorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumScaleFactorView.swift; sourceTree = "<group>"; };
 		4E54F3E0274CF80000177482 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
+		4E5732142771A28C009CDEA7 /* GestureMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMaskView.swift; sourceTree = "<group>"; };
 		4E57764E2733BCD20029B5DF /* PickerStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStyleView.swift; sourceTree = "<group>"; };
 		4E591E8D2769B3430050BBBA /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
 		4E608E472713CCF8008C737B /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
@@ -1011,6 +1014,7 @@
 				4E7EB9B12769C2830025A72F /* ExclusivelyView.swift */,
 				4E7EB9B42769C28F0025A72F /* SimultaneouslyView.swift */,
 				4E7EB9B72769C29D0025A72F /* SequencedView.swift */,
+				4E5732142771A28C009CDEA7 /* GestureMaskView.swift */,
 				4E05B5B22769B566008D06C2 /* DragAndDropView.swift */,
 				4E7EB9BA2769C2AB0025A72F /* GestureStateView.swift */,
 				4E7EB9BD2769C2B70025A72F /* GestureModifiersView.swift */,
@@ -1643,6 +1647,7 @@
 				4E6DAF2C2734F52A00319B63 /* ProgressViewStyleView.swift in Sources */,
 				4EE8BD6927310D3A0019DDB0 /* GuardLetView.swift in Sources */,
 				4E0901E02769AF4300692AF6 /* SingleTapGestureView.swift in Sources */,
+				4E5732152771A28C009CDEA7 /* GestureMaskView.swift in Sources */,
 				4E00825F272BBEED0065A17B /* AppStorageView.swift in Sources */,
 				4EEEA48D274A36D300EC75F2 /* PrintChangesView.swift in Sources */,
 				4EE8BE302731244F0019DDB0 /* ListView.swift in Sources */,
@@ -1901,6 +1906,7 @@
 				4E54F3E2274CF80000177482 /* ButtonStyleView.swift in Sources */,
 				4E008266272BC6770065A17B /* EnvironmentView.swift in Sources */,
 				4EE8BE232731244E0019DDB0 /* LazyStackView.swift in Sources */,
+				4E5732162771A28C009CDEA7 /* GestureMaskView.swift in Sources */,
 				4E787CFA276336A500283058 /* WithAnimationView.swift in Sources */,
 				4E3DC68D2727E23A00D19B4F /* StructView.swift in Sources */,
 				4E787CF42763367800283058 /* AnimationView.swift in Sources */,

@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct GestureStateView: View {
+    @GestureState private var offset: CGSize = .zero
+    
     var body: some View {
-        Text("Hello, World!")
+        let gesture = DragGesture()
+            .updating($offset) { value, state, transaction in
+                state = value.translation
+            }
+        
+        return Circle()
+            .fill(Color.pink)
+            .frame(width: 100, height: 100)
+            .offset(offset)
+            .gesture(gesture)
     }
 }
 
@@ -18,3 +29,5 @@ struct GestureStateView_Previews: PreviewProvider {
         GestureStateView()
     }
 }
+
+

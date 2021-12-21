@@ -7,11 +7,40 @@
 
 import SwiftUI
 
+// 1. onTapGesture
 struct DoubleTapGestureView: View {
+    @State var tap = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Circle()
+            .frame(width: 100, height: 100)
+            .foregroundColor(tap ? Color.pink : Color.purple)
+            .onTapGesture(count: 2) {
+                withAnimation(.spring()) {
+                    tap.toggle()
+                }
+            }
     }
 }
+
+// 2. gesture
+/*
+struct DoubleTapGestureView: View {
+    @State var tap = false
+    var body: some View {
+        Circle()
+            .frame(width: 100, height: 100)
+            .foregroundColor(tap ? Color.pink : Color.purple)
+            .gesture(
+                TapGesture(count: 2)
+                    .onEnded {
+                        withAnimation(.spring()) {
+                            tap.toggle()
+                        }
+                    }
+            )
+    }
+}
+*/
 
 struct DoubleTapGestureView_Previews: PreviewProvider {
     static var previews: some View {

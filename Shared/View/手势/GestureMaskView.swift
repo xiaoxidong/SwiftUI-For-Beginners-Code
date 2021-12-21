@@ -1,16 +1,17 @@
 //
-//  MultiGestureView.swift
+//  GestureMaskView.swift
 //  SwiftUI For Designers Code
 //
-//  Created by XiaoDong Yuan on 2021/12/15.
+//  Created by XiaoDong Yuan on 2021/12/21.
 //
 
 import SwiftUI
 
-struct MultiGestureView: View {
+struct GestureMaskView: View {
     @State var insideTap = false
     @State var outsideTap = false
     
+    @State var mask: GestureMask = .gesture
     var body: some View {
         VStack(spacing: 16) {
             Rectangle()
@@ -30,12 +31,12 @@ struct MultiGestureView: View {
                         outsideTap.toggle()
                     }
                 }
-        )
+            , including: mask)
     }
 }
 
-struct MultiGestureView_Previews: PreviewProvider {
+struct GestureMaskView_Previews: PreviewProvider {
     static var previews: some View {
-        MultiGestureView()
+        GestureMaskView()
     }
 }

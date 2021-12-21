@@ -8,8 +8,29 @@
 import SwiftUI
 
 struct SimultaneousGestureView: View {
+    @State var insideTap = false
+    @State var outsideTap = false
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack(spacing: 16) {
+            Rectangle()
+                .fill(insideTap ? Color.yellow : Color.pink)
+                .onTapGesture {
+                    withAnimation(.spring()) {
+                        insideTap.toggle()
+                    }
+                }
+            
+            Rectangle()
+                .fill(outsideTap ? Color.green : Color.purple)
+        }.simultaneousGesture(
+            TapGesture()
+                .onEnded {
+                    withAnimation(.spring()) {
+                        outsideTap.toggle()
+                    }
+                }
+        )
     }
 }
 

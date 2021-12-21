@@ -7,9 +7,29 @@
 
 import SwiftUI
 
+// 1. 同一 View 的手势
 struct HighPriorityGestureView: View {
+    @State var singleTap = false
+    @State var doubleTap = false
+    
     var body: some View {
-        Text("Hello, World!")
+        Circle()
+            .fill(singleTap ? Color.yellow : Color.pink)
+            .border(doubleTap ? Color.green : Color.clear, width: 4)
+            .frame(width: 100, height: 100)
+            .onTapGesture {
+                withAnimation(.spring()) {
+                    singleTap.toggle()
+                }
+            }
+            .highPriorityGesture(
+                TapGesture(count: 2)
+                    .onEnded {
+                        withAnimation(.spring()) {
+                            doubleTap.toggle()
+                        }
+                    }
+            )
     }
 }
 

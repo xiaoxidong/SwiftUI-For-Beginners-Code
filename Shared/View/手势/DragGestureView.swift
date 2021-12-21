@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct DragGestureView: View {
+    @State var offset = CGSize.zero
+    
     var body: some View {
-        Text("Hello, World!")
-        Text("Hello, World!")
+        Circle()
+            .frame(width: 100, height: 100)
+            .foregroundColor(Color.purple)
+            .offset(offset)
+            .gesture(
+                DragGesture()
+                    .onChanged({ gesture in
+                        self.offset = gesture.translation
+                    })
+                    .onEnded({ gesture in
+                        withAnimation(.spring()) {
+                            self.offset = .zero
+                        }
+                    })
+            )
     }
 }
 
