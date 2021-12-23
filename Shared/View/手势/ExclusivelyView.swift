@@ -8,32 +8,33 @@
 import SwiftUI
 
 struct ExclusivelyView: View {
-    @State var singleTap = false
-    @State var doubleTap = false
-    
+    @GestureState var gesture = Gesture()
     var body: some View {
-        Circle()
-            .fill(singleTap ? Color.yellow : Color.pink)
-            .border(doubleTap ? Color.green : Color.clear, width: 4)
-            .frame(width: 100, height: 100)
-            .gesture(
-                TapGesture()
-                    .onEnded { _ in
-                        withAnimation(.spring()) {
-                            singleTap.toggle()
-                        }
-                    }
-            )
-            .gesture(
-                TapGesture(count: 2)
-                    .exclusively(before: TapGesture())
-                    .onEnded { _ in
-                        withAnimation(.spring()) {
-                            doubleTap.toggle()
-                        }
-                    }
-            )
+        let exclusivelyGesture = DragGesture()
+            .exclusively(before: MagnificationGesture())
+            .updating($gesture) { value, state, transacation in
+                switch value {
+                case .first(let drag):
+                    state.scale = 1
+                    state.offset = drag.translation
+                case .second(let magnification):
+                    state.scale = magnification
+                    state.offset = .zero
+                }
+            }
+        
+        return Image("people")
+            .clipShape(Circle())
+            .offset(gesture.offset)
+            .scaleEffect(gesture.scale)
+            .gesture(exclusivelyGesture)
+            .animation(.spring())
     }
+}
+
+struct Gesture {
+    var scale: CGFloat = 1.0
+    var offset: CGSize = .zero
 }
 
 struct ExclusivelyView_Previews: PreviewProvider {

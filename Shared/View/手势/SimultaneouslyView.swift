@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct SimultaneouslyView: View {
+    @GestureState var gesture = RotateAndMagnify()
+    
     var body: some View {
-        Text("Hello, World!")
+        let multiGesture = MagnificationGesture()
+            .simultaneously(with: RotationGesture())
+            .updating($gesture) { value, state, transacation in
+                state.angle = value.second ?? .zero
+                state.scale = value.first ?? 0
+            }
+        
+        return Image("people")
+            .clipShape(Circle())
+            .rotationEffect(gesture.angle)
+            .scaleEffect(gesture.scale)
+            .gesture(multiGesture)
+            .animation(.spring())
+    }
+    
+    struct RotateAndMagnify {
+        var scale: CGFloat = 1.0
+        var angle: Angle = .zero
     }
 }
 

@@ -307,6 +307,8 @@
 		4E8CDBDB27119D1200EC4DBE /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDBD927119D1200EC4DBE /* SpacerView.swift */; };
 		4E91B0C02762E638007ACB0C /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91B0BF2762E638007ACB0C /* ModifierView.swift */; };
 		4E91B0C12762E638007ACB0C /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91B0BF2762E638007ACB0C /* ModifierView.swift */; };
+		4EAC5C8027749DDC0089E30C /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5C7F27749DDC0089E30C /* Array+Extension.swift */; };
+		4EAC5C8127749DDC0089E30C /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5C7F27749DDC0089E30C /* Array+Extension.swift */; };
 		4ECD8C2C27632D1900C8889D /* CustomLabelStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD8C2B27632D1900C8889D /* CustomLabelStyleView.swift */; };
 		4ECD8C2D27632D1900C8889D /* CustomLabelStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD8C2B27632D1900C8889D /* CustomLabelStyleView.swift */; };
 		4EDC99E3271D4AA900202710 /* NavigationViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC99E2271D4AA900202710 /* NavigationViewStyleView.swift */; };
@@ -661,6 +663,7 @@
 		4E8CDBD6271192C100EC4DBE /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		4E8CDBD927119D1200EC4DBE /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		4E91B0BF2762E638007ACB0C /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
+		4EAC5C7F27749DDC0089E30C /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		4ECD8C2B27632D1900C8889D /* CustomLabelStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelStyleView.swift; sourceTree = "<group>"; };
 		4EDC99E2271D4AA900202710 /* NavigationViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewStyleView.swift; sourceTree = "<group>"; };
 		4EDC99E5271D531300202710 /* TabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewView.swift; sourceTree = "<group>"; };
@@ -1075,6 +1078,7 @@
 			children = (
 				4E608E5C27140BC8008C737B /* Color+Extension.swift */,
 				4E174793271D01C000DE82D1 /* Status.swift */,
+				4EAC5C7F27749DDC0089E30C /* Array+Extension.swift */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -1768,6 +1772,7 @@
 				4E787CF32763367800283058 /* AnimationView.swift in Sources */,
 				4EEEA493274A45F400EC75F2 /* AsyncImageView.swift in Sources */,
 				4E54F3C0274B86DA00177482 /* LinearGradientView.swift in Sources */,
+				4EAC5C8027749DDC0089E30C /* Array+Extension.swift in Sources */,
 				4E0901E72769AFD600692AF6 /* DoubleTapGestureView.swift in Sources */,
 				4E1F9C0827169B6E00645609 /* ClipShapeView.swift in Sources */,
 				4E54F3D8274CE31500177482 /* TruncationModeView.swift in Sources */,
@@ -1974,6 +1979,7 @@
 				4E608E952714182B008C737B /* FirstPeriodView.swift in Sources */,
 				4E7EB9B02769C2760025A72F /* SimultaneousGestureView.swift in Sources */,
 				4E608E4F271407E9008C737B /* EllipseView.swift in Sources */,
+				4EAC5C8127749DDC0089E30C /* Array+Extension.swift in Sources */,
 				4E7EB9BC2769C2AB0025A72F /* GestureStateView.swift in Sources */,
 				4EEEA48E274A36D300EC75F2 /* PrintChangesView.swift in Sources */,
 				4E3DC6902727E8BE00D19B4F /* EnumView.swift in Sources */,
