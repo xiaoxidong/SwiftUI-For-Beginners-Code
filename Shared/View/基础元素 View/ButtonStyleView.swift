@@ -1,6 +1,6 @@
 //
 //  ButtonStyleView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/11/23.
 //
@@ -10,7 +10,7 @@ import SwiftUI
 // DefaultButtonStyle
 struct ButtonStyleView: View {
     var body: some View {
-        Button("SwiftUI For Designers") {
+        Button("SwiftUI For Beginners") {
 
         }.buttonStyle(DefaultButtonStyle())
     }
@@ -20,7 +20,7 @@ struct ButtonStyleView: View {
 /*
 struct ButtonStyleView: View {
     var body: some View {
-        Button("SwiftUI For Designers") {
+        Button("SwiftUI For Beginners") {
             
         }.buttonStyle(PlainButtonStyle())
     }
@@ -32,7 +32,7 @@ struct ButtonStyleView: View {
 struct ButtonStyleView: View {
     var body: some View {
         if #available(iOS 15.0, macOS 10.15, *) {
-            Button("SwiftUI For Designers") {
+            Button("SwiftUI For Beginners") {
                 
             }.buttonStyle(BorderedButtonStyle())
         } else {
@@ -47,7 +47,7 @@ struct ButtonStyleView: View {
 struct ButtonStyleView: View {
     var body: some View {
         if #available(iOS 15.0, macOS 12.0, *) {
-            Button("SwiftUI For Designers") {
+            Button("SwiftUI For Beginners") {
                 
             }.buttonStyle(BorderedProminentButtonStyle())
         } else {
@@ -61,7 +61,7 @@ struct ButtonStyleView: View {
 /*
 struct ButtonStyleView: View {
     var body: some View {
-        Button("SwiftUI For Designers") {
+        Button("SwiftUI For Beginners") {
             
         }.buttonStyle(BorderlessButtonStyle())
     }
@@ -73,7 +73,7 @@ struct ButtonStyleView: View {
 struct ButtonStyleView: View {
     var body: some View {
         #if os(macOS)
-        Button("SwiftUI For Designers") {
+        Button("SwiftUI For Beginners") {
             
         }.buttonStyle(LinkButtonStyle())
         #else
@@ -88,7 +88,7 @@ struct ButtonStyleView: View {
 struct ButtonStyleView: View {
     var body: some View {
         #if os(tvOS)
-        Button("SwiftUI For Designers") {
+        Button("SwiftUI For Beginners") {
             
         }.buttonStyle(CardButtonStyle())
         #else

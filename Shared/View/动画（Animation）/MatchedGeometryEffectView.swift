@@ -1,6 +1,6 @@
 //
 //  MatchedGeometryEffectView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/12/10.
 //
@@ -53,7 +53,7 @@ struct MatchedGeometryEffectView: View {
             .cornerRadius(50)
     }
     var text: some View {
-        Text("SwiftUI For Designers")
+        Text("SwiftUI For Beginners")
             .padding()
             .background(Capsule().fill(Color.light))
     }
@@ -90,7 +90,7 @@ struct MatchedGeometryEffectView: View {
                 .frame(width: 256, height: 256)
                 
             VStack(spacing: 10) {
-                Text("SwiftUI For Designers")
+                Text("SwiftUI For Beginners")
                     .font(.system(size: 16, weight: .bold))
                     .foregroundColor(.primary)
                     .matchedGeometryEffect(id: "title", in: nameSpace, properties: .frame, anchor: .center, isSource: true)
@@ -112,7 +112,7 @@ struct MatchedGeometryEffectView: View {
                 .frame(width: 100, height: 100)
                 
             VStack(alignment: .leading, spacing: 10) {
-                Text("SwiftUI For Designers")
+                Text("SwiftUI For Beginners")
                     .font(.system(size: 16, weight: .bold))
                     .foregroundColor(.primary)
                     .matchedGeometryEffect(id: "title", in: nameSpace, properties: .frame, anchor: .center, isSource: true)

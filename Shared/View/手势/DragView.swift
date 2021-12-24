@@ -1,6 +1,6 @@
 //
 //  DragAndDropView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/12/15.
 //
@@ -10,11 +10,11 @@ import SwiftUI
 // 1. 直接返回 NSItemProvider
 struct DragView: View {
     var body: some View {
-        Text("SwiftUI For Designers")
+        Text("SwiftUI For Beginners")
             .padding()
             .background(Capsule().fill(Color.light))
             .onDrag {
-                return NSItemProvider(object: "SwiftUI For Designers" as NSString)
+                return NSItemProvider(object: "SwiftUI For Beginners" as NSString)
             }
     }
 }
@@ -25,7 +25,7 @@ struct DragView: View {
 struct DragView: View {
     let url = URL(string: "http://productpoke.com/")!
     var body: some View {
-        Text("SwiftUI For Designers")
+        Text("SwiftUI For Beginners")
             .padding()
             .background(Capsule().fill(Color.light))
             .onDrag {

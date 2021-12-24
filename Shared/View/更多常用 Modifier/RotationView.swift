@@ -1,6 +1,6 @@
 //
 //  RotationView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/11/17.
 //
@@ -10,7 +10,7 @@ import SwiftUI
 // rotationEffect
 struct RotationView: View {
     var body: some View {
-        Text("SwiftUI For Designers")
+        Text("SwiftUI For Beginners")
             .foregroundColor(Color.white)
             .padding(8)
             .background(Color.purple)
@@ -23,7 +23,7 @@ struct RotationView: View {
 /*
 struct RotationView: View {
     var body: some View {
-        Text("SwiftUI For Designers")
+        Text("SwiftUI For Beginners")
             .foregroundColor(Color.white)
             .padding(8)
             .background(Color.purple)

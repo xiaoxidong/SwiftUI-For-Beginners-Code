@@ -1,6 +1,6 @@
 //
 //  CustomLabelStyleView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/12/10.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CustomLabelStyleView: View {
     var body: some View {
-        Label("SwiftUI For Designers", systemImage: "scribble")
+        Label("SwiftUI For Beginners", systemImage: "scribble")
             .labelStyle(IconLabelStyle())
     }
 }

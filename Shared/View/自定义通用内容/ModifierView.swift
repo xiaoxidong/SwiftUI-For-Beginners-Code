@@ -1,6 +1,6 @@
 //
 //  ModifierView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/12/10.
 //
@@ -10,7 +10,7 @@ import SwiftUI
 // 1. 自定义 Modifier
 struct ModifierView: View {
     var body: some View {
-        Text("SwiftUI For Designers")
+        Text("SwiftUI For Beginners")
             .modifier(TitleTextModifier())
     }
 }
@@ -27,7 +27,7 @@ struct TitleTextModifier: ViewModifier {
 /*
 struct ModifierView: View {
     var body: some View {
-        Text("SwiftUI For Designers")
+        Text("SwiftUI For Beginners")
             .modifier(CustomTextModifier(size: 20, color: Color.red))
     }
 }
@@ -48,7 +48,7 @@ struct CustomTextModifier: ViewModifier {
 /*
 struct ModifierView: View {
     var body: some View {
-        Text("SwiftUI For Designers")
+        Text("SwiftUI For Beginners")
             .modifier(TitleShadowModifier())
     }
 }

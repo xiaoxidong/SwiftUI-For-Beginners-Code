@@ -1,6 +1,6 @@
 //
 //  DropView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/12/22.
 //
@@ -14,7 +14,7 @@ struct DropView: View {
 
     var body: some View {
         VStack(spacing: 16) {
-            Text("SwiftUI For Designers")
+            Text("SwiftUI For Beginners")
                 .padding()
                 .background(Capsule().fill(Color.light))
                 .onDrag {
@@ -43,7 +43,7 @@ struct DropView: View {
     @State var locations: [CGPoint] = []
     var body: some View {
         VStack(spacing: 16) {
-            Text("SwiftUI For Designers")
+            Text("SwiftUI For Beginners")
                 .padding()
                 .background(Capsule().fill(Color.light))
                 .padding(.top)

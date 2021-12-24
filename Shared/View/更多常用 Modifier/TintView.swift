@@ -1,6 +1,6 @@
 //
 //  TintView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/11/17.
 //
@@ -11,7 +11,7 @@ import SwiftUI
 struct TintView: View {
     var body: some View {
         Form {
-            Text("SwiftUI For Designers")
+            Text("SwiftUI For Beginners")
             Toggle("保存内容", isOn: .constant(true))
             Button(action: { }) {
                 Label("静音播放", systemImage: "speaker.slash.circle.fill")

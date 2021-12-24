@@ -1,6 +1,6 @@
 //
 //  GeometryReaderView.swift
-//  SwiftUI For Designers
+//  SwiftUI For Beginners
 //
 //  Created by XiaoDong Yuan on 2021/11/2.
 //
@@ -103,7 +103,7 @@ struct GeometryReaderView: View {
     var body: some View {
         HStack {
             Color.purple
-            Text("SwiftUI For Designers")
+            Text("SwiftUI For Beginners")
                 .font(.largeTitle)
                 .overlay(
                     GeometryReader { geo in

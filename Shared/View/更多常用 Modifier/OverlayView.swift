@@ -1,6 +1,6 @@
 //
 //  OverlayView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/11/17.
 //
@@ -28,7 +28,7 @@ struct OverlayView: View {
     var body: some View {
         VStack {
             Spacer()
-            Text("SwiftUI For Designers")
+            Text("SwiftUI For Beginners")
                 .font(.title2)
                 .frame(maxWidth: .infinity, alignment: .center)
         }

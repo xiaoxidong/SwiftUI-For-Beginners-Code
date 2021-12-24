@@ -1,6 +1,6 @@
 //
 //  TextCaseView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/11/23.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TextCaseView: View {
-    var string = "SwiftUI For Designers"
+    var string = "SwiftUI For Beginners"
     var body: some View {
         VStack(spacing: 16) {
             Text(string)

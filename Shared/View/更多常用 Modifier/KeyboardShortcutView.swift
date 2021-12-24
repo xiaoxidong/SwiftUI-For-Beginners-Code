@@ -1,6 +1,6 @@
 //
 //  KeyboardShortcutView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/11/17.
 //
@@ -13,13 +13,13 @@ struct KeyboardShortcutView: View {
     @State var pressed3 = false
     var body: some View {
         VStack {
-            Button(pressed1 ? "SwiftUI For Designers" : "快捷键 Command + p") {
+            Button(pressed1 ? "SwiftUI For Beginners" : "快捷键 Command + p") {
                 pressed1.toggle()
             }.keyboardShortcut(KeyEquivalent("p"))
-            Button(pressed2 ? "SwiftUI For Designers" : "快捷键 p") {
+            Button(pressed2 ? "SwiftUI For Beginners" : "快捷键 p") {
                 pressed2.toggle()
             }.keyboardShortcut(KeyEquivalent("p"), modifiers: [])
-            Button(pressed3 ? "SwiftUI For Designers" : "快捷键 Command + Shift + p") {
+            Button(pressed3 ? "SwiftUI For Beginners" : "快捷键 Command + Shift + p") {
                 pressed3.toggle()
             }.keyboardShortcut(KeyEquivalent("p"), modifiers: [.command, .shift])
         }

@@ -1,6 +1,6 @@
 //
 //  DisabledView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/11/17.
 //
@@ -11,7 +11,7 @@ import SwiftUI
 //struct DisabledView: View {
 //    var body: some View {
 //        VStack(spacing: 16) {
-//            Text("SwiftUI For Designers")
+//            Text("SwiftUI For Beginners")
 //            Label("开始学习", systemImage: "eyes.inverse")
 //                .hidden()
 //            Divider()

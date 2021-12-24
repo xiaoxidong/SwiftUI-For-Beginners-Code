@@ -1,6 +1,6 @@
 //
 //  TransactionView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/12/10.
 //
@@ -12,7 +12,7 @@ struct TransitionView: View {
     var body: some View {
         VStack {
             if show {
-                Text("SwiftUI For Designers")
+                Text("SwiftUI For Beginners")
                     .padding()
                     .background(Capsule().fill(Color.light))
                     .transition(.scale(scale: 0.2, anchor: .topLeading))

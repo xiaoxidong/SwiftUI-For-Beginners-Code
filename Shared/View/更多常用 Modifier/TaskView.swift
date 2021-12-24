@@ -1,6 +1,6 @@
 //
 //  TaskView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/11/17.
 //
@@ -11,7 +11,7 @@ import SwiftUI
 //@available(iOS 15.0, macOS 12.0, *)
 //struct TaskView: View {
 //    var body: some View {
-//        Text("SwiftUI For Designers")
+//        Text("SwiftUI For Beginners")
 //            .task(priority: .background) {
 //                print("task 方法")
 //            }
@@ -28,7 +28,7 @@ struct TaskView: View {
     @State var change = true
     var body: some View {
         VStack(spacing: 16) {
-            Text(change ? "SwiftUI For Designers" : "开始学习")
+            Text(change ? "SwiftUI For Beginners" : "开始学习")
                 .task(id: doTask, priority: .background) {
                     change.toggle()
                 }

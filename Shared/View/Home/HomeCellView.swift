@@ -1,6 +1,6 @@
 //
 //  HomeCellView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/10/11.
 //

@@ -1,6 +1,6 @@
 //
 //  AnimationView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/12/10.
 //
@@ -12,7 +12,7 @@ import SwiftUI
 //    @State var rotation = false
 //    var body: some View {
 //        VStack(spacing: 16) {
-//            Text("SwiftUI For Designers")
+//            Text("SwiftUI For Beginners")
 //                .padding()
 //                .background(Capsule().fill(rotation ? Color.red : Color.light))
 //                .rotationEffect(Angle(degrees: rotation ? 360 : 0))
@@ -31,7 +31,7 @@ struct AnimationView: View {
     @State var offset = false
     var body: some View {
         VStack(spacing: 16) {
-            Text("SwiftUI For Designers")
+            Text("SwiftUI For Beginners")
                 .padding()
                 .background(Capsule().fill(rotation ? Color.red : Color.light))
                 .rotationEffect(Angle(degrees: rotation ? 360 : 0))

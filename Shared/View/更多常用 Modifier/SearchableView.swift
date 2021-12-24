@@ -1,6 +1,6 @@
 //
 //  SearchableView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/11/17.
 //
@@ -18,7 +18,7 @@ import SwiftUI
 ////            Text("搜索内容 \(searchContent)")
 //            Text("搜索内容 \(searchContent)")
 //                .searchable(text: $searchContent, placement: .sidebar, prompt: "搜索内容")
-//                .navigationTitle("SwiftUI For Designers")
+//                .navigationTitle("SwiftUI For Beginners")
 //        }
 //    }
 //}
@@ -26,7 +26,7 @@ import SwiftUI
 // 2. 使用搜索提示初始化
 @available(macOS 12.0, iOS 15.0, *)
 struct SearchableView: View {
-    @State var names: [String] = ["Twitter", "Facebook", "Instagram", "SwiftUI For Designers"]
+    @State var names: [String] = ["Twitter", "Facebook", "Instagram", "SwiftUI For Beginners"]
     @State var searchContent = ""
     var body: some View {
         NavigationView {
@@ -41,7 +41,7 @@ struct SearchableView: View {
                         .searchCompletion(text)
                 }
             }
-            .navigationTitle("SwiftUI For Designers")
+            .navigationTitle("SwiftUI For Beginners")
         }
     }
     

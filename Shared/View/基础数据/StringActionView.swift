@@ -1,6 +1,6 @@
 //
 //  StringActionView.swift
-//  SwiftUI For Designers Code
+//  SwiftUI For Beginners Code
 //
 //  Created by XiaoDong Yuan on 2021/10/22.
 //
@@ -24,12 +24,12 @@ struct StringActionView: View {
         let miss = String(format: "场均失误 %f 分", 4.5)
         print(miss)
         
-        let a = "Hello SwiftUI For Designers!"
+        let a = "Hello SwiftUI For Beginners!"
         print(a.split(separator: " "))
         
         print(a.replacingOccurrences(of: "Hello", with: "你好"))
         
-        let length = "SwiftUI For Designers!"
+        let length = "SwiftUI For Beginners!"
         print(length.count)
         
         let f = "Kobe"

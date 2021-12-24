@@ -1,6 +1,6 @@
 //
 //  LinkView.swift
-//  SwiftUI For Designers
+//  SwiftUI For Beginners
 //
 //  Created by XiaoDong Yuan on 2021/11/2.
 //

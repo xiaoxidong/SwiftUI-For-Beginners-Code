@@ -666,7 +666,6 @@
 		4E8CDBD927119D1200EC4DBE /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		4E91B0BF2762E638007ACB0C /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
 		4E98D3DA2775716F00F585C3 /* CustomDragDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDragDropView.swift; sourceTree = "<group>"; };
-		4E98D3E0277575E300F585C3 /* SwiftUI-For-Designers-Code--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiftUI-For-Designers-Code--macOS--Info.plist"; sourceTree = "<group>"; };
 		4EAC5C7F27749DDC0089E30C /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		4ECD8C2B27632D1900C8889D /* CustomLabelStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelStyleView.swift; sourceTree = "<group>"; };
 		4EDC99E2271D4AA900202710 /* NavigationViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewStyleView.swift; sourceTree = "<group>"; };
@@ -943,7 +942,6 @@
 				4E8CDBBC2711785700EC4DBE /* Global */,
 				4E8CDBBD2711786B00EC4DBE /* Third */,
 				4E67348427100BA400713B1A /* Assets.xcassets */,
-				4E98D3E0277575E300F585C3 /* SwiftUI-For-Designers-Code--macOS--Info.plist */,
 				4E41F16C271C326C00050D76 /* SwiftUI-For-Designers-Code--iOS--Info.plist */,
 				4E8CDBD1271181FA00EC4DBE /* Localizable.strings */,
 			);
