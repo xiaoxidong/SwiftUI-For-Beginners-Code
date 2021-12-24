@@ -1,8 +1,8 @@
-# SwiftUI-For-Designers-Code
+# SwiftUI-For-Beginners-Code
 ![1](https://user-images.githubusercontent.com/3838258/136664857-7ca44cfd-ebe4-494f-bfaf-5c7dd1b5116e.png)
-这里是 SwiftUI For Designers 应用里按照章节里展示的代码。
+这里是 SwiftUI For Beginners 应用里按照章节里展示的代码。
 
-SwiftUI For Designers 是一款教你从 0 开始学习 Apple 全平台开发语言的应用，共计 156 个章节，从基础数据结构知识，到设计模式，到各个类似的组件的使用，包含了开发 iOS 和 Mac 应用的每一个环节，跟着整体的课程轻松学会 SwiftUI，每个人都可以开发 Apple 应用。
+SwiftUI For Beginners 是一款教你从 0 开始学习 Apple 全平台开发语言的应用，共计 156 个章节，从基础数据结构知识，到设计模式，到各个类似的组件的使用，包含了开发 iOS 和 Mac 应用的每一个环节，跟着整体的课程轻松学会 SwiftUI，每个人都可以开发 Apple 应用。
 
 [下载应用](https://apps.apple.com/sc/app/swiftui-for-designers-%E8%AE%BE%E8%AE%A1%E5%B8%88%E7%9A%84%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/id1578873606)
 
@@ -22,8 +22,9 @@ SwiftUI 是一种声明式语言，我们可以一点点给元素添加属性修
 SwiftUI 去除了复杂的设计，所有看到的元素都是 View，一个页面，一个按钮，一个文字，一个输入框都是一个 View，极大的减少了对代码的理解成本，更加容易学习，真正可以做到一看就会。
 
 # 适合什么样的人？
-SwiftUI 适合所有对互联网产品有基础常识的人，只要你知道基础的应用控件，知道 NavigationView、Tabbar，就可以很简单的看懂 SwiftUI 的技术代码，之所以起名为 SwiftUI For Designers 是因为设计师对产品的设计比较了解，可以更好的开发出易用的产品。
+SwiftUI 适合所有对互联网产品有基础常识的人，只要你知道基础的应用控件，知道 NavigationView、Tabbar，就可以很简单的看懂 SwiftUI 的技术代码，之所以起名为 SwiftUI For Beginners 是因为设计师对产品的设计比较了解，可以更好的开发出易用的产品。
 下面这个你看得懂吗？
+
 ```swift
 NavigationView {
      ScrollView {
@@ -35,7 +36,7 @@ NavigationView {
              } label: {
                    Text("联系我们")
              }
-      }.navigationTitle("SwiftUI For Designers")
+      }.navigationTitle("SwiftUI For Beginners")
 }
 ```
 如果你对互联网产品不是很了解，学习技术不是难点，让自己想做的产品符合用户使用习惯是难点，对于产品设计可以多参考类似产品，而对于 UI 元素的设计可以使用 Figma，是一款基于浏览器的设计工具，简单易用，同时社区有很多设计资源可以更好的帮助你设计出色的应用。
@@ -47,7 +48,7 @@ NavigationView {
 国内著名的设计师开发应用当属于由 [@Utom](https://twitter.com/utom) 开发的 Sketch 下的设计交付工具 [Sketch Measure](https://github.com/utom/sketch-measure)，作为 Sketch 下从设计到技术交付的著名第三方插件帮助了非常多的设计师。
 
 # 视频教程
-SwiftUI For Designers 除去这里都代码，我们还有在抖音都视频教程，你可以选择适合自己的学习方式。可以抖音搜索 SwiftUI For Designers 查看。
+SwiftUI For Beginners 除去这里都代码，我们还有在抖音都视频教程，你可以选择适合自己的学习方式。可以抖音搜索 SwiftUI For Beginners 查看。
 
 # 关于内购应用
 如果你不想付费 Pro 内容，可以通过下面的渠道进行了解 SwiftUI 和学习，下面的渠道内容里完整的包含了开发一个应用的全部基础内容。区别有以下几点：
@@ -60,4 +61,4 @@ SwiftUI For Designers 除去这里都代码，我们还有在抖音都视频教�
 📮：834599524@qq.com
 
 # License
-SwiftUI For Deisgners Code 基于 MIT 开源协议。[查看详细信息](https://github.com/xiaoxidong/SwiftUI-For-Designers-Code/blob/main/LICENSE)
+SwiftUI For Beginners Code 基于 MIT 开源协议。[查看详细信息](https://github.com/xiaoxidong/SwiftUI-For-Beginners-Code/blob/main/LICENSE)
