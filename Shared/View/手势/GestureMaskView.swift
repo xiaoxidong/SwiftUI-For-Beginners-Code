@@ -13,25 +13,31 @@ struct GestureMaskView: View {
     
     @State var mask: GestureMask = .gesture
     var body: some View {
-        VStack(spacing: 16) {
+        let inTap = TapGesture()
+            .onEnded {
+                withAnimation(.spring()) {
+                    insideTap.toggle()
+                }
+            }
+        
+        let outTap = TapGesture()
+            .onEnded {
+                withAnimation(.spring()) {
+                    outsideTap.toggle()
+                }
+            }
+        
+        return VStack(spacing: 16) {
             Rectangle()
                 .fill(insideTap ? Color.yellow : Color.pink)
-                .onTapGesture {
-                    withAnimation(.spring()) {
-                        insideTap.toggle()
-                    }
-                }
+                .gesture( inTap )
             
             Rectangle()
-                .fill(outsideTap ? Color.green : Color.purple)
-        }.highPriorityGesture(
-            TapGesture()
-                .onEnded {
-                    withAnimation(.spring()) {
-                        outsideTap.toggle()
-                    }
-                }
-            , including: mask)
+                .fill(Color.clear)
+            Text("顶部的方形和整体的 VStack 存在点击手势。")
+        }.padding()
+        .background(outsideTap ? Color.green : Color.purple)
+        .highPriorityGesture(outTap, including: mask)
     }
 }
 

@@ -15,7 +15,5 @@
 			<dict/>
 		</dict>
 	</array>
-	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleLightContent</string>
 </dict>
 </plist>

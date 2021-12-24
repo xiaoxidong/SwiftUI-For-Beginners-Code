@@ -307,6 +307,8 @@
 		4E8CDBDB27119D1200EC4DBE /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CDBD927119D1200EC4DBE /* SpacerView.swift */; };
 		4E91B0C02762E638007ACB0C /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91B0BF2762E638007ACB0C /* ModifierView.swift */; };
 		4E91B0C12762E638007ACB0C /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91B0BF2762E638007ACB0C /* ModifierView.swift */; };
+		4E98D3DB2775716F00F585C3 /* CustomDragDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98D3DA2775716F00F585C3 /* CustomDragDropView.swift */; };
+		4E98D3DC2775716F00F585C3 /* CustomDragDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E98D3DA2775716F00F585C3 /* CustomDragDropView.swift */; };
 		4EAC5C8027749DDC0089E30C /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5C7F27749DDC0089E30C /* Array+Extension.swift */; };
 		4EAC5C8127749DDC0089E30C /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5C7F27749DDC0089E30C /* Array+Extension.swift */; };
 		4ECD8C2C27632D1900C8889D /* CustomLabelStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD8C2B27632D1900C8889D /* CustomLabelStyleView.swift */; };
@@ -663,6 +665,8 @@
 		4E8CDBD6271192C100EC4DBE /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		4E8CDBD927119D1200EC4DBE /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		4E91B0BF2762E638007ACB0C /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
+		4E98D3DA2775716F00F585C3 /* CustomDragDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDragDropView.swift; sourceTree = "<group>"; };
+		4E98D3E0277575E300F585C3 /* SwiftUI-For-Designers-Code--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiftUI-For-Designers-Code--macOS--Info.plist"; sourceTree = "<group>"; };
 		4EAC5C7F27749DDC0089E30C /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		4ECD8C2B27632D1900C8889D /* CustomLabelStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelStyleView.swift; sourceTree = "<group>"; };
 		4EDC99E2271D4AA900202710 /* NavigationViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewStyleView.swift; sourceTree = "<group>"; };
@@ -939,6 +943,7 @@
 				4E8CDBBC2711785700EC4DBE /* Global */,
 				4E8CDBBD2711786B00EC4DBE /* Third */,
 				4E67348427100BA400713B1A /* Assets.xcassets */,
+				4E98D3E0277575E300F585C3 /* SwiftUI-For-Designers-Code--macOS--Info.plist */,
 				4E41F16C271C326C00050D76 /* SwiftUI-For-Designers-Code--iOS--Info.plist */,
 				4E8CDBD1271181FA00EC4DBE /* Localizable.strings */,
 			);
@@ -1023,6 +1028,7 @@
 				4E5732142771A28C009CDEA7 /* GestureMaskView.swift */,
 				4E05B5B22769B566008D06C2 /* DragView.swift */,
 				4E63F38327733D780037BC3B /* DropView.swift */,
+				4E98D3DA2775716F00F585C3 /* CustomDragDropView.swift */,
 				4E7EB9BA2769C2AB0025A72F /* GestureStateView.swift */,
 				4E7EB9BD2769C2B70025A72F /* GestureModifiersView.swift */,
 				4E7EB9C02769C2C30025A72F /* OnChangedonEndedView.swift */,
@@ -1606,6 +1612,7 @@
 				4E1F9C322716B3B000645609 /* BoldView.swift in Sources */,
 				4EFD97F62744C44100E2503F /* DisabledView.swift in Sources */,
 				4E6F06752727A3190038EBD2 /* ClassView.swift in Sources */,
+				4E98D3DB2775716F00F585C3 /* CustomDragDropView.swift in Sources */,
 				4E0901F32769B06400692AF6 /* DragGestureView.swift in Sources */,
 				4EE8BD6F273114E00019DDB0 /* WhileView.swift in Sources */,
 				4E1F9C412716BBA600645609 /* BaselineOffsetView.swift in Sources */,
@@ -1880,6 +1887,7 @@
 				4E54F3CD274CCB5000177482 /* RadialGradientView.swift in Sources */,
 				4E45F61627264605005F935B /* BoolView.swift in Sources */,
 				4E91B0C12762E638007ACB0C /* ModifierView.swift in Sources */,
+				4E98D3DC2775716F00F585C3 /* CustomDragDropView.swift in Sources */,
 				4E787D06276336E900283058 /* TransitionView.swift in Sources */,
 				4E54F3DF274CF56700177482 /* MinimumScaleFactorView.swift in Sources */,
 				4EFD97BB2744C31000E2503F /* OnReceiveView.swift in Sources */,
@@ -2269,6 +2277,7 @@
 				DEVELOPMENT_TEAM = H62DJYY3BW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-For-Designers-Code--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2296,6 +2305,7 @@
 				DEVELOPMENT_TEAM = H62DJYY3BW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-For-Designers-Code--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
