@@ -12,15 +12,16 @@ struct ContentView: View {
     @State var selectedIndex: Int = 1
     @State var badgeValue: String? = "1"
     
-    @State var tabbarisHidden: Bool = false
+    @EnvironmentObject var tabbarVM: TabbarViewModel
+    
     var body: some View {
-        StatefulTabView(selectedIndex: $selectedIndex, tabbarisHidden: $tabbarisHidden) {
+        StatefulTabView(selectedIndex: $selectedIndex, tabbarisHidden: $tabbarVM.tabbarisHidden) {
             Tab(title: "Tab 1", systemImageName: "circle.fill", badgeValue: badgeValue) {
                 NavigationView {
                     List {
                         Section {
                             ForEach(0..<20, id: \.self) { index in
-                                NavigationLink(destination: PushedView(text: "Pushed number \(index)", tabbarisHidden: $tabbarisHidden)) {
+                                NavigationLink(destination: PushedView(text: "Pushed number \(index)")) {
                                     Text("\(index)")
                                 }
                             }
@@ -35,7 +36,7 @@ struct ContentView: View {
                     List {
                         Section {
                             ForEach(0..<20, id: \.self) { index in
-                                NavigationLink(destination: PushedView(text: "Pushed number \(index)", tabbarisHidden: $tabbarisHidden)) {
+                                NavigationLink(destination: PushedView(text: "Pushed number \(index)")) {
                                     Text("\(index)")
                                 }
                             }
@@ -51,7 +52,7 @@ struct ContentView: View {
                     List {
                         Section {
                             ForEach(0..<20, id: \.self) { index in
-                                NavigationLink(destination: PushedView(text: "Pushed number \(index)", tabbarisHidden: $tabbarisHidden)) {
+                                NavigationLink(destination: PushedView(text: "Pushed number \(index)")) {
                                     Text("\(index)")
                                 }
                             }
@@ -66,7 +67,7 @@ struct ContentView: View {
                 List {
                     Section {
                         ForEach(0..<20, id: \.self) { index in
-                            NavigationLink(destination: PushedView(text: "Pushed number \(index)", tabbarisHidden: $tabbarisHidden)) {
+                            NavigationLink(destination: PushedView(text: "Pushed number \(index)")) {
                                 Text("\(index)")
                             }
                         }
@@ -83,13 +84,13 @@ struct ContentView: View {
 
 struct PushedView: View {
     var text: String
-    @Binding var tabbarisHidden: Bool
     
+    @EnvironmentObject var tabbarVM: TabbarViewModel
     var body: some View {
         Text(text)
             .onTapGesture {
                 withAnimation(.spring()) {
-                    tabbarisHidden.toggle()
+                    tabbarVM.tabbarisHidden.toggle()
                 }
             }
     }

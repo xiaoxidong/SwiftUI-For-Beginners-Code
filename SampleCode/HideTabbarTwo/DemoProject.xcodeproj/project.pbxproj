@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EF69072280EBEAE001D1E69 /* TabbarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF69071280EBEAE001D1E69 /* TabbarViewModel.swift */; };
+		4EF69074280EBEF9001D1E69 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF69073280EBEF9001D1E69 /* FirstView.swift */; };
+		4EF69076280EBF11001D1E69 /* MyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF69075280EBF11001D1E69 /* MyDetailView.swift */; };
+		4EF69078280EBF27001D1E69 /* TabBarAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF69077280EBF27001D1E69 /* TabBarAccessor.swift */; };
 		C4E7508422DF5A1F00E3A149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E7508322DF5A1F00E3A149 /* AppDelegate.swift */; };
 		C4E7508622DF5A1F00E3A149 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E7508522DF5A1F00E3A149 /* SceneDelegate.swift */; };
 		C4E7508822DF5A1F00E3A149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E7508722DF5A1F00E3A149 /* ContentView.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EF69071280EBEAE001D1E69 /* TabbarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewModel.swift; sourceTree = "<group>"; };
+		4EF69073280EBEF9001D1E69 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		4EF69075280EBF11001D1E69 /* MyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDetailView.swift; sourceTree = "<group>"; };
+		4EF69077280EBF27001D1E69 /* TabBarAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAccessor.swift; sourceTree = "<group>"; };
 		C4E7508022DF5A1F00E3A149 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E7508322DF5A1F00E3A149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4E7508522DF5A1F00E3A149 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +67,10 @@
 				C4E7508322DF5A1F00E3A149 /* AppDelegate.swift */,
 				C4E7508522DF5A1F00E3A149 /* SceneDelegate.swift */,
 				C4E7508722DF5A1F00E3A149 /* ContentView.swift */,
+				4EF69073280EBEF9001D1E69 /* FirstView.swift */,
+				4EF69075280EBF11001D1E69 /* MyDetailView.swift */,
+				4EF69071280EBEAE001D1E69 /* TabbarViewModel.swift */,
+				4EF69077280EBF27001D1E69 /* TabBarAccessor.swift */,
 				C4E7508922DF5A2200E3A149 /* Assets.xcassets */,
 				C4E7508E22DF5A2200E3A149 /* LaunchScreen.storyboard */,
 				C4E7509122DF5A2200E3A149 /* Info.plist */,
@@ -146,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF69072280EBEAE001D1E69 /* TabbarViewModel.swift in Sources */,
+				4EF69074280EBEF9001D1E69 /* FirstView.swift in Sources */,
 				C4E7508422DF5A1F00E3A149 /* AppDelegate.swift in Sources */,
+				4EF69076280EBF11001D1E69 /* MyDetailView.swift in Sources */,
 				C4E7508622DF5A1F00E3A149 /* SceneDelegate.swift in Sources */,
 				C4E7508822DF5A1F00E3A149 /* ContentView.swift in Sources */,
+				4EF69078280EBF27001D1E69 /* TabBarAccessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

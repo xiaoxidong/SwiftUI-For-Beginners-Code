@@ -19,6 +19,7 @@
 		4EF6906E280EB5C1001D1E69 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF69068280EB5C1001D1E69 /* TabBarCoordinator.swift */; };
 		4EF6906F280EB5C1001D1E69 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF69069280EB5C1001D1E69 /* Tab.swift */; };
 		4EF69070280EB5C1001D1E69 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6906A280EB5C1001D1E69 /* TabBarController.swift */; };
+		4EF6907A280EBFE7001D1E69 /* TabbarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF69079280EBFE7001D1E69 /* TabbarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		4EF69068280EB5C1001D1E69 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		4EF69069280EB5C1001D1E69 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		4EF6906A280EB5C1001D1E69 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4EF69079280EBFE7001D1E69 /* TabbarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4C6A944B2468D15000D5C6C7 /* AppDelegate.swift */,
 				4C6A944D2468D15000D5C6C7 /* SceneDelegate.swift */,
 				4C6A944F2468D15000D5C6C7 /* ContentView.swift */,
+				4EF69079280EBFE7001D1E69 /* TabbarViewModel.swift */,
 				4EF69062280EB5C1001D1E69 /* StatefulTabView */,
 				4C6A94512468D15200D5C6C7 /* Assets.xcassets */,
 				4C6A94562468D15200D5C6C7 /* LaunchScreen.storyboard */,
@@ -285,6 +288,7 @@
 			files = (
 				4EF6906C280EB5C1001D1E69 /* StatefulTabView+Modifiers.swift in Sources */,
 				4C6A944C2468D15000D5C6C7 /* AppDelegate.swift in Sources */,
+				4EF6907A280EBFE7001D1E69 /* TabbarViewModel.swift in Sources */,
 				4C6A944E2468D15000D5C6C7 /* SceneDelegate.swift in Sources */,
 				4EF69070280EB5C1001D1E69 /* TabBarController.swift in Sources */,
 				4EF6906F280EB5C1001D1E69 /* Tab.swift in Sources */,
