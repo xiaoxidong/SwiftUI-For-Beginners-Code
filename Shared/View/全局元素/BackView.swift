@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@available(iOS 15.0, *)
 struct BackView: View {
     var body: some View {
         NavigationView {
@@ -50,10 +49,9 @@ struct BackView: View {
 }
 
 
-//
-//struct BackView_Previews: PreviewProvider {
-//    @available(iOS 15.0, *)
-//    static var previews: some View {
-//        BackView()
-//    }
-//}
+
+struct BackView_Previews: PreviewProvider {
+    static var previews: some View {
+        BackView()
+    }
+}
