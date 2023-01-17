@@ -637,7 +637,6 @@
 		4E67348427100BA400713B1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E67348927100BA400713B1A /* SwiftUI For Designers Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI For Designers Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E67348F27100BA400713B1A /* SwiftUI For Designers Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI For Designers Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E67349127100BA400713B1A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		4E6DAF222734C9F400319B63 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		4E6DAF2B2734F52A00319B63 /* ProgressViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewStyleView.swift; sourceTree = "<group>"; };
 		4E6DAF34273A68AB00319B63 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
@@ -921,7 +920,6 @@
 			isa = PBXGroup;
 			children = (
 				4E67348127100BA300713B1A /* Shared */,
-				4E67349027100BA400713B1A /* macOS */,
 				4EE4BACD271EF28C0004DFEB /* Shared */,
 				4EE4BADB271EF28D0004DFEB /* macOS */,
 				4EEEA476274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidget */,
@@ -936,11 +934,8 @@
 				4E8CDBD22711844D00EC4DBE /* 查看项目须知.md */,
 				4E67348227100BA300713B1A /* SwiftUI_For_Designers_CodeApp.swift */,
 				4E8CDBB92711781700EC4DBE /* View */,
-				4E8CDBBB2711783A00EC4DBE /* Model */,
-				4E8CDBBA2711782400EC4DBE /* ViewModel */,
 				4EDC99EB271D5BF300202710 /* ViewModifier */,
 				4E8CDBBC2711785700EC4DBE /* Global */,
-				4E8CDBBD2711786B00EC4DBE /* Third */,
 				4E67348427100BA400713B1A /* Assets.xcassets */,
 				4E41F16C271C326C00050D76 /* SwiftUI-For-Designers-Code--iOS--Info.plist */,
 				4E8CDBD1271181FA00EC4DBE /* Localizable.strings */,
@@ -958,14 +953,6 @@
 				4EEEA470274A1A4300EC75F2 /* SwiftUIForDesignersIOSWidgetExtension.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4E67349027100BA400713B1A /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				4E67349127100BA400713B1A /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 		4E6F06732727A3010038EBD2 /* 基础数据 */ = {
@@ -1063,20 +1050,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		4E8CDBBA2711782400EC4DBE /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		4E8CDBBB2711783A00EC4DBE /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		4E8CDBBC2711785700EC4DBE /* Global */ = {
 			isa = PBXGroup;
 			children = (
@@ -1085,13 +1058,6 @@
 				4EAC5C7F27749DDC0089E30C /* Array+Extension.swift */,
 			);
 			path = Global;
-			sourceTree = "<group>";
-		};
-		4E8CDBBD2711786B00EC4DBE /* Third */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Third;
 			sourceTree = "<group>";
 		};
 		4E8CDBC1271178F000EC4DBE /* Shapes */ = {
